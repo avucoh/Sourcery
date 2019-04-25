@@ -1,0 +1,55 @@
+library(xml2)
+library(RISmed)
+library(magrittr)
+
+persons <- read_xml("Persons.xml")
+xml_ns_strip(persons)
+persons <- xml_find_all(persons, "Person")
+persons <- lapply(persons, as_list)
+
+
+### Have to modify the R list structure a bit so that toJSON will be in the correct format
+
+unboxR <- function(x) {
+  if(length(x) == 0) return(NA)
+  if(!is.list(x[[1]])) return(unlist(x)) 
+  else { 
+    r <- lapply(x, unboxR)
+    r[names(r) == "Tags"][[1]] <- list() ## Have to keep Tags as array
+    r
+  }
+}
+
+#######
+
+Persons <- lapply(persons, unboxR)
+
+Persons <- lapply(Persons, function(x) {
+  if(is.na(x$HirnMembership$Consortia)[[1]]) x$HirnMembership$Consortia <- list() 
+  else x$HirnMembership$Conortia <- list(x$HirnMembership$Consortia[[1]])
+  if(is.na(x$HirnMembership$Grants)[[1]]) x$HirnMembership$Grants <- list()
+  else x$HirnMembership$Grants <- list(x$HirnMembership$Grants[[1]])
+  x
+    }
+  )
+
+## names(persons) <- pmid 
+fullnames <- sapply(Persons, function(x) paste(x$LastName, x$FirstName))
+fullnames[fullnames == "Powers Al"] <- "Powers Alvin"
+
+#######
+
+hirn_pmids <- readLines("hirn_pmids.txt")
+auth <- EUtilsGet(hirn_pmids, type="efetch", db="pubmed")
+auth <- Author(auth)
+auth <- lapply(auth, function(x) { x$Name <- iconv(paste(x$LastName, substr(x$ForeName, 1, 3)), from ="UTF-8", to="ASCII//TRANSLIT"); x })
+names(auth) <- hirn_pmids
+
+## find HIRN authors from list of authors for each publication
+hirn <- lapply(auth, function(x) unlist(sapply(x$Name, function(y) grep(y, fullnames))))
+names(hirn) <- hirn_pmids
+
+## fixing one case where matching failed because the record didn't have actual firstname
+hirn[["27643615"]] <- setNames(grep("Herold Kevan", fullnames), "Herold Kevan") 
+
+save(Persons, hirn, file = "Persons.Rdata")

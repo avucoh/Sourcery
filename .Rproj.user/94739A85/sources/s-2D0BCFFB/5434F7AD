@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555531901733.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5434F7AD",
+    "lastKnownWriteTime" : 1512560268,
+    "last_content_update" : 1512560268,
+    "path" : "~/HIRN/R/Dataset2json.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "27,1",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

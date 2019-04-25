@@ -1,0 +1,691 @@
+﻿{
+  "CodedValuesByType": {
+    "CellMarkers": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-CellMarkers_alphaCells",
+        "CanonicalId": "hirn-cv-CellMarkers_alphaCells",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "alpha cells",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-CellMarkers_betaCells",
+        "CanonicalId": "hirn-cv-CellMarkers_betaCells",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "beta cells",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "ClonalityStatus": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ClonalityStatus-monoclonal",
+        "CanonicalId": "hirn-cv-ClonalityStatus-monoclonal",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "monoclonal",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ClonalityStatus-polyclonal",
+        "CanonicalId": "hirn-cv-ClonalityStatus-polyclonal",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "polyclonal",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ClonalityStatus-oligoclonal",
+        "CanonicalId": "hirn-cv-ClonalityStatus-oligoclonal",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "oligoclonal",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ClonalityStatus-unknown",
+        "CanonicalId": "hirn-cv-ClonalityStatus-unknown",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "unknown",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "AntibodyType": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-AntibodyType-Primary",
+        "CanonicalId": "hirn-cv-AntibodyType-Primary",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "primary",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-AntibodyType-Secondary",
+        "CanonicalId": "hirn-cv-AntibodyType-Secondary",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "secondary",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "IsoType": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-IsoType-IgG",
+        "CanonicalId": "hirn-cv-IsoType-IgG",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "IgG",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-IsoType-IgM",
+        "CanonicalId": "hirn-cv-IsoType-IgM",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "IgM",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-IsoType-IgA",
+        "CanonicalId": "hirn-cv-IsoType-IgA",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "IgA",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-IsoType-IgD",
+        "CanonicalId": "hirn-cv-IsoType-IgD",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "IgD",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-IsoType-IgE",
+        "CanonicalId": "hirn-cv-IsoType-IgE",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "IgE",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "Sex": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-Sex-Male",
+        "CanonicalId": "hirn-cv-Sex-Male",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Male",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-Sex-Female",
+        "CanonicalId": "hirn-cv-Sex-Female",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Female",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "TargetAntigen": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-TargetAntigen-unknown",
+        "CanonicalId": "hirn-cv-TargetAntigen-unknown",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "unknown",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "StemCellType": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StemCellType-totipotent",
+        "CanonicalId": "hirn-cv-StemCellType-totipotent",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "totipotent",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StemCellType-pluripotent",
+        "CanonicalId": "hirn-cv-StemCellType-pluripotent",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "pluripotent",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StemCellType-multipotent",
+        "CanonicalId": "hirn-cv-StemCellType-multipotent",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "multipotent",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "Consortia": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cons-CBDS",
+        "CanonicalId": "hirn-cons-CBDS",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "CBDS",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cons-CHIB",
+        "CanonicalId": "hirn-cons-CHIB",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "CHIB",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cons-CMAI",
+        "CanonicalId": "hirn-cons-CMAI",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "CMAI",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cons-CTAR",
+        "CanonicalId": "hirn-cons-CTAR",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "CTAR",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cons-HPAP",
+        "CanonicalId": "hirn-cons-HPAP",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "HPAP",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "StrainCategory": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-inbreed",
+        "CanonicalId": "hirn-cv-StrainCategory-inbreed",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "inbreed",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-F1Hybrid",
+        "CanonicalId": "hirn-cv-StrainCategory-F1Hybrid",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "F1 Hybrid",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-F2Hybrid",
+        "CanonicalId": "hirn-cv-StrainCategory-F2Hybrid",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "F2 Hybrid",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-congenicStrain",
+        "CanonicalId": "hirn-cv-StrainCategory-congenicStrain",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Congenic Strain",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-transgenicStrain",
+        "CanonicalId": "hirn-cv-StrainCategory-transgenicStrain",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Transgenic Strain",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-targetedMutation",
+        "CanonicalId": "hirn-cv-StrainCategory-targetedMutation",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Targeted Mutation",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainCategory-spontaneousMutation",
+        "CanonicalId": "hirn-cv-StrainCategory-spontaneousMutation",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Spontaneous Mutation",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "StrainGeneticBackground": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-StrainGeneticBackground-unknown",
+        "CanonicalId": "hirn-cv-StrainGeneticBackground-unknown",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "unknown",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "Relation": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-Relation-related",
+        "CanonicalId": "hirn-cv-Relation-related",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Related To",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "Region": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-Region-unknown",
+        "CanonicalId": "hirn-cv-Region-unknown",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "unknown",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "VectorType": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-VectorType-plasmids",
+        "CanonicalId": "hirn-cv-VectorType-plasmids",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "plasmids",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-VectorType-viralVector",
+        "CanonicalId": "hirn-cv-VectorType-viralVector",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "viral vectors",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-VectorType-cosmids",
+        "CanonicalId": "hirn-cv-VectorType-cosmids",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "cosmids",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-VectorType-fosmids",
+        "CanonicalId": "hirn-cv-VectorType-fosmids",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "fosmids",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-VectorType-phagemids",
+        "CanonicalId": "hirn-cv-VectorType-phagemids",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "phagemids",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-VectorType-artificalChromosomes",
+        "CanonicalId": "hirn-cv-VectorType-artificalChromosomes",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "artifical chromosomes",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "ResourceRole": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-contact",
+        "CanonicalId": "hirn-cv-ResourceRole-contact",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Contact",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-distributor",
+        "CanonicalId": "hirn-cv-ResourceRole-distributor",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Distributor",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-datasubmitter",
+        "CanonicalId": "hirn-cv-ResourceRole-datasubmitter",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Data Submitter",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "CurationStatus": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-CurationStatus-unreleased",
+        "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Unreleased",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-CurationStatus-private",
+        "CanonicalId": "hirn-cv-CurationStatus-private",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Private",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-CurationStatus-public",
+        "CanonicalId": "hirn-cv-CurationStatus-public",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Public",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ],
+    "Contributor": [
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-contrib-TestUser",
+        "CanonicalId": "hirn-contrib-TestUser",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Test User",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-contrib-AlPowers",
+        "CanonicalId": "hirn-contrib-AlPowers",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Al Powers",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      },
+      {
+        "OntologyId": "HIRN",
+        "id": "hirn-contrib-JohnKaddis",
+        "CanonicalId": "hirn-contrib-JohnKaddis",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "John Kaddis",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1"
+      }
+    ]
+  },
+  "id": "231cc321-8350-4ae4-8f87-32e7b67079a5",
+  "DeploymentSlot": null,
+  "CreationDate": "2017-11-14T00:23:22.4515624+00:00",
+  "Type": "Configuration",
+  "SystemType": "CodedValuesConfig"
+}

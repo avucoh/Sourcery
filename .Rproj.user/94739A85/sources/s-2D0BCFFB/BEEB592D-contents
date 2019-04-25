@@ -1,0 +1,118 @@
+# Summary: load ontologies, schemas, mapping functions, make validators, set batch
+
+# Ontologies should already be .rda in package /Data, but perhaps for using with a different version or whatever,
+# one can load ontologies and other dictionaries from the flat files into data.tables in the environment
+
+# As-is flat files:
+# 1. Cell Ontology --  https://bioportal.bioontology.org/ontologies/CL/
+#    This is the "complete" version which contains inter-ontology axioms;
+#    it already imports most of UBERON so don't need to obtain UBERON separately
+# 2. Disease Ontology -- https://bioportal.bioontology.org/ontologies/DOID/
+# 3. Ontology of Biomedical Investigations -- https://bioportal.bioontology.org/ontologies/OBI
+# 4. Eagle-I Research Resource Ontology -- https://bioportal.bioontology.org/ontologies/ERO
+# 5. OBI_BCGO -- https://bioportal.bioontology.org/ontologies/OBI_BCGO
+
+loadOntology <- function(o) {
+  o <- fread(o, select = c("Class ID", "Preferred Label", "Synonyms"))
+  setnames(o, c("IRI", "Name", "Synonyms"))
+  o[, ID := gsub("http://purl.obolibrary.org/obo/", "", IRI)]
+  o
+}
+
+# Wrapper around loadOntology to load all ontologies stored in current directory
+# Expected that directory should contain c("CL.csv", "DOID.csv", "ERO.csv", "GO.csv", "OBI.csv", "CLO.csv")
+loadOntologyDir <- function(dir = NULL) {
+  if(is.null(dir)) dir <- getwd()
+  os <- list.files(dir)
+  O <- lapply(os, loadOntology)
+  names(O) <- gsub("[.]csv|txt", "", os)
+  O
+}
+
+# For loading pre-parsed ontology files without "Class ID", "Preferred Label", "Synonyms" column structure
+# dir given is Ontologies2
+# Used for Cellosaurus -- parsed from the obo file to csv -- ftp://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt
+# And a subset of NCBITAXON (the full ontology is huge)
+loadOntologyDir2 <- function(dir = NULL) {
+  if(is.null(dir)) dir <- getwd()
+  os <- list.files(dir)
+  O <- lapply(os, fread)
+  names(O) <- gsub("[.](csv|txt)", "", os)
+  O
+}
+
+# To update package data:
+# Os <- loadOntologyDir()
+# list2env(Os, envir = .GlobalEnv)
+# usethis::use_data(CL); usethis::use_data(CLO); usethis::use_data(DOID); usethis::use_data(ERO); usethis::use_data(GO); usethis::use_data(OBI)
+
+# Os2 <- loadOntologyDir2()
+# list2env(Os2, envir = .GlobalEnv)
+# usethis::use_data(Cellosaurus); usethis::use_data(NCBITAXON)
+
+# The dictionaries from HIRN should also be .rda in package /Data,
+# but these are the functions used for pulling the most recent versions
+CV <- fromJSON("DB/codedValues.json", simplifyVector = F)
+types <- fromJSON("DB/resourcetypes.json", simplifyVector = F)
+
+
+## index/data of PMID to HIRN persons
+data("DB/Persons.Rdata")
+
+
+#-- Templates -------------------------------------------------------------------------------------------------------#
+
+boiler <- function(OntologyId = NA, id = NA, CanonicalId = NA, Url = NA, Name = NA,
+                   Type = NA, SystemType = "CodedValue", Tags = character(0), Visibility = NA,
+                   DateCreated = "", DateModified = "", VersionId = "1") {
+  list(OntologyId = OntologyId, id = id, CanonicalId = CanonicalId, Url = Url, Name = Name,
+       Type = Type, SystemType = SystemType,
+       Tags = Tags, Visibility = Visibility,
+       DateCreated = DateCreated, DateModified = DateModified,
+       VersionId = VersionId)
+}
+
+
+#-- Misc schema selection --------------------------------------------------------------------------------------------#
+
+resource.schema <- c("TargetClassType", "ParentResourceTypeId", "id", "CanonicalId", "Url", "Name",
+                     "Type", "SystemType", "Tags", "Visibility", "DateCreated", "VersionId")
+
+# Resource validator -------------------------------------------------------------------------------------------------#
+
+createValidator <- function(type) {
+  switch(type,
+         ## Antibody
+         Antibody = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/Antibody?resourceType=BioReagent")),
+         ## Cell types:
+         CellLine = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/CellLine?resourceType=BioReagent")),
+         DifferentiatedCell = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/DifferentiatedCell?resourceType=BioReagent")),
+         PrimaryCell = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/PrimaryCell?resourceType=BioReagent")),
+         StemCell = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/StemCell?resourceType=BioReagent")),
+         ## Model Org
+         ModelOrganism = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/ModelOrganism?resourceType=BioReagent")),
+         ## Database types (schemas for Proteomics, Genomics, etc., are actually interchangeable, so just use Proteomics):
+         Proteomics = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/Proteomics?resourceType=Dataset")),
+         ## Technology
+         Assay = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/Assay?resourceType=Technology")),
+         CodePipeline = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/CodePipeline?resourceType=Technology")),
+         DeviceEquipment = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/DeviceEquipment?resourceType=Technology")),
+         Service = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/Service?resourceType=Technology")),
+         SoftwareDb = json_validator(RCurl::getURL("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/Schema/GetSchema/SoftwareDb?resourceType=Technology"))
+  )
+}
+
+# Can take a list of jsons to validate
+useValidator <- function(x, validator) {
+  sapply(x, validator)
+}
+
+# Batch
+
+batch <- "3"
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555531231781.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "67F0BA5F",
+    "lastKnownWriteTime" : 1555531869,
+    "last_content_update" : 1555531869860,
+    "path" : "~/HIRN/Sourcery/R/resource2json.R",
+    "project_path" : "R/resource2json.R",
+    "properties" : {
+        "cursorPosition" : "1,3",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

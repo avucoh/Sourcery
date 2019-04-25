@@ -1,0 +1,12 @@
+Package: Sourcery
+Type: Package
+Title: Export HIRN resources
+Version: 0.1.0
+Author: Anh Nguyet Vu
+Maintainer: ANV <avu@coh.org>
+Description: Handles json exports for resource browser.
+License: MIT-3
+Encoding: UTF-8
+LazyData: true
+Depends: data.table, jsonlite, parsedate, RISmed
+Imports: uuid, jsonvalidate

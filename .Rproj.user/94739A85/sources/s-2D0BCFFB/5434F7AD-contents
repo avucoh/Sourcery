@@ -1,0 +1,28 @@
+## Datasets | Notes: need to add Batch for future exports
+
+ds <- fread("Ds.txt", sep = "\t", header = T)
+
+dsj <- fromJSON("http://dev-resourcebrowser2.azurewebsites.net/api/v1.0/AdminResource/GetNew/Proteomics")
+dcat <- lapply(types$ResourceTypes[[2]]$SubResourceTypes, function(x) x[resource.schema])
+ds2json <- function(d) {
+  new <- dsj
+  new$TechnologyType <- map2O(id = d$OBI, "OBI")
+  new$BiosampleCharacteristics <- c(lapply(unlist(strsplit(d$GO, ", ")), function(x) map2O(id = x, "GO")), 
+                                    lapply(unlist(strsplit(d$Disease, ", ")), function(x) map2O(id = x, "DOID")))
+  new$BiosampleType <- c(lapply(unlist(c(strsplit(d$Tissue, ", "), strsplit(d$Cell, ", "))), function(x) map2O(id = x)),
+                         lapply(unlist(strsplit(d$Species, ", ")), map2O(ontology = "NCBITAXON")))
+  new$DatasetValue$Name <- as.character(d$Value)
+  new$Description <- d$Description
+  new$Contributors <- map2Person(d$DefiningManuscriptId, "Producer")
+  new$PrimaryResourceType <- types$ResourceTypes[[2]][resource.schema]
+  new$SecondaryResourceType <- dcat[[match(d$Category, c("Epigenomics", "Genomics", "Metabolomics", "Proteomics", "Transcriptomics"))]]
+  new$CurationStatus <- CV$CodedValuesByType$CurationStatus[[1]]
+  new$DefiningManuscriptId <- d$DefiningManuscriptId
+  new$id <- UUIDgenerate()
+  new$CanonicalId <- d$ACC
+  new$Url <- d$URL
+  new$Name <- d$Name
+  new$DateCreated <- format_iso_8601(Sys.time())
+  new$SystemType <- d$Category
+  toJSON(new, pretty = T, null = "null", na = "null", auto_unbox = T)
+}

@@ -1,0 +1,11 @@
+
+# Have to modify the R list structure a bit so that toJSON will be in the correct format
+unboxR <- function(x) {
+  if(length(x) == 0) return(NA)
+  if(!is.list(x[[1]])) return(unlist(x))
+  else {
+    r <- lapply(x, unboxR)
+    r[names(r) == "Tags"][[1]] <- list() ## Have to keep Tags as array
+    r
+  }
+}

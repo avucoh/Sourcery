@@ -1,0 +1,37 @@
+# Resource validator -------------------------------------------------------------------------------------------------#
+
+createValidator <- function(type) {
+  switch(type,
+         ## Antibody
+         Antibody = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/Antibody?resourceType=BioReagent")),
+         ## Cell types:
+         CellLine = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/CellLine?resourceType=BioReagent")),
+         DifferentiatedCell = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/DifferentiatedCell?resourceType=BioReagent")),
+         PrimaryCell = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/PrimaryCell?resourceType=BioReagent")),
+         StemCell = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/StemCell?resourceType=BioReagent")),
+         ## Model Org
+         ModelOrganism = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/ModelOrganism?resourceType=BioReagent")),
+         ## Database types (schemas for Proteomics, Genomics, etc., are actually interchangeable, so just use Proteomics):
+         Proteomics = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/Proteomics?resourceType=Dataset")),
+         ## Technology
+         Assay = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/Assay?resourceType=Technology")),
+         CodePipeline = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/CodePipeline?resourceType=Technology")),
+         DeviceEquipment = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/DeviceEquipment?resourceType=Technology")),
+         Service = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/Service?resourceType=Technology")),
+         SoftwareDb = jsonvalidate::json_validator(RCurl::getURL("https://test-resourcebrowser.azurewebsites.net/api/v1.0/Schema/GetSchema/SoftwareDb?resourceType=Technology"))
+  )
+}
+
+# Can take a list of jsons to validate
+useValidator <- function(jsonlist, validator) {
+  sapply(jsonlist, validator)
+}
+
+batchValidator <- function(jsonlist, type) {
+  Val <- createValidator(type)
+  result <- useValidator(jsonlist, batchValidator)
+  return(result)
+}
+
+# Example
+# mapply(unique(export$srctable$Type))

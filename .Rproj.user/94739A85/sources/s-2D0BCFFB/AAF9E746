@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555532628012.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AAF9E746",
+    "lastKnownWriteTime" : 1555532701,
+    "last_content_update" : 1555532701122,
+    "path" : "~/HIRN/Sourcery/R/mappers.R",
+    "project_path" : "R/mappers.R",
+    "properties" : {
+        "cursorPosition" : "53,0",
+        "scrollLine" : "24"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

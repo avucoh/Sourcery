@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555532037885.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BEEB592D",
+    "lastKnownWriteTime" : 1555538216,
+    "last_content_update" : 1555538216010,
+    "path" : "~/HIRN/Sourcery/R/source4json.R",
+    "project_path" : "R/source4json.R",
+    "properties" : {
+        "cursorPosition" : "34,55",
+        "scrollLine" : "25"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
