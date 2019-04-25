@@ -14,6 +14,15 @@ PMID2Authors <- function(pmids) {
   return(authors)
 }
 
+# find HIRN authors from list of authors for each publication
+authorCheck <- function(srctable) {
+  pmids <- as.character(srctable$DefiningManuscriptId)
+  authors <- PMID2Authors(pmids)
+  whichHIRN <- lapply(authors, function(x) unlist(sapply(x$Name, function(y) grep(y, HIRNauthors))))
+  names(whichHIRN) <- pmids
+  return(whichHIRN)
+}
+
 
 ds2json <- function(d, dsjson, dscat, batch, sep = "|", CV = codedValues, HIRN) {
   new <- dsjson
@@ -84,7 +93,7 @@ tech2json <- function(t, subtype, techjson, batch, HIRN) {
   new$CurationStatus <- codedValues$CodedValuesByType$CurationStatus[[1]]
   new$CurationStatus$SerializationMode <- "full"
   new$DefiningManuscriptId <- t$DefiningManuscriptId
-  new$id <- UUIDgenerate()
+  new$id <- uuid::UUIDgenerate()
   new$BatchNumber <- batch
   new$PrimaryResourceType <- resourceTypes$ResourceTypes[[4]][resourceSchema]
   new$PrimaryResourceType$SerializationMode <- "full"
@@ -92,8 +101,8 @@ tech2json <- function(t, subtype, techjson, batch, HIRN) {
   new$SecondaryResourceType$SerializationMode <- "full"
 
   if(grepl("Assay", subtype)) {
-    new$BioSampleType <- lapply(strsplit(t$BioSampleType, "|", fixed = T)[[1]], function(x) map2O(x, "NCBITAXON"))
-    new$AssayCategory <- map2O(id = t$AssayCategory, ontology = "OBI")
+    new$BioSampleType <- lapply(strsplit(t$BioSampleType, "|", fixed = T)[[1]], function(x) map2O(name = x, "NCBITAXON"))
+    new$AssayCategory <- map2O(id = t$AssayCategory)
   }
   if(grepl("Assay|Device|Service", subtype)) {
     new$CellsTestedWith <- lapply(strsplit(t$CellsTestedWith, "|", fixed = T)[[1]], function(x) map2O(id = x, ontology = "CL"))
@@ -101,20 +110,9 @@ tech2json <- function(t, subtype, techjson, batch, HIRN) {
   toJSON(new, pretty = T, null = "null", na = "null", auto_unbox = T)
 }
 
-# find HIRN authors from list of authors for each publication
-authorCheck <- function(srctable) {
-  pmids <- as.character(srctable$DefiningManuscriptId)
-  authors <- PMID2Authors(pmids)
-  whichHIRN <- lapply(authors, function(x) unlist(sapply(x$Name, function(y) grep(y, HIRNauthors))))
-  names(whichHIRN) <- pmids
-  return(whichHIRN)
-}
-
-
-
 # batch
 tech2json_batch <- function(srctable = NULL, file = system.file("Curated/Tech.txt", package = "Sourcery"), batch) {
-  if(is.null(srctable)) srctable <- fread(file)
+  if(is.null(srctable)) srctable <- fread(file, na.strings = NULL)
   whichHIRN <- authorCheck(srctable)
   authcounts <- lengths(whichHIRN)
   notHIRN <- srctable[!as.logical(authcounts), ]
@@ -139,7 +137,7 @@ tech2json_batch <- function(srctable = NULL, file = system.file("Curated/Tech.tx
 
 
 
-# When one needs to modify the R list structure so that toJSON will be in the correct format
+# When one needs to recursively modify the R list structure so that toJSON will be in the correct format
 unboxR <- function(x) {
   if(length(x) == 0) return(NA)
   if(!is.list(x[[1]])) return(unlist(x))

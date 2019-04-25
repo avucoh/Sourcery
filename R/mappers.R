@@ -24,11 +24,6 @@ map2CL <- function(name) {
   boiler(OntologyId = "CL", CanonicalId = mapped, Url = mapped, Name = name)
 }
 
-map2OBI <- function(name) {
-  mapped <- obi$IRI[match(name, obi$name)]
-  boiler(OntologyId = "OBI", CanonicalId = mapped, Url = mapped, Name = name)
-}
-
 map2Isotype <- function(name) {
   mapped <- isotype$IRI[match(name, isotype$name)]
   boiler(OntologyId = "ERO", CanonicalId = mapped, Url = mapped, Name = name)

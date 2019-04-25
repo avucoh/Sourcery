@@ -29,9 +29,12 @@ useValidator <- function(jsonlist, validator) {
 
 batchValidator <- function(jsonlist, type) {
   Val <- createValidator(type)
-  result <- useValidator(jsonlist, batchValidator)
+  result <- useValidator(jsonlist, Val)
   return(result)
 }
 
 # Example
-# mapply(unique(export$srctable$Type))
+# jsonlist <- split(export$passed, f = export$srctable$Type)
+# validated <- mapply(batchValidator, jsonlist, names(jsonlist))
+# jsonlist <- unlist(jsonlist)
+# for(i in seq_along(jsonlist)) write(jsonlist[i], file = paste0(i, ".json"))
