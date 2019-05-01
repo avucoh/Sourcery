@@ -58,7 +58,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -82,62 +82,63 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "carmella_evans-Molina@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "1f1f7692-f1da-49ca-8203-1f0edded6354",
+      "Participant": {
+        "FirstName": "Carmella",
+        "LastName": "Evans-Molina",
+        "MiddleName": null,
+        "Suffix": "MD, PhD",
         "Contact": {
+          "EmailAddress": "cevansmo@iupui.edu",
           "Address1": null,
           "Address2": null,
           "City": "Indianapolis",
-          "Country": "USA",
-          "EmailAddress": "cevansmo@iupui.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "IN",
           "PostalCode": null,
-          "StateOrProvince": "IN"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Carmella",
-        "HirnMembership": {
-          "Consortia": [],
-          "Grants": [],
+        "Groups": [],
+        "Grants": [],
+        "LabMembership": {
           "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
             "id": null,
-            "RoleName": null
-          }
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Evans-Molina",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-20",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Indiana University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD, PhD"
+        "id": "eac2e176-2c39-4023-8003-cf0310f9b9c7",
+        "CanonicalId": "carmella_evans-Molina@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -167,78 +168,80 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "raghavendra_mirmira@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "9f751387-e40a-40cb-b480-8f93a01b5ee1",
+      "Participant": {
+        "FirstName": "Raghavendra",
+        "LastName": "Mirmira",
+        "MiddleName": null,
+        "Suffix": "MD, PhD",
         "Contact": {
+          "EmailAddress": "rmirmira@iupui.edu",
           "Address1": null,
           "Address2": null,
           "City": "Indianapolis",
-          "Country": "USA",
-          "EmailAddress": "rmirmira@iupui.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "IN",
           "PostalCode": null,
-          "StateOrProvince": "IN"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Raghavendra",
-        "HirnMembership": {
-          "Consortia": [],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-20",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS: Mirmira",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "19",
-              "GrantNumber": "UC4 DK104166",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Mirmira",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-20",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Indiana University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD, PhD"
+        "id": "63d90145-c837-49c1-b7af-565adc546b0e",
+        "CanonicalId": "raghavendra_mirmira@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -306,7 +309,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -316,10 +319,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -331,7 +334,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "29712667",
   "BatchNumber": "4",
-  "id": "21498cdf-c227-4ea8-aeb5-b74868753578",
+  "id": "19c5b087-528b-44fd-ae98-cad3aa134a8e",
   "CanonicalId": "Request",
   "Url": "",
   "Name": "Microbiome data obtained from fecal samples of diabetic mice experimentally placed on intermittent fasting diet vs. ad libitum diet (control)",
@@ -339,7 +342,7 @@
   "SystemType": "Genomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

@@ -42,7 +42,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -66,93 +66,98 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "irina_kusmartseva@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "40fc5563-3e77-47a5-b9af-f938b327b53f",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": null,
-          "Country": null,
-          "EmailAddress": "inkusmartseva@ufl.edu",
-          "PhoneNumber": null,
-          "PostalCode": null,
-          "StateOrProvince": null
-        },
+      "Participant": {
         "FirstName": "Irina",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-HPAP",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "HPAP",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-27",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "HPAP: Powers",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": "117",
-              "GrantNumber": "UC4 DK112232",
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
         "LastName": "Kusmartseva",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "inkusmartseva@ufl.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "",
+          "StateOrProvince": "",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112232",
+              "id": "117",
+              "CanonicalId": "HIRN-grant-27",
+              "Url": null,
+              "Name": "HPAC: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Florida",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "94b3b2f0-254f-476e-9bf3-ccf77f692c4f",
+        "CanonicalId": "irina_kusmartseva@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -182,93 +187,147 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "mark_atkinson@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "34d944d6-079a-45be-ba2a-e22950db7f87",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": "Gainesville",
-          "Country": "USA",
-          "EmailAddress": "atkinson@pathology.ufl.edu",
-          "PhoneNumber": "352.273.8276",
-          "PostalCode": null,
-          "StateOrProvince": "FL"
-        },
+      "Participant": {
         "FirstName": "Mark",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-24",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CBDS: Atkinson",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": "59",
-              "GrantNumber": "UC4 DK108101",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
         "LastName": "Atkinson",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "atkinson@pathology.ufl.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "Gainesville",
+          "StateOrProvince": "FL",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": "352.273.8276"
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108101",
+              "id": "59",
+              "CanonicalId": "HIRN-grant-24",
+              "Url": null,
+              "Name": "CBDS: Atkinson",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112232",
+              "id": "60",
+              "CanonicalId": "HIRN-grant-27",
+              "Url": null,
+              "Name": "HPAC: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Florida",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "8413e3c5-868b-4d3a-8847-fd228eb9ac2d",
+        "CanonicalId": "mark_atkinson@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -298,93 +357,98 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "desmond_schatz@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "a32a6e38-99ae-4733-bdd5-9f0d9c935262",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": "Gainesville",
-          "Country": "USA",
-          "EmailAddress": "schatda@peds.ufl.edu",
-          "PhoneNumber": null,
-          "PostalCode": null,
-          "StateOrProvince": "FL"
-        },
+      "Participant": {
         "FirstName": "Desmond",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-22",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS: Schatz 1",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": "21",
-              "GrantNumber": "UC4 DK104216",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
         "LastName": "Schatz",
+        "MiddleName": null,
+        "Suffix": "MD",
+        "Contact": {
+          "EmailAddress": "schatda@peds.ufl.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "Gainesville",
+          "StateOrProvince": "FL",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK116274",
+              "id": "89",
+              "CanonicalId": "HIRN-grant-35",
+              "Url": null,
+              "Name": "CBDS: Schatz 2",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Florida",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD"
+        "id": "b7a62425-32bd-4f0c-adb6-a627099888cb",
+        "CanonicalId": "desmond_schatz@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -414,77 +478,80 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "m_campbell-thompson@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "6ef3bb16-0d92-4cc8-bb3e-7a4dfc62492c",
+      "Participant": {
+        "FirstName": "Martha",
+        "LastName": "Campbell-Thompson",
+        "MiddleName": null,
+        "Suffix": "DVM PhD",
         "Contact": {
+          "EmailAddress": "mct@ufl.edu",
           "Address1": null,
           "Address2": null,
           "City": "Gainesville",
-          "Country": "USA",
-          "EmailAddress": "mct@ufl.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "FL",
           "PostalCode": null,
-          "StateOrProvince": "FL"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Martha",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Campbell-Thompson",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Florida",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "DVM PhD"
+        "id": "b076f041-c841-4dbc-a0a5-2f37e39bd439",
+        "CanonicalId": "m_campbell-thompson@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -552,7 +619,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -562,10 +629,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -577,7 +644,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "28938416",
   "BatchNumber": "4",
-  "id": "208d1079-3c8a-4bd7-8611-5b8d43468f2f",
+  "id": "d4947dcc-4a08-4cac-a34e-4be4333d6b3b",
   "CanonicalId": "Request",
   "Url": "",
   "Name": "NGS targeted sequencing of 140 diabetes/diabetes-related genes from 38 donor DNA samples that met clinical inclusion for possible monogenic diabetes",
@@ -585,7 +652,7 @@
   "SystemType": "Transcriptomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

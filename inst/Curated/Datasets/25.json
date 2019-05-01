@@ -88,7 +88,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -112,62 +112,148 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "greg_poffenberger@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "7feda9fe-22de-4fd5-b415-250cc3e28a00",
+      "Participant": {
+        "FirstName": "Radhika",
+        "LastName": "Aramandla",
+        "MiddleName": null,
+        "Suffix": "",
         "Contact": {
+          "EmailAddress": "aramandla.radhika@vumc.org",
           "Address1": null,
           "Address2": null,
           "City": "Nashville",
-          "Country": null,
-          "EmailAddress": "greg.poffenberger@Vanderbilt.Edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "TN",
           "PostalCode": null,
-          "StateOrProvince": "TN"
+          "Country": null,
+          "PhoneNumber": null
         },
-        "FirstName": "Greg",
-        "HirnMembership": {
-          "Consortia": [],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": "HIRN-Lab-1",
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": "Al Powers",
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CTAR",
+              "Url": null,
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Research Staff"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
             "RoleName": "Research Staff"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104211  ",
+              "id": "236",
+              "CanonicalId": "HIRN-grant-4",
+              "Url": null,
+              "Name": "CTAR: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Research Staff"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112232",
+              "id": "237",
+              "CanonicalId": "HIRN-grant-27",
+              "Url": null,
+              "Name": "HPAC: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Research Staff"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "U01 DK120429",
+              "id": "238",
+              "CanonicalId": "HIRN-grant-66",
+              "Url": null,
+              "Name": "HPAC: Sander",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Research Staff"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": "HIRN-Lab-1",
+            "Url": null,
+            "Name": "Al Powers",
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": "Research Staff"
         },
-        "LastName": "Poffenberger",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-54",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Vanderbilt  University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": null
+        "id": "d1db4d7f-5b98-4465-adf4-373f7a05bbd0",
+        "CanonicalId": "radhika_aramandla@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -197,93 +283,63 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "marcela_brissova@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "a0f86740-86b6-4878-8a05-0f821d1fe495",
+      "Participant": {
+        "FirstName": "Greg",
+        "LastName": "Poffenberger",
+        "MiddleName": null,
+        "Suffix": "",
         "Contact": {
+          "EmailAddress": "greg.poffenberger@Vanderbilt.Edu",
           "Address1": null,
           "Address2": null,
           "City": "Nashville",
-          "Country": "USA",
-          "EmailAddress": "marcela.brissova@vanderbilt.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "TN",
           "PostalCode": null,
-          "StateOrProvince": "TN"
+          "Country": "",
+          "PhoneNumber": ""
         },
-        "FirstName": "Marcela",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-4",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR: Powers",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": "104",
-              "GrantNumber": "UC4 DK104211  ",
-              "RoleName": "Co-Investigator"
-            }
-          ],
+        "Groups": [],
+        "Grants": [],
+        "LabMembership": {
           "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
             "id": null,
-            "RoleName": null
-          }
+            "CanonicalId": "HIRN-Lab-1",
+            "Url": null,
+            "Name": "Al Powers",
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": "Research Staff"
         },
-        "LastName": "Brissova",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-54",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Vanderbilt  University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "a9bee9d5-dae7-44c8-b855-9775c1e6c152",
+        "CanonicalId": "greg_poffenberger@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -313,77 +369,302 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "chunhua_dai@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
+      "Participant": {
+        "FirstName": "Marcela",
+        "LastName": "Brissova",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "marcela.brissova@vanderbilt.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "Nashville",
+          "StateOrProvince": "TN",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CTAR",
+              "Url": null,
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104211  ",
+              "id": "104",
+              "CanonicalId": "HIRN-grant-4",
+              "Url": null,
+              "Name": "CTAR: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108120",
+              "id": "105",
+              "CanonicalId": "HIRN-grant-25",
+              "Url": null,
+              "Name": "CBDS: Wright",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112232",
+              "id": "106",
+              "CanonicalId": "HIRN-grant-27",
+              "Url": null,
+              "Name": "HPAC: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "U01 DK120456",
+              "id": "206",
+              "CanonicalId": "HIRN-grant-65",
+              "Url": null,
+              "Name": "HPAC: Caicedo",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-54",
+          "Url": null,
+          "Name": "Vanderbilt  University",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "c9771215-8a6e-4761-826c-c4c518141529",
+        "CanonicalId": "marcela_brissova@hirnetwork.org",
+        "Url": null,
         "Name": null,
+        "Type": null,
         "SystemType": "Person",
         "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
         "Visibility": null,
-        "id": "c0b547b8-fbd0-4c92-802a-d8bb3d83f9ab",
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Chunhua",
+        "LastName": "Dai",
+        "MiddleName": null,
+        "Suffix": "MD",
         "Contact": {
+          "EmailAddress": "chunhua.dai@vanderbilt.edu",
           "Address1": null,
           "Address2": null,
           "City": "Nasheville",
-          "Country": "USA",
-          "EmailAddress": "chunhua.dai@vanderbilt.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "TN",
           "PostalCode": null,
-          "StateOrProvince": "TN"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Chunhua",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "CanonicalId": "HIRN-Consortium-CTAR",
+              "Url": null,
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104211  ",
+              "id": "181",
+              "CanonicalId": "HIRN-grant-4",
+              "Url": null,
+              "Name": "CTAR: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Dai",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-54",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Vanderbilt  University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD"
+        "id": "69fedb74-36fa-4d9b-a453-625e0f3a0a4f",
+        "CanonicalId": "chunhua_dai@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -413,77 +694,98 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "rita_bottino@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "310f0296-a918-4d6b-bf18-f2d4a80f560c",
+      "Participant": {
+        "FirstName": "Rita",
+        "LastName": "Bottino",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
+          "EmailAddress": "RBottino@wpahs.org",
           "Address1": null,
           "Address2": null,
           "City": "Pittsburgh",
-          "Country": "USA",
-          "EmailAddress": "RBottino@wpahs.org",
-          "PhoneNumber": null,
+          "StateOrProvince": "PA",
           "PostalCode": null,
-          "StateOrProvince": "PA"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Rita",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "CanonicalId": "HIRN-Consortium-CTAR",
+              "Url": null,
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104218 ",
+              "id": "172",
+              "CanonicalId": "HIRN-grant-12",
+              "Url": null,
+              "Name": "CMAI: Greiner",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Bottino",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-2",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Allegheny Health Network",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "5080aaee-c2f8-4ae0-b36b-0a5ce868aa82",
+        "CanonicalId": "rita_bottino@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -513,93 +815,98 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "sally_kent@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "c589cedd-a253-4fc0-9976-ae5079584bc2",
+      "Participant": {
+        "FirstName": "Sally",
+        "LastName": "Kent",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
+          "EmailAddress": "Sally.Kent@umassmed.edu",
           "Address1": null,
           "Address2": null,
           "City": "Worcester",
-          "Country": null,
-          "EmailAddress": "Sally.Kent@umassmed.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "MA",
           "PostalCode": null,
-          "StateOrProvince": "MA"
+          "Country": "",
+          "PhoneNumber": ""
         },
-        "FirstName": "Sally",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-OPP",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "OPP",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-34",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CMAI: Kent",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
               "Url": null,
-              "VersionId": "1",
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "73",
-              "GrantNumber": "UC4 DK116284",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK116284",
+              "id": "73",
+              "CanonicalId": "HIRN-grant-34",
+              "Url": null,
+              "Name": "CMAI: Kent",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Kent",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-47",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Massachusetts Medical School",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "2f8cbccd-893c-464f-964f-c0e4b874ba10",
+        "CanonicalId": "sally_kent@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -629,93 +936,318 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "al_powers@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
+      "Participant": {
+        "FirstName": "Patrick",
+        "LastName": "MacDonald",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "pem@ualberta.ca",
+          "Address1": null,
+          "Address2": null,
+          "City": "Alberta",
+          "StateOrProvince": null,
+          "PostalCode": null,
+          "Country": "Canada",
+          "PhoneNumber": null
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "U01 DK120447",
+              "id": "209",
+              "CanonicalId": "HIRN-grant-68",
+              "Url": null,
+              "Name": "HPAC: MacDonald",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-67",
+          "Url": null,
+          "Name": "University of Alberta",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "083b15db-450e-4c9a-86e9-dade6b143c48",
+        "CanonicalId": "patrick_macdonald@hirnetwork.org",
+        "Url": null,
         "Name": null,
+        "Type": null,
         "SystemType": "Person",
         "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
         "Visibility": null,
-        "id": "ab9cbf19-82e2-4e3a-a490-ab5c3d23a46d",
+        "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Al",
+        "LastName": "Powers",
+        "MiddleName": "C",
+        "Suffix": "MD",
         "Contact": {
+          "EmailAddress": "al.powers@vanderbilt.edu",
           "Address1": null,
           "Address2": null,
           "City": "Nashville",
-          "Country": "USA",
-          "EmailAddress": "al.powers@vanderbilt.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "TN",
           "PostalCode": null,
-          "StateOrProvince": "TN"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Al",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-4",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CTAR: Powers",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+              "CanonicalId": "HIRN-Consortium-CTAR",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "3",
-              "GrantNumber": "UC4 DK104211  ",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104211  ",
+              "id": "3",
+              "CanonicalId": "HIRN-grant-4",
+              "Url": null,
+              "Name": "CTAR: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112232",
+              "id": "25",
+              "CanonicalId": "HIRN-grant-27",
+              "Url": null,
+              "Name": "HPAC: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108120",
+              "id": "58",
+              "CanonicalId": "HIRN-grant-25",
+              "Url": null,
+              "Name": "CBDS: Wright",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Grant": {
+              "GrantNumber": "U01 DK120429",
+              "id": "205",
+              "CanonicalId": "HIRN-grant-66",
+              "Url": null,
+              "Name": "HPAC: Sander",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Powers",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-54",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Vanderbilt  University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD"
+        "id": "6d2f7249-08fe-416e-be00-fe953723017f",
+        "CanonicalId": "al_powers@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -783,7 +1315,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -793,10 +1325,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -808,7 +1340,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "29669939",
   "BatchNumber": "4",
-  "id": "be93059d-ec0a-4cae-9df8-bc78a5818146",
+  "id": "3a0e6976-2d7a-4925-9b5f-0e68f7cafdad",
   "CanonicalId": "GSE110935",
   "Url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110935",
   "Name": "RNA-seq of isolated islet samples from healthy and cystic fibrosis donors, and mouse",
@@ -816,7 +1348,7 @@
   "SystemType": "Transcriptomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

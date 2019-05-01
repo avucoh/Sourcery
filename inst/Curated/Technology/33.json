@@ -22,7 +22,129 @@
   "Publications": [],
   "SecondaryIdentifiers": [],
   "Description": "An open-source framework to compare relief-based feature selection algorithms (RBAs) used in data mining. The tool should facilitate the accessibility of various RBAs and promote their ongoing development and application. RBAs can be useful for selected applications such as: feature selection in any bioinformatics problem with potentially predictive features and a target outcome variable, detect feature interactions without exhaustive examination of all feature combinations, detecting features involved in heterogeneous patterns of association such as genetic heterogeneity (e.g. disease subgroups).",
-  "Contributors": [],
+  "Contributors": [
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Jason",
+        "LastName": "Moore",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "jhmoore@mail.med.upenn.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "",
+          "StateOrProvince": "",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112217",
+              "id": "114",
+              "CanonicalId": "HIRN-grant-26",
+              "Url": null,
+              "Name": "HPAC: Naji",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-50",
+          "Url": null,
+          "Name": "University of Pennsylvania",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "f7219de3-4686-416a-bbf3-240cd40f45bb",
+        "CanonicalId": "jason_moore@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    }
+  ],
   "ContributorsOld": [],
   "ContributorsTemp": [],
   "PrimaryResourceType": {
@@ -75,7 +197,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:29.0842395+00:00",
+    "DateCreated": "2019-04-26T01:22:20.9468753+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -85,10 +207,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -99,8 +221,8 @@
   },
   "Attachments": [],
   "DefiningManuscriptId": "PMID30030120",
-  "BatchNumber": "4",
-  "id": "9c04924a-e423-4049-a81c-ff89ecd9ef6e",
+  "BatchNumber": "5",
+  "id": "f1e0c183-5534-4f0b-bb99-bd7cbc7bca98",
   "CanonicalId": "",
   "Url": "https://github.com/EpistasisLab/ReBATE",
   "Name": "ReBATE (Relief-Based Algorithm Training Environment) Python package",
@@ -108,7 +230,7 @@
   "SystemType": "SoftwareDb",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-25T22:37:29.0842395+00:00",
+  "DateCreated": "2019-04-26T01:22:20.9468753+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

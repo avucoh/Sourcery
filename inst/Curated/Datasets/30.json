@@ -57,7 +57,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -81,93 +81,96 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "wei-jun_qian@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "e3f1d702-4253-4ee4-a3da-5728aa764ac3",
+      "Participant": {
+        "FirstName": "Wei-Jun",
+        "LastName": "Qian",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
+          "EmailAddress": "weijun.qian@pnnl.gov",
           "Address1": null,
           "Address2": null,
           "City": "Richland",
-          "Country": "USA",
-          "EmailAddress": "weijun.qian@pnnl.gov",
-          "PhoneNumber": null,
+          "StateOrProvince": "WA",
           "PostalCode": null,
-          "StateOrProvince": "WA"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Wei-Jun",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-19",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS: Qian",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "18",
-              "GrantNumber": "UC4 DK104167 ",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Qian",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-32",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "665375ae-95ae-4184-9339-66dbe810e715",
+        "CanonicalId": "wei-jun_qian@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -235,7 +238,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -245,10 +248,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -260,7 +263,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "29941660",
   "BatchNumber": "4",
-  "id": "3c36f119-dbf3-40b0-bf72-34ce5e29e82a",
+  "id": "c9973423-f9cf-437b-b814-a13d2f86bfd1",
   "CanonicalId": "PXD008844",
   "Url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD008844",
   "Name": "Proteomics of rat brain cortex microsample tissue sections",
@@ -268,7 +271,7 @@
   "SystemType": "Proteomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

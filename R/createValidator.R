@@ -33,7 +33,15 @@ batchValidator <- function(jsonlist, type) {
   return(result)
 }
 
-# Example
+# Examples
+# export <- ds2json_batch(batch = "4")
+# batchValidator(export$passed, "Proteomics")
+# validated <- batchValidator(export$passed, "Proteomics")
+# all(validated)
+# for(i in seq_along(export$passed)) write(export$passed[[i]], paste0(i, ".json"))
+
+
+# export <- tech2json_batch(batch = "5")
 # jsonlist <- split(export$passed, f = export$srctable$Type)
 # validated <- mapply(batchValidator, jsonlist, names(jsonlist))
 # jsonlist <- unlist(jsonlist)

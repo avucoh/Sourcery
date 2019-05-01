@@ -57,7 +57,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -81,93 +81,146 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "klaus_kaestner@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "7c430b4f-58e5-4da6-a148-f7f8658e3e0f",
+      "Participant": {
+        "FirstName": "Klaus",
+        "LastName": "Kaestner",
+        "MiddleName": null,
+        "Suffix": "PhD, MS",
         "Contact": {
+          "EmailAddress": "kaestner@mail.med.upenn.edu",
           "Address1": null,
           "Address2": null,
           "City": "Philadelphia",
-          "Country": "USA",
-          "EmailAddress": "kaestner@mail.med.upenn.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "PA",
           "PostalCode": null,
-          "StateOrProvince": "PA"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Klaus",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-7",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR: Kaestner",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+              "CanonicalId": "HIRN-Consortium-CTAR",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "6",
-              "GrantNumber": "UC4 DK104119  ",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104119  ",
+              "id": "6",
+              "CanonicalId": "HIRN-grant-7",
+              "Url": null,
+              "Name": "CTAR: Kaestner",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Kaestner",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-50",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Pennsylvania",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD, MS"
+        "id": "fac1149f-8bed-40c1-bfd0-746f45275dbc",
+        "CanonicalId": "klaus_kaestner@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -235,7 +288,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -245,10 +298,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -260,7 +313,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "29298866",
   "BatchNumber": "4",
-  "id": "2faa9404-7a29-4d9a-a2e4-755aeb0a132a",
+  "id": "28c9ea16-233c-456a-b449-c9967c2c67ae",
   "CanonicalId": "Request",
   "Url": "",
   "Name": "NGS miRNA/mRNA expression profiling of four pooled samples of naive versus activated CD4+ T cells purified from children with or without ongoing islet autoimmunity",
@@ -268,7 +321,7 @@
   "SystemType": "Transcriptomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

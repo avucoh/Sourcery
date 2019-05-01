@@ -58,11 +58,13 @@ loadOntologyDir2 <- function(dir = NULL) {
 # resourceTypes <- fromJSON(system.file("extdata/ResourceBrowser/codedValues.json", package = "Sourcery"), simplifyVector = F)
 # usethis::use_data(resourceTypes)
 
-## index/data of PMID to HIRN persons
+# HIRN list
+# Persons <- fromJSON(system.file("extdata/ResourceBrowser/contrib.json", package = "Sourcery"), simplifyVector = F)
+# usethis::use_data(Persons, overwrite = T)
 
-
-
-
+# HIRNauthors <- sapply(Persons, function(x) paste(x$LastName, x$FirstName))
+# HIRNauthors[HIRNauthors == "Powers Al"] <- "Powers Alvin"
+# usethis::use_data(HIRNauthors, overwrite = T)
 
 
 

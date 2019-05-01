@@ -11,7 +11,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:27.2364381+00:00",
+    "DateCreated": "2019-04-26T01:22:19.1197314+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -40,7 +40,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:27.2364381+00:00",
+    "DateCreated": "2019-04-26T01:22:19.1197314+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -52,7 +52,129 @@
   "Publications": [],
   "SecondaryIdentifiers": [],
   "Description": "CellCycleTRACER is a combined experimental and computational method to account for the often confounded factors cell cycle and cell volume in mass cytometry data. Resolving cell heterogeneity caused by either cell-cycle state or cell volume in single-cell transcriptomic data has relied on statistical analysis using known cell-cycle genes. For mass cytometry, there is so far a more limited selection of available informative markers related to cell cycle and volume. As an assay method, CellCycleTRACER exploits four cell-cycle markers recently identified by Behbehani et al. 2012 (phosphorylated histone H3, phosphorylated retinoblastoma,  cyclin B1, and 5-Iodo-2′-deoxyuridine) to distinguish cell populations in different cell-cycle states. For measuring cell volume, CellCycleTRACER uses the ruthenium complex ASCQ_Ru. CellCycleTRACER may be particularly important when heterogeneous cell populations with deregulated cellular processes, as typically found in tumors, are analyzed.",
-  "Contributors": [],
+  "Contributors": [
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Bernd",
+        "LastName": "Bodenmiller",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "bernd.bodenmiller@imls.uzh.ch",
+          "Address1": null,
+          "Address2": null,
+          "City": "Zurich",
+          "StateOrProvince": "",
+          "PostalCode": null,
+          "Country": "Switzerland",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108101",
+              "id": "96",
+              "CanonicalId": "HIRN-grant-24",
+              "Url": null,
+              "Name": "CBDS: Atkinson",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-52",
+          "Url": null,
+          "Name": "University of Zurich",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "ee4bcbc5-697b-44a5-89dd-ea5e3cc10582",
+        "CanonicalId": "bernd_bodenmiller@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    }
+  ],
   "ContributorsOld": [],
   "ContributorsTemp": [],
   "PrimaryResourceType": {
@@ -105,7 +227,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:27.2364381+00:00",
+    "DateCreated": "2019-04-26T01:22:19.1197314+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -115,10 +237,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -129,8 +251,8 @@
   },
   "Attachments": [],
   "DefiningManuscriptId": "PMID29434325",
-  "BatchNumber": "4",
-  "id": "c1b43252-74b7-442c-9e78-afab4827f956",
+  "BatchNumber": "5",
+  "id": "5f5707ce-d488-4d9b-b075-fc1a0b0adaaf",
   "CanonicalId": "",
   "Url": "",
   "Name": "CellCycleTRACER (mass cytometry assay method for deconfounding cell-cycle and cell-volume effects)",
@@ -138,7 +260,7 @@
   "SystemType": "Assay",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-25T22:37:27.2364381+00:00",
+  "DateCreated": "2019-04-26T01:22:19.1197314+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

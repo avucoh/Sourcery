@@ -73,7 +73,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -97,77 +97,80 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "decio_eizirik@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "59a7a307-8821-4037-a416-24a24964ff05",
+      "Participant": {
+        "FirstName": "Decio",
+        "LastName": "Eizirik",
+        "MiddleName": null,
+        "Suffix": "MD, PhD",
         "Contact": {
+          "EmailAddress": "Decio.Laks.Eizirik@ulb.ac.be",
           "Address1": null,
           "Address2": null,
           "City": "Brussels",
-          "Country": "Belgium",
-          "EmailAddress": "Decio.Laks.Eizirik@ulb.ac.be",
-          "PhoneNumber": null,
+          "StateOrProvince": "",
           "PostalCode": null,
-          "StateOrProvince": null
+          "Country": "Belgium",
+          "PhoneNumber": ""
         },
-        "FirstName": "Decio",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Eizirik",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-38",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Brussels",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD, PhD"
+        "id": "74434bad-9ab8-4696-87e3-39ec201fee98",
+        "CanonicalId": "decio_eizirik@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -197,78 +200,80 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "raghavendra_mirmira@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "9f751387-e40a-40cb-b480-8f93a01b5ee1",
+      "Participant": {
+        "FirstName": "Raghavendra",
+        "LastName": "Mirmira",
+        "MiddleName": null,
+        "Suffix": "MD, PhD",
         "Contact": {
+          "EmailAddress": "rmirmira@iupui.edu",
           "Address1": null,
           "Address2": null,
           "City": "Indianapolis",
-          "Country": "USA",
-          "EmailAddress": "rmirmira@iupui.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "IN",
           "PostalCode": null,
-          "StateOrProvince": "IN"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Raghavendra",
-        "HirnMembership": {
-          "Consortia": [],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-20",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS: Mirmira",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "19",
-              "GrantNumber": "UC4 DK104166",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
           }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Mirmira",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-20",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Indiana University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD, PhD"
+        "id": "63d90145-c837-49c1-b7af-565adc546b0e",
+        "CanonicalId": "raghavendra_mirmira@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -336,7 +341,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -346,10 +351,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -361,7 +366,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "29569324",
   "BatchNumber": "4",
-  "id": "c06a2293-c62e-4158-84b5-ca72b1aee3b8",
+  "id": "2928dd49-f8b1-47fa-80c6-9fa24578eb94",
   "CanonicalId": "GSE102371",
   "Url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102371",
   "Name": "RNA-seq of islet samples from one short-duration T1D donor, one long-duration T1D donor, and three no-diabetes control donors",
@@ -369,7 +374,7 @@
   "SystemType": "Transcriptomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

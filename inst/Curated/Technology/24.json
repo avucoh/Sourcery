@@ -23,7 +23,543 @@
   "Publications": [],
   "SecondaryIdentifiers": [],
   "Description": "This approach describes a modification to nano-DESI MSI that uses shear force microscopy to precisely control the distance between the sample and the nano-DESI probe. It allowed robust imaging of pancreatic islets with high spatial resolution of ~11 μm, overcoming limitations of traditional mass spec approaches. It also allowed lipidomics to be studied with spatial distribution information in invidual islets.",
-  "Contributors": [],
+  "Contributors": [
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Jennifer",
+        "LastName": "Kyle",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "jennifer.kyle@pnnl.gov",
+          "Address1": null,
+          "Address2": null,
+          "City": "Richland",
+          "StateOrProvince": "WA",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": "HIRN-Lab-32",
+            "Url": null,
+            "Name": "Tom Metz",
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": "Postdoc"
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-32",
+          "Url": null,
+          "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "e9d86d5c-3b07-40e8-a0c9-5f428d01932d",
+        "CanonicalId": "jennifer_kyle@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Kristin",
+        "LastName": "Burnum-Johnson",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "kristin.burnum-johnson@pnnl.gov",
+          "Address1": null,
+          "Address2": null,
+          "City": "Richland",
+          "StateOrProvince": "WA",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108132",
+              "id": "108",
+              "CanonicalId": "HIRN-grant-23",
+              "Url": null,
+              "Name": "CBDS: Ansong",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-32",
+          "Url": null,
+          "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "58bbcea7-5a2a-480d-90c6-52723fe0ec4b",
+        "CanonicalId": "Kristin_B-Johnson@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Lori",
+        "LastName": "Sussel",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "lgs2@cumc.columbia.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "Denver",
+          "StateOrProvince": "CO",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-43",
+          "Url": null,
+          "Name": "University of Colorado, Denver",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "0bc41895-efe7-4476-a867-f887d147cb92",
+        "CanonicalId": "lori_sussel@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Charles",
+        "LastName": "Ansong",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "Charles.Ansong@pnnl.gov",
+          "Address1": null,
+          "Address2": null,
+          "City": "Richland",
+          "StateOrProvince": "WA",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108101",
+              "id": "22",
+              "CanonicalId": "HIRN-grant-24",
+              "Url": null,
+              "Name": "CBDS: Atkinson",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-32",
+          "Url": null,
+          "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "349de347-afa5-4487-a118-fe9e4798bbc1",
+        "CanonicalId": "charles_ansong@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8387195+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Julia",
+        "LastName": "Laskin",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "julia.laskin@pnnl.gov",
+          "Address1": null,
+          "Address2": null,
+          "City": "Richland",
+          "StateOrProvince": "WA",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108132",
+              "id": "109",
+              "CanonicalId": "HIRN-grant-23",
+              "Url": null,
+              "Name": "CBDS: Ansong",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-63",
+          "Url": null,
+          "Name": "Purdue University",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "65240462-5a56-4ab4-87f7-6ec6bf35bf15",
+        "CanonicalId": "julia_laskin@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    }
+  ],
   "ContributorsOld": [],
   "ContributorsTemp": [],
   "PrimaryResourceType": {
@@ -76,7 +612,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:28.1216642+00:00",
+    "DateCreated": "2019-04-26T01:22:20.0718639+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -86,10 +622,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -100,8 +636,8 @@
   },
   "Attachments": [],
   "DefiningManuscriptId": "PMID29718662",
-  "BatchNumber": "4",
-  "id": "cd247f99-d825-4f9f-800e-db07b848a482",
+  "BatchNumber": "5",
+  "id": "81523b12-3de5-404d-b9ff-b97f6146e775",
   "CanonicalId": "RRID:SCR_017130",
   "Url": "",
   "Name": "Constant-distance Mode Nanospray Desorption Electrospray Ionization Mass Spectrometry (nano-DESI MSI)",
@@ -109,7 +645,7 @@
   "SystemType": "DeviceEquipment",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-25T22:37:28.1216642+00:00",
+  "DateCreated": "2019-04-26T01:22:20.0718639+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

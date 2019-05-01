@@ -37,7 +37,129 @@
   "Publications": [],
   "SecondaryIdentifiers": [],
   "Description": "The R/Bioconductor package implements several data processing steps for the bead-based compensation method to semi-automate spillover correction in mass cytometry (see details in Assay). First, the FCS file containing data on the bead sample is deconvoluted to identify the individual single-antibody-positive bead populations using a new R implementation of the debarcoding algorithm from Zunder et al. 2015. Then the spillover matrix is calculated based on the spillover observed for single-stained populations. Finally, the calculated compensation matrix is applied to the bead and cell samples to remove interfering signals. There is also a Shiny web application to provide an even friendlier user interface to the data processing pipeline.",
-  "Contributors": [],
+  "Contributors": [
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Bernd",
+        "LastName": "Bodenmiller",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "bernd.bodenmiller@imls.uzh.ch",
+          "Address1": null,
+          "Address2": null,
+          "City": "Zurich",
+          "StateOrProvince": "",
+          "PostalCode": null,
+          "Country": "Switzerland",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK108101",
+              "id": "96",
+              "CanonicalId": "HIRN-grant-24",
+              "Url": null,
+              "Name": "CBDS: Atkinson",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-52",
+          "Url": null,
+          "Name": "University of Zurich",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "ee4bcbc5-697b-44a5-89dd-ea5e3cc10582",
+        "CanonicalId": "bernd_bodenmiller@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    }
+  ],
   "ContributorsOld": [],
   "ContributorsTemp": [],
   "PrimaryResourceType": {
@@ -90,7 +212,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:27.6841437+00:00",
+    "DateCreated": "2019-04-26T01:22:19.5718812+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -100,10 +222,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -114,8 +236,8 @@
   },
   "Attachments": [],
   "DefiningManuscriptId": "PMID29605184",
-  "BatchNumber": "4",
-  "id": "120fe14f-3151-4ae8-a9b0-e0e15dfac97b",
+  "BatchNumber": "5",
+  "id": "af100b57-1e1d-4cb1-8db4-3299dfe1392d",
   "CanonicalId": "",
   "Url": "https://bioconductor.org/packages/CATALYST",
   "Name": "CATALYST R/Bioconductor package",
@@ -123,7 +245,7 @@
   "SystemType": "CodePipeline",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-25T22:37:27.6841437+00:00",
+  "DateCreated": "2019-04-26T01:22:19.5718812+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

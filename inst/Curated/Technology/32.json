@@ -22,7 +22,129 @@
   "Publications": [],
   "SecondaryIdentifiers": [],
   "Description": "A method and open-source software for simulating complex biological and biomedical data to aid in comparing and evaluating machine learning methods.",
-  "Contributors": [],
+  "Contributors": [
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Jason",
+        "LastName": "Moore",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "jhmoore@mail.med.upenn.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "",
+          "StateOrProvince": "",
+          "PostalCode": null,
+          "Country": "",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-HPAC",
+              "Url": null,
+              "Name": "HPAC",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK112217",
+              "id": "114",
+              "CanonicalId": "HIRN-grant-26",
+              "Url": null,
+              "Name": "HPAC: Naji",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-50",
+          "Url": null,
+          "Name": "University of Pennsylvania",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "f7219de3-4686-416a-bbf3-240cd40f45bb",
+        "CanonicalId": "jason_moore@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    }
+  ],
   "ContributorsOld": [],
   "ContributorsTemp": [],
   "PrimaryResourceType": {
@@ -75,7 +197,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:29.0842395+00:00",
+    "DateCreated": "2019-04-26T01:22:20.9468753+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -85,10 +207,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -99,8 +221,8 @@
   },
   "Attachments": [],
   "DefiningManuscriptId": "PMID29218887",
-  "BatchNumber": "4",
-  "id": "96462fa9-3ca2-4944-b3cd-4e08a8b82438",
+  "BatchNumber": "5",
+  "id": "21b04a38-ccb0-4d46-abc1-4efbb534492d",
   "CanonicalId": "",
   "Url": "https://github.com/epistasislab/hibachi",
   "Name": "Heuristic Identification of Biological Architectures for simulating Complex Hierarchical Interactions (HIBACHI)",
@@ -108,7 +230,7 @@
   "SystemType": "SoftwareDb",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-25T22:37:29.0842395+00:00",
+  "DateCreated": "2019-04-26T01:22:20.9468753+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

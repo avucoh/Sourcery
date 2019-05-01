@@ -88,7 +88,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -112,393 +112,98 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "jing_chen@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "9e5da827-865c-4348-8f81-c348c223da85",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": "Gainesville",
-          "Country": "USA",
-          "EmailAddress": "jic24@pathology.ufl.edu",
-          "PhoneNumber": "352.273.9262",
-          "PostalCode": null,
-          "StateOrProvince": "FL"
-        },
+      "Participant": {
         "FirstName": "Jing",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CMAI",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CMAI",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
         "LastName": "Chen",
-        "Organization": {
-          "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
-          "Name": "University of Florida",
-          "SystemType": "Organization",
-          "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
-          "Visibility": null,
-          "id": null
-        },
-        "Suffix": "PhD"
-      },
-      "id": null,
-      "CanonicalId": null,
-      "Url": null,
-      "Name": null,
-      "Type": null,
-      "SystemType": "Contributor",
-      "Tags": [],
-      "Visibility": null,
-      "DateCreated": "",
-      "DateModified": "",
-      "VersionId": "1",
-      "SerializationMode": "full"
-    },
-    {
-      "Role": {
-        "OntologyId": "HIRN",
-        "id": "hirn-cv-ResourceRole-producer",
-        "CanonicalId": "hirn-cv-ResourceRole-producer",
-        "Url": "resources.hirnetwork.org/api/v1/CV/",
-        "Name": "Producer",
-        "Type": null,
-        "SystemType": "CodedValue",
-        "Tags": [],
-        "Visibility": null,
-        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
-        "VersionId": "1",
-        "SerializationMode": "full"
-      },
-      "Person": {
-        "CanonicalId": "vladislav_petyuk@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "ea6d21a9-5c94-4521-a983-491d3ac902a4",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": "Richland",
-          "Country": "USA",
-          "EmailAddress": "vladislav.petyuk@pnnl.gov",
-          "PhoneNumber": null,
-          "PostalCode": null,
-          "StateOrProvince": "WA"
-        },
-        "FirstName": "Vladislav",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
-        "LastName": "Petyuk",
-        "Organization": {
-          "CanonicalId": "HIRN-inst-32",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
-          "Name": "Pacific Northwest National Laboratory",
-          "SystemType": "Organization",
-          "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
-          "Visibility": null,
-          "id": null
-        },
-        "Suffix": "PhD"
-      },
-      "id": null,
-      "CanonicalId": null,
-      "Url": null,
-      "Name": null,
-      "Type": null,
-      "SystemType": "Contributor",
-      "Tags": [],
-      "Visibility": null,
-      "DateCreated": "",
-      "DateModified": "",
-      "VersionId": "1",
-      "SerializationMode": "full"
-    },
-    {
-      "Role": {
-        "OntologyId": "HIRN",
-        "id": "hirn-cv-ResourceRole-producer",
-        "CanonicalId": "hirn-cv-ResourceRole-producer",
-        "Url": "resources.hirnetwork.org/api/v1/CV/",
-        "Name": "Producer",
-        "Type": null,
-        "SystemType": "CodedValue",
-        "Tags": [],
-        "Visibility": null,
-        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
-        "VersionId": "1",
-        "SerializationMode": "full"
-      },
-      "Person": {
-        "CanonicalId": "m_campbell-thompson@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "6ef3bb16-0d92-4cc8-bb3e-7a4dfc62492c",
-        "Contact": {
+          "EmailAddress": "jic24@pathology.ufl.edu",
           "Address1": null,
           "Address2": null,
           "City": "Gainesville",
-          "Country": "USA",
-          "EmailAddress": "mct@ufl.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "FL",
           "PostalCode": null,
-          "StateOrProvince": "FL"
+          "Country": "USA",
+          "PhoneNumber": "352.273.9262"
         },
-        "FirstName": "Martha",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
-        "LastName": "Campbell-Thompson",
-        "Organization": {
-          "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
-          "Name": "University of Florida",
-          "SystemType": "Organization",
-          "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
-          "Visibility": null,
-          "id": null
-        },
-        "Suffix": "DVM PhD"
-      },
-      "id": null,
-      "CanonicalId": null,
-      "Url": null,
-      "Name": null,
-      "Type": null,
-      "SystemType": "Contributor",
-      "Tags": [],
-      "Visibility": null,
-      "DateCreated": "",
-      "DateModified": "",
-      "VersionId": "1",
-      "SerializationMode": "full"
-    },
-    {
-      "Role": {
-        "OntologyId": "HIRN",
-        "id": "hirn-cv-ResourceRole-producer",
-        "CanonicalId": "hirn-cv-ResourceRole-producer",
-        "Url": "resources.hirnetwork.org/api/v1/CV/",
-        "Name": "Producer",
-        "Type": null,
-        "SystemType": "CodedValue",
-        "Tags": [],
-        "Visibility": null,
-        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
-        "VersionId": "1",
-        "SerializationMode": "full"
-      },
-      "Person": {
-        "CanonicalId": "clayton_mathews@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "99e26de6-800c-4f4a-b9b7-1c0364dec099",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": "Gainesville",
-          "Country": "USA",
-          "EmailAddress": "cxm@ufl.edu",
-          "PhoneNumber": null,
-          "PostalCode": null,
-          "StateOrProvince": "FL"
-        },
-        "FirstName": "Clayton",
-        "HirnMembership": {
-          "Consortia": [
-            {
               "CanonicalId": "HIRN-Consortium-CMAI",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
+              "Url": null,
               "Name": "CMAI",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
               "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-14",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CMAI: Matthews",
-              "SystemType": "PersonGrant",
+              "SystemType": "Group",
               "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
               "Visibility": null,
-              "id": "13",
-              "GrantNumber": "UC4 DK104194",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104194",
+              "id": "177",
+              "CanonicalId": "HIRN-grant-14",
+              "Url": null,
+              "Name": "CMAI: Matthews",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Mathews",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-44",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "University of Florida",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "16be316b-1578-4fc0-b337-765e5f57980f",
+        "CanonicalId": "jing_chen@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8748815+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -528,93 +233,455 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "wei-jun_qian@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "e3f1d702-4253-4ee4-a3da-5728aa764ac3",
+      "Participant": {
+        "FirstName": "Vladislav",
+        "LastName": "Petyuk",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
+          "EmailAddress": "vladislav.petyuk@pnnl.gov",
           "Address1": null,
           "Address2": null,
           "City": "Richland",
-          "Country": "USA",
-          "EmailAddress": "weijun.qian@pnnl.gov",
-          "PhoneNumber": null,
+          "StateOrProvince": "WA",
           "PostalCode": null,
-          "StateOrProvince": "WA"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Wei-Jun",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CBDS",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-19",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CBDS: Qian",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "18",
-              "GrantNumber": "UC4 DK104167 ",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
           }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Qian",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-32",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "27280837-501d-47e9-931e-2c6d58e9e9d3",
+        "CanonicalId": "vladislav_petyuk@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.949972+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Martha",
+        "LastName": "Campbell-Thompson",
+        "MiddleName": null,
+        "Suffix": "DVM PhD",
+        "Contact": {
+          "EmailAddress": "mct@ufl.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "Gainesville",
+          "StateOrProvince": "FL",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-44",
+          "Url": null,
+          "Name": "University of Florida",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "b076f041-c841-4dbc-a0a5-2f37e39bd439",
+        "CanonicalId": "m_campbell-thompson@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.854344+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Clayton",
+        "LastName": "Mathews",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "cxm@ufl.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "Gainesville",
+          "StateOrProvince": "FL",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CMAI",
+              "Url": null,
+              "Name": "CMAI",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104194",
+              "id": "13",
+              "CanonicalId": "HIRN-grant-14",
+              "Url": null,
+              "Name": "CMAI: Matthews",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-44",
+          "Url": null,
+          "Name": "University of Florida",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "adf30459-2eb6-4c71-9d21-cc3223f0005a",
+        "CanonicalId": "clayton_mathews@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9324477+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Wei-Jun",
+        "LastName": "Qian",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "weijun.qian@pnnl.gov",
+          "Address1": null,
+          "Address2": null,
+          "City": "Richland",
+          "StateOrProvince": "WA",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-32",
+          "Url": null,
+          "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "665375ae-95ae-4184-9339-66dbe810e715",
+        "CanonicalId": "wei-jun_qian@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -682,7 +749,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -692,10 +759,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -707,7 +774,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "29491378",
   "BatchNumber": "4",
-  "id": "905be1ff-2c89-44eb-90ef-ba58c93e5dd6",
+  "id": "00962ac5-5b88-4dda-b855-d3856e60570b",
   "CanonicalId": "PXD006847",
   "Url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD006847",
   "Name": "Proteomics of laser dissected islets from T1D and control donors from the Network for Pancreatic Organ Donors with Diabetes (nPOD) and 10-100 cultured HeLa cells",
@@ -715,7 +782,7 @@
   "SystemType": "Proteomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:31+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

@@ -57,7 +57,7 @@
     "SystemType": "CodedValue",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -81,178 +81,63 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "Pen_Wang@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "3f0fa40c-04e1-4d02-a164-e85acde890f1",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": "New York",
-          "Country": null,
-          "EmailAddress": "peng.wang@mssm.edu",
-          "PhoneNumber": null,
-          "PostalCode": null,
-          "StateOrProvince": "NY"
-        },
+      "Participant": {
         "FirstName": "Peng",
-        "HirnMembership": {
-          "Consortia": [],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
         "LastName": "Wang",
-        "Organization": {
-          "CanonicalId": "HIRN-inst-27",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
-          "Name": "Mount Sinai Hospital",
-          "SystemType": "Organization",
-          "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
-          "Visibility": null,
-          "id": null
-        },
-        "Suffix": "PhD"
-      },
-      "id": null,
-      "CanonicalId": null,
-      "Url": null,
-      "Name": null,
-      "Type": null,
-      "SystemType": "Contributor",
-      "Tags": [],
-      "Visibility": null,
-      "DateCreated": "",
-      "DateModified": "",
-      "VersionId": "1",
-      "SerializationMode": "full"
-    },
-    {
-      "Role": {
-        "OntologyId": "HIRN",
-        "id": "hirn-cv-ResourceRole-producer",
-        "CanonicalId": "hirn-cv-ResourceRole-producer",
-        "Url": "resources.hirnetwork.org/api/v1/CV/",
-        "Name": "Producer",
-        "Type": null,
-        "SystemType": "CodedValue",
-        "Tags": [],
-        "Visibility": null,
-        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
-        "VersionId": "1",
-        "SerializationMode": "full"
-      },
-      "Person": {
-        "CanonicalId": "esra_karakose@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "4cd5b64d-764a-4e4a-a8ff-6849f9838109",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
+          "EmailAddress": "peng.wang@mssm.edu",
           "Address1": null,
           "Address2": null,
           "City": "New York",
-          "Country": "USA",
-          "EmailAddress": "esra.karakose@mssm.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "NY",
           "PostalCode": null,
-          "StateOrProvince": "NY"
+          "Country": "",
+          "PhoneNumber": ""
         },
-        "FirstName": "Esra",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Postdoc"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-4",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CTAR: Powers",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": "125",
-              "GrantNumber": "UC4 DK104211  ",
-              "RoleName": "Postdoc"
-            }
-          ],
+        "Groups": [],
+        "Grants": [],
+        "LabMembership": {
           "Lab": {
+            "id": null,
             "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
             "Url": null,
-            "VersionId": "1",
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
             "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
+            "DateCreated": "2019-03-26T17:34:41.998999+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Karakose",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-27",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Mount Sinai Hospital",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.998999+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": null
+        "id": "b95770ab-4b8f-4234-bee0-141262f073b6",
+        "CanonicalId": "Pen_Wang@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.998999+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -282,62 +167,202 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "Bryan_Gonzalez@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "5c6b5a38-c3e9-4777-836f-97f0b31bb3cc",
+      "Participant": {
+        "FirstName": "Esra",
+        "LastName": "Karakose",
+        "MiddleName": null,
+        "Suffix": "",
         "Contact": {
+          "EmailAddress": "esra.karakose@mssm.edu",
           "Address1": null,
           "Address2": null,
           "City": "New York",
-          "Country": "USA",
-          "EmailAddress": "bg2450@cumc.columbia.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "NY",
           "PostalCode": null,
-          "StateOrProvince": "New York"
+          "Country": "USA",
+          "PhoneNumber": null
         },
-        "FirstName": "Bryan",
-        "HirnMembership": {
-          "Consortia": [],
-          "Grants": [],
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CTAR",
+              "Url": null,
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Postdoc"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104211  ",
+              "id": "125",
+              "CanonicalId": "HIRN-grant-4",
+              "Url": null,
+              "Name": "CTAR: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Postdoc"
+          }
+        ],
+        "LabMembership": {
           "Lab": {
-            "CanonicalId": "HIRN-Lab-9",
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": "Dieter Egli",
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
             "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-27",
+          "Url": null,
+          "Name": "Mount Sinai Hospital",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "a408b645-34e3-4ea4-af05-409fac7ed559",
+        "CanonicalId": "esra_karakose@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9218433+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Bryan",
+        "LastName": "Gonzalez",
+        "MiddleName": null,
+        "Suffix": "",
+        "Contact": {
+          "EmailAddress": "bg2450@cumc.columbia.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "New York",
+          "StateOrProvince": "New York",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104207",
+              "id": "197",
+              "CanonicalId": "HIRN-grant-13",
+              "Url": null,
+              "Name": "CMAI: Sykes",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
             "RoleName": "Research Staff"
           }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": "HIRN-Lab-9",
+            "Url": null,
+            "Name": "Dieter Egli",
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": "Research Staff"
         },
-        "LastName": "Gonzalez",
         "Organization": {
+          "id": null,
           "CanonicalId": "HIRN-inst-11",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
+          "Url": null,
           "Name": "Columbia University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": null
+        "id": "05df6976-37f1-4af6-9912-50726508da6d",
+        "CanonicalId": "Bryan_Gonzalez@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -367,193 +392,114 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "Dirk_Homann@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "81effae9-f21e-4698-8f35-7e44a95238bc",
-        "Contact": {
-          "Address1": null,
-          "Address2": null,
-          "City": null,
-          "Country": null,
-          "EmailAddress": "dirk.homann@mssm.edu",
-          "PhoneNumber": null,
-          "PostalCode": null,
-          "StateOrProvince": null
-        },
+      "Participant": {
         "FirstName": "Dirk",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-OPP",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "OPP",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-34",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CMAI: Kent",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
-              "id": "78",
-              "GrantNumber": "UC4 DK116284",
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
-          }
-        },
         "LastName": "Homann",
-        "Organization": {
-          "CanonicalId": "HIRN-inst-27",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
-          "Name": "Mount Sinai Hospital",
-          "SystemType": "Organization",
-          "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
-          "Visibility": null,
-          "id": null
-        },
-        "Suffix": "MD"
-      },
-      "id": null,
-      "CanonicalId": null,
-      "Url": null,
-      "Name": null,
-      "Type": null,
-      "SystemType": "Contributor",
-      "Tags": [],
-      "Visibility": null,
-      "DateCreated": "",
-      "DateModified": "",
-      "VersionId": "1",
-      "SerializationMode": "full"
-    },
-    {
-      "Role": {
-        "OntologyId": "HIRN",
-        "id": "hirn-cv-ResourceRole-producer",
-        "CanonicalId": "hirn-cv-ResourceRole-producer",
-        "Url": "resources.hirnetwork.org/api/v1/CV/",
-        "Name": "Producer",
-        "Type": null,
-        "SystemType": "CodedValue",
-        "Tags": [],
-        "Visibility": null,
-        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
-        "VersionId": "1",
-        "SerializationMode": "full"
-      },
-      "Person": {
-        "CanonicalId": "dieter_egli@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "b161be74-1179-429e-8ee6-1a8ca13e948c",
+        "MiddleName": null,
+        "Suffix": "MD",
         "Contact": {
+          "EmailAddress": "dirk.homann@mssm.edu",
           "Address1": null,
           "Address2": null,
-          "City": "New York",
-          "Country": "USA",
-          "EmailAddress": "de2220@columbia.edu",
-          "PhoneNumber": null,
+          "City": "",
+          "StateOrProvince": "",
           "PostalCode": null,
-          "StateOrProvince": "NY"
+          "Country": "",
+          "PhoneNumber": ""
         },
-        "FirstName": "Dieter",
-        "HirnMembership": {
-          "Consortia": [
-            {
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
               "CanonicalId": "HIRN-Consortium-CMAI",
-              "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-              "DateModified": null,
-              "Name": "CMAI",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
               "Url": null,
-              "VersionId": "1",
+              "Name": "CMAI",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": null,
-              "RoleName": "Co-Investigator"
-            }
-          ],
-          "Grants": [],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK116284",
+              "id": "78",
+              "CanonicalId": "HIRN-grant-34",
+              "Url": null,
+              "Name": "CMAI: Kent",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Egli",
         "Organization": {
-          "CanonicalId": "HIRN-inst-11",
-          "DateCreated": "2017-11-14T22:29:09.626198+00:00",
-          "DateModified": null,
-          "Name": "Columbia University",
+          "id": null,
+          "CanonicalId": "HIRN-inst-27",
+          "Url": null,
+          "Name": "Mount Sinai Hospital",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "PhD"
+        "id": "c7ed2453-8155-497d-ae3a-791106dd4f18",
+        "CanonicalId": "Dirk_Homann@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9030564+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -583,93 +529,235 @@
         "VersionId": "1",
         "SerializationMode": "full"
       },
-      "Person": {
-        "CanonicalId": "andrew_stewart@hirnetwork.org",
-        "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-        "DateModified": null,
-        "Name": null,
-        "SystemType": "Person",
-        "Tags": [],
-        "Type": null,
-        "Url": null,
-        "VersionId": "1",
-        "Visibility": null,
-        "id": "23d07674-7e67-4a68-bad6-3e3fa59ea4bc",
+      "Participant": {
+        "FirstName": "Dieter",
+        "LastName": "Egli",
+        "MiddleName": null,
+        "Suffix": "PhD",
         "Contact": {
+          "EmailAddress": "de2220@columbia.edu",
           "Address1": null,
           "Address2": null,
           "City": "New York",
-          "Country": "USA",
-          "EmailAddress": "andrew.stewart@mssm.edu",
-          "PhoneNumber": null,
+          "StateOrProvince": "NY",
           "PostalCode": null,
-          "StateOrProvince": "NY"
+          "Country": "USA",
+          "PhoneNumber": ""
         },
-        "FirstName": "Andrew",
-        "HirnMembership": {
-          "Consortia": [
-            {
-              "CanonicalId": "HIRN-Consortium-CTAR",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CTAR",
-              "SystemType": "PersonConsortium",
-              "Tags": [],
-              "Type": null,
-              "Url": null,
-              "VersionId": "1",
-              "Visibility": null,
+        "Groups": [
+          {
+            "Group": {
               "id": null,
-              "RoleName": "Investigator"
-            }
-          ],
-          "Grants": [
-            {
-              "CanonicalId": "HIRN-grant-4",
-              "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-              "DateModified": null,
-              "Name": "CTAR: Powers",
-              "SystemType": "PersonGrant",
-              "Tags": [],
-              "Type": null,
+              "CanonicalId": "HIRN-Consortium-CMAI",
               "Url": null,
-              "VersionId": "1",
+              "Name": "CMAI",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
               "Visibility": null,
-              "id": "55",
-              "GrantNumber": "UC4 DK104211  ",
-              "RoleName": "Investigator"
-            }
-          ],
-          "Lab": {
-            "CanonicalId": null,
-            "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-            "DateModified": null,
-            "Name": null,
-            "SystemType": "PersonLab",
-            "Tags": [],
-            "Type": null,
-            "Url": null,
-            "VersionId": "1",
-            "Visibility": null,
-            "id": null,
-            "RoleName": null
+              "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
           }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104207",
+              "id": "186",
+              "CanonicalId": "HIRN-grant-13",
+              "Url": null,
+              "Name": "CMAI: Sykes",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Co-Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
         },
-        "LastName": "Stewart",
         "Organization": {
-          "CanonicalId": "HIRN-inst-27",
-          "DateCreated": "2017-11-14T22:29:09.627198+00:00",
-          "DateModified": null,
-          "Name": "Mount Sinai Hospital",
+          "id": null,
+          "CanonicalId": "HIRN-inst-11",
+          "Url": null,
+          "Name": "Columbia University",
+          "Type": null,
           "SystemType": "Organization",
           "Tags": [],
-          "Type": null,
-          "Url": null,
-          "VersionId": "1",
           "Visibility": null,
-          "id": null
+          "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
         },
-        "Suffix": "MD"
+        "id": "d6009950-3693-4457-811c-66fbe2a2bfca",
+        "CanonicalId": "dieter_egli@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.8855814+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    },
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Andrew",
+        "LastName": "Stewart",
+        "MiddleName": null,
+        "Suffix": "MD",
+        "Contact": {
+          "EmailAddress": "andrew.stewart@mssm.edu",
+          "Address1": null,
+          "Address2": null,
+          "City": "New York",
+          "StateOrProvince": "NY",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CTAR",
+              "Url": null,
+              "Name": "CTAR",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [
+          {
+            "Grant": {
+              "GrantNumber": "UC4 DK104211  ",
+              "id": "55",
+              "CanonicalId": "HIRN-grant-4",
+              "Url": null,
+              "Name": "CTAR: Powers",
+              "Type": null,
+              "SystemType": "Grant",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-27",
+          "Url": null,
+          "Name": "Mount Sinai Hospital",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "c9022925-167d-41d7-a6e3-269a44f05daf",
+        "CanonicalId": "andrew_stewart@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9793254+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
       },
       "id": null,
       "CanonicalId": null,
@@ -737,7 +825,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-24T22:53:30.7665018+00:00",
+    "DateCreated": "2019-04-25T23:57:43.7911557+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -747,10 +835,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -762,7 +850,7 @@
   "Attachments": [],
   "DefiningManuscriptId": "30581122",
   "BatchNumber": "4",
-  "id": "72339873-f626-4a23-9a7d-c03e64feb704",
+  "id": "a18502f9-31da-4c23-afb9-deaa7d9a3f7f",
   "CanonicalId": "Alternate accession",
   "Url": "",
   "Name": "RNA-seq of whole human Islets from three different donors in response to vehicle (DMSO), harmine, LY or the Harmine+LY combination",
@@ -770,7 +858,7 @@
   "SystemType": "Transcriptomics",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-24T22:53:30+00:00",
+  "DateCreated": "2019-04-25T23:57:44+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

@@ -11,19 +11,7 @@ boiler <- function(OntologyId = NA, id = NA, CanonicalId = NA, Url = NA, Name = 
 }
 
 
-#-- MAPPERS --------------------------------------------------------------------------#
-
-# Use this for RaisedIn, AntigenSpecies, CrossReactiveSpecies
-map2NCBITAXON <- function(name) {
-  mapped <- taxon$IRI[match(name, taxon$name)]
-  boiler(OntologyId = "NCBITAXON", CanonicalId = mapped, Url = mapped, Name = name)
-}
-
-map2CL <- function(name) {
-  mapped <- cl$IRI[match(name, cl$name)]
-  boiler(OntologyId = "CL", CanonicalId = mapped, Url = mapped, Name = name)
-}
-
+#-- Antibody-specific mappers --------------------------------------------------------------------------------------------------#
 map2Isotype <- function(name) {
   mapped <- isotype$IRI[match(name, isotype$name)]
   boiler(OntologyId = "ERO", CanonicalId = mapped, Url = mapped, Name = name)
@@ -43,6 +31,8 @@ map2Type <- function(name) {
   boiler(OntologyId = "ERO", CanonicalId = mapped, Url = mapped, Name = name)
 }
 
+#-- Mappers used for other resources -------------------------------------------------------------------------------------------#
+
 # Since resources are curated by paper, lookup HIRN authors -- "Contact" as default role
 map2Person <- function(pmid, role = "Contact", HIRN) {
   mapped <- Persons[HIRN[[pmid]]]
@@ -50,13 +40,12 @@ map2Person <- function(pmid, role = "Contact", HIRN) {
   roleCV$SerializationMode <- "full"
   mapped <- lapply(mapped,
                    function(x) c(Role = list(roleCV),
-                                 Person = list(x),
+                                 Participant = list(x),
                                  boiler(SystemType = "Contributor")[-1])
                    )
 }
 
 # If only name is given, ontology must be specified. Ontologies can be inferred from id.
-
 map2O <- function(name = NA, id = NA, ontology = NULL) {
   if(is.null(ontology)) ontology <- gsub("_.*", "", id)
   if(ontology == "CVCL") ontology <- "Cellosaurus"

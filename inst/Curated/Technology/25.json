@@ -23,7 +23,127 @@
   "Publications": [],
   "SecondaryIdentifiers": [],
   "Description": "An integrated and automated method that seamlessly couples laser capture microdissection (LCM) with nanoPOTS (Nanodroplet Processing in One pot for Trace Samples). The workflow is enabled by prepopulating nanowells with DMSO, which serves as a sacrificial capture liquid for microdissected tissues. The DMSO droplets efficiently collect laser-pressure catapulted LCM tissues as small as 20 μm in diameter with success rates >87%. Tissue treatment with DMSO can significantly improve proteome coverage, likely due to its ability to dissolve lipids from tissue and enhance protein extraction efficiency. The LCM-nanoPOTS platform was able to identify 180, 695, and 1827 protein groups on average from 12-μm-thick rat brain cortex tissue sections having diameters of 50, 100, and 200 μm, respectively.",
-  "Contributors": [],
+  "Contributors": [
+    {
+      "Role": {
+        "OntologyId": "HIRN",
+        "id": "hirn-cv-ResourceRole-producer",
+        "CanonicalId": "hirn-cv-ResourceRole-producer",
+        "Url": "resources.hirnetwork.org/api/v1/CV/",
+        "Name": "Producer",
+        "Type": null,
+        "SystemType": "CodedValue",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2017-11-14T00:23:22.4515624+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "Participant": {
+        "FirstName": "Wei-Jun",
+        "LastName": "Qian",
+        "MiddleName": null,
+        "Suffix": "PhD",
+        "Contact": {
+          "EmailAddress": "weijun.qian@pnnl.gov",
+          "Address1": null,
+          "Address2": null,
+          "City": "Richland",
+          "StateOrProvince": "WA",
+          "PostalCode": null,
+          "Country": "USA",
+          "PhoneNumber": ""
+        },
+        "Groups": [
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-CBDS",
+              "Url": null,
+              "Name": "CBDS",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          },
+          {
+            "Group": {
+              "id": null,
+              "CanonicalId": "HIRN-Consortium-OPP",
+              "Url": null,
+              "Name": "OPP",
+              "Type": null,
+              "SystemType": "Group",
+              "Tags": [],
+              "Visibility": null,
+              "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+              "VersionId": "1",
+              "SerializationMode": "full"
+            },
+            "RoleName": "Investigator"
+          }
+        ],
+        "Grants": [],
+        "LabMembership": {
+          "Lab": {
+            "id": null,
+            "CanonicalId": null,
+            "Url": null,
+            "Name": null,
+            "Type": null,
+            "SystemType": "Lab",
+            "Tags": [],
+            "Visibility": null,
+            "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+            "VersionId": "1",
+            "SerializationMode": "full"
+          },
+          "RoleName": null
+        },
+        "Organization": {
+          "id": null,
+          "CanonicalId": "HIRN-inst-32",
+          "Url": null,
+          "Name": "Pacific Northwest National Laboratory",
+          "Type": null,
+          "SystemType": "Organization",
+          "Tags": [],
+          "Visibility": null,
+          "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+          "VersionId": "1",
+          "SerializationMode": "full"
+        },
+        "id": "665375ae-95ae-4184-9339-66dbe810e715",
+        "CanonicalId": "wei-jun_qian@hirnetwork.org",
+        "Url": null,
+        "Name": null,
+        "Type": null,
+        "SystemType": "Person",
+        "Tags": [],
+        "Visibility": null,
+        "DateCreated": "2019-03-26T17:34:41.9690145+00:00",
+        "VersionId": "1",
+        "SerializationMode": "full"
+      },
+      "id": null,
+      "CanonicalId": null,
+      "Url": null,
+      "Name": null,
+      "Type": null,
+      "SystemType": "Contributor",
+      "Tags": [],
+      "Visibility": null,
+      "DateCreated": "",
+      "DateModified": "",
+      "VersionId": "1",
+      "SerializationMode": "full"
+    }
+  ],
   "ContributorsOld": [],
   "ContributorsTemp": [],
   "PrimaryResourceType": {
@@ -76,7 +196,7 @@
     "SystemType": "Vendor",
     "Tags": [],
     "Visibility": null,
-    "DateCreated": "2019-04-25T22:37:28.1216642+00:00",
+    "DateCreated": "2019-04-26T01:22:20.0718639+00:00",
     "VersionId": "1",
     "SerializationMode": "full"
   },
@@ -86,10 +206,10 @@
   "VendorCatNumber": null,
   "CurationStatus": {
     "OntologyId": "HIRN",
-    "id": "hirn-cv-CurationStatus-unreleased",
-    "CanonicalId": "hirn-cv-CurationStatus-unreleased",
+    "id": "hirn-cv-CurationStatus-public",
+    "CanonicalId": "hirn-cv-CurationStatus-public",
     "Url": "resources.hirnetwork.org/api/v1/CV/",
-    "Name": "Unreleased",
+    "Name": "Public",
     "Type": null,
     "SystemType": "CodedValue",
     "Tags": [],
@@ -100,8 +220,8 @@
   },
   "Attachments": [],
   "DefiningManuscriptId": "PMID29941660",
-  "BatchNumber": "4",
-  "id": "26a973dd-dc07-4532-8197-9a92047cfb40",
+  "BatchNumber": "5",
+  "id": "cab17850-e00b-4458-bb5d-77eee3ecd899",
   "CanonicalId": "",
   "Url": "",
   "Name": "Automated sample transfer to nanodroplets for spatially resolved proteome mapping of laser capture microdissected tissue",
@@ -109,7 +229,7 @@
   "SystemType": "DeviceEquipment",
   "Tags": [],
   "Visibility": null,
-  "DateCreated": "2019-04-25T22:37:28.1216642+00:00",
+  "DateCreated": "2019-04-26T01:22:20.0718639+00:00",
   "VersionId": "1",
   "SerializationMode": "full"
 }

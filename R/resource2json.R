@@ -2,27 +2,74 @@
 
 # resourceSchema <- c("TargetClassType", "ParentResourceTypeId", "id", "CanonicalId", "Url", "Name",
 #                      "Type", "SystemType", "Tags", "Visibility", "DateCreated", "VersionId")
+# usethis::use_data(resourceSchema)
 
 # Create a mapping of PMID to authors
-PMID2Authors <- function(pmids) {
+PMID2Authors <- function(pmids, forenamechars) {
+  if(is.null(forenamechars)) forenamechars <- 3
   authors <- EUtilsGet(pmids, type = "efetch", db = "pubmed")
   authors <- Author(authors)
-  authors <- lapply(authors, function(x) { x$Name <- iconv(paste(x$LastName, substr(x$ForeName, 1, 3)), from ="UTF-8", to="ASCII//TRANSLIT"); x })
+  authors <- lapply(authors, function(x) {
+        x$Name <- iconv(paste(x$LastName, substr(x$ForeName, 1, forenamechars)), from ="UTF-8", to="ASCII//TRANSLIT")
+        x
+      })
   names(authors) <- pmids
-  HIRNauthors <- sapply(Persons, function(x) paste(x$LastName, x$FirstName))
-  HIRNauthors[HIRNauthors == "Powers Al"] <- "Powers Alvin"
   return(authors)
 }
 
 # find HIRN authors from list of authors for each publication
-authorCheck <- function(srctable) {
+authorCheck <- function(srctable, forenamechars) {
   pmids <- as.character(srctable$DefiningManuscriptId)
-  authors <- PMID2Authors(pmids)
-  whichHIRN <- lapply(authors, function(x) unlist(sapply(x$Name, function(y) grep(y, HIRNauthors))))
+  authors <- PMID2Authors(pmids, forenamechars)
+  whichHIRN <- lapply(authors, function(x) unlist(sapply(x$Name, function(y) grep(y, HIRNauthors)), use.names = F))
   names(whichHIRN) <- pmids
   return(whichHIRN)
 }
 
+# ResourceApplication [Contacts, Publication, Usage, UsageNotes, Rating]
+
+list(Contacts = map2Person())
+
+
+# -- ANTIBODY -------------------------------------------------------------------------------------------------------------#
+
+ab2json <- function(a, abjson, batch, sep = "|", CV = codedValues, HIRN) {
+  new <- abjson
+  # Name and description
+  new$CanonicalId <- a$RRID
+  new$Name <- a$Name
+  new$Description <- a$Description
+  # Characteristics
+  new$AntibodyType <-  map2O(name = a$AntibodyType, ontology = "ERO")
+  new$RaisedIn <- map2O(name = a$RaisedIn, ontology = "NCBITAXON")
+  new$CloneName <- a$CloneName
+  new$PositiveControl <- a$PositiveControl
+  new$AntibodyConjugate <- a$AntibodyConjugate
+  new$IsoType <- map2O(name = a$Isotype, ontology = "ERO")
+  new$Purity <- a$Isotype
+  new$TargetCells <- lapply(unlist(strsplit(a$TargetCells, sep, fixed = T)), function(x) map2O(name = x, ontology = "CL"))
+  new$Applications <- lapply(strsplit(a$Applications, "|", fixed = T)[[1]], function(x) map2O(id = x))
+  # Paper and contributors
+  new$Contributors <- map2Person(a$DefiningManuscriptId, a$Role, HIRN)
+  new$DefiningManuscriptId <- a$DefiningManuscriptId
+  # Index metadata
+  new$id <- uuid::UUIDgenerate()
+  new$PrimaryResourceType <- resourceTypes$ResourceTypes[[1]][resourceSchema]
+  new$PrimaryResourceType$SerializationMode <- "full"
+  new$SecondaryResourceType <- resourceTypes$ResourceTypes[[1]]$SubResourceTypes[[1]][resourceSchema]
+  new$SecondaryResourceType$SerializationMode <- "full"
+  new$DateCreated <- format_iso_8601(Sys.time())
+  new$CurationStatus <- CV$CodedValuesByType$CurationStatus[[3]]
+  new$CurationStatus$SerializationMode <- "full"
+  new$BatchNumber <- batch
+  toJSON(new, pretty = T, null = "null", na = "null", auto_unbox = T)
+}
+
+ab2json_batch <- function() {
+
+}
+
+# -- DATASET -------------------------------------------------------------------------------------------------------------#
 
 ds2json <- function(d, dsjson, dscat, batch, sep = "|", CV = codedValues, HIRN) {
   new <- dsjson
@@ -39,7 +86,7 @@ ds2json <- function(d, dsjson, dscat, batch, sep = "|", CV = codedValues, HIRN) 
   new$PrimaryResourceType$SerializationMode <- "full"
   new$SecondaryResourceType <- dscat[[match(d$Category, c("Epigenomics", "Genomics", "Metabolomics", "Proteomics", "Transcriptomics", "Cellomics"))]]
   new$SecondaryResourceType$SerializationMode <- "full"
-  new$CurationStatus <- CV$CodedValuesByType$CurationStatus[[1]]
+  new$CurationStatus <- CV$CodedValuesByType$CurationStatus[[3]]
   new$CurationStatus$SerializationMode <- "full"
   new$DefiningManuscriptId <- d$DefiningManuscriptId
   new$id <- uuid::UUIDgenerate()
@@ -53,7 +100,7 @@ ds2json <- function(d, dsjson, dscat, batch, sep = "|", CV = codedValues, HIRN) 
 }
 
 # Wrapper
-ds2json_batch <- function(srctable = NULL, file = system.file("Curated/Ds.txt", package = "Sourcery"), batch) {
+ds2json_batch <- function(srctable = NULL, file = system.file("Curated/Ds.txt", package = "Sourcery"), forenamechars = 3, batch) {
   if(is.null(srctable)) srctable <- fread(file)
   # find HIRN authors from list of authors for each publication
   pmids <- as.character(srctable$DefiningManuscriptId)
@@ -76,7 +123,7 @@ ds2json_batch <- function(srctable = NULL, file = system.file("Curated/Ds.txt", 
   return(result)
 }
 
-# --------------------------------------------------------------------------------------------------------------------------------#
+# -- TECHNOLOGY --------------------------------------------------------------------------------------------------------------------#
 
 tech2json <- function(t, subtype, techjson, batch, HIRN) {
   ## CodePipeline mirrors SoftwareDb, DeviceEquipment mirrors Service
@@ -86,11 +133,11 @@ tech2json <- function(t, subtype, techjson, batch, HIRN) {
   new$Dependencies <- lapply(strsplit(t$Dependencies, "|", fixed = T)[[1]], function(x) map2O(id = x))
   new$CompatibleTools <- lapply(strsplit(t$CompatibleTools, "|", fixed = T)[[1]], function(x) map2O(id = x))
   new$Applications <- lapply(strsplit(t$Applications, "|", fixed = T)[[1]], function(x) map2O(id = x))
-  new$Contributors <- map2Person(gsub("PMID", "", t$DefiningManuscriptId), t$Role, HIRN)
+  new$Contributors <- map2Person(t$DefiningManuscriptId, t$Role, HIRN)
   new$Description <- t$Description
   new$CanonicalId <- t$RRID
   new$Url <- t$Url
-  new$CurationStatus <- codedValues$CodedValuesByType$CurationStatus[[1]]
+  new$CurationStatus <- codedValues$CodedValuesByType$CurationStatus[[3]]
   new$CurationStatus$SerializationMode <- "full"
   new$DefiningManuscriptId <- t$DefiningManuscriptId
   new$id <- uuid::UUIDgenerate()
@@ -111,9 +158,9 @@ tech2json <- function(t, subtype, techjson, batch, HIRN) {
 }
 
 # batch
-tech2json_batch <- function(srctable = NULL, file = system.file("Curated/Tech.txt", package = "Sourcery"), batch) {
+tech2json_batch <- function(srctable = NULL, file = system.file("Curated/Tech.txt", package = "Sourcery"), forenamechars = 3, batch) {
   if(is.null(srctable)) srctable <- fread(file, na.strings = NULL)
-  whichHIRN <- authorCheck(srctable)
+  whichHIRN <- authorCheck(srctable, forenamechars)
   authcounts <- lengths(whichHIRN)
   notHIRN <- srctable[!as.logical(authcounts), ]
   srctable <- srctable[as.logical(authcounts), ]
@@ -132,10 +179,12 @@ tech2json_batch <- function(srctable = NULL, file = system.file("Curated/Tech.tx
 }
 
 # Example:
-# export <- tech2json_batch(batch = "4")
+# export <- ds2json_batch(batch = "4")
 # export$passed
 
 
+
+# -- Misc ----------------------------------------------------------------------------------------------------------#
 
 # When one needs to recursively modify the R list structure so that toJSON will be in the correct format
 unboxR <- function(x) {
