@@ -1,36 +1,3 @@
-#-- Misc schema selection --------------------------------------------------------------------------------------------#
-
-# resourceSchema <- c("TargetClassType", "ParentResourceTypeId", "id", "CanonicalId", "Url", "Name",
-#                      "Type", "SystemType", "Tags", "Visibility", "DateCreated", "VersionId")
-# usethis::use_data(resourceSchema)
-
-# Create a mapping of PMID to authors
-PMID2Authors <- function(pmids, forenamechars) {
-  if(is.null(forenamechars)) forenamechars <- 3
-  authors <- EUtilsGet(pmids, type = "efetch", db = "pubmed")
-  authors <- Author(authors)
-  authors <- lapply(authors, function(x) {
-        x$Name <- iconv(paste(x$LastName, substr(x$ForeName, 1, forenamechars)), from ="UTF-8", to="ASCII//TRANSLIT")
-        x
-      })
-  names(authors) <- pmids
-  return(authors)
-}
-
-# find HIRN authors from list of authors for each publication
-authorCheck <- function(srctable, forenamechars) {
-  pmids <- as.character(srctable$DefiningManuscriptId)
-  authors <- PMID2Authors(pmids, forenamechars)
-  whichHIRN <- lapply(authors, function(x) unlist(sapply(x$Name, function(y) grep(y, HIRNauthors)), use.names = F))
-  names(whichHIRN) <- pmids
-  return(whichHIRN)
-}
-
-# ResourceApplication [Contacts, Publication, Usage, UsageNotes, Rating]
-
-list(Contacts = map2Person())
-
-
 # -- ANTIBODY -------------------------------------------------------------------------------------------------------------#
 
 ab2json <- function(a, abjson, batch, sep = "|", CV = codedValues, HIRN) {
@@ -41,14 +8,20 @@ ab2json <- function(a, abjson, batch, sep = "|", CV = codedValues, HIRN) {
   new$Description <- a$Description
   # Characteristics
   new$AntibodyType <-  map2O(name = a$AntibodyType, ontology = "ERO")
+  new$Antigen <- a$Antigen
+  new$AntigenSpecies <- map2O(name = a$AntigenSpecies, ontology = "NCBITAXON")
   new$RaisedIn <- map2O(name = a$RaisedIn, ontology = "NCBITAXON")
+  new$ClonalityStatus <- map2O(name = a$Clonality, ontology = "ERO")
   new$CloneName <- a$CloneName
   new$PositiveControl <- a$PositiveControl
   new$AntibodyConjugate <- a$AntibodyConjugate
   new$IsoType <- map2O(name = a$Isotype, ontology = "ERO")
-  new$Purity <- a$Isotype
+  new$Purity <- a$Purity
   new$TargetCells <- lapply(unlist(strsplit(a$TargetCells, sep, fixed = T)), function(x) map2O(name = x, ontology = "CL"))
   new$Applications <- lapply(strsplit(a$Applications, "|", fixed = T)[[1]], function(x) map2O(id = x))
+  # Vendor
+  new$VendorName <- a$VendorName
+  new$VendorCat <- a$VendorCat
   # Paper and contributors
   new$Contributors <- map2Person(a$DefiningManuscriptId, a$Role, HIRN)
   new$DefiningManuscriptId <- a$DefiningManuscriptId

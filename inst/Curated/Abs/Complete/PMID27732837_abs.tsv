@@ -1,0 +1,68 @@
+Name	DefiningManuscriptId	Role	RRID	Description	Antigen	AntibodyConjugate	Applications	Rating	Dilution	DilutionUnits	Source	Uniprot	VendorName	VendorCat	CloneName	Clonality	IsoType	Type	AntigenSpecies	TargetCells	PositiveControl	UsageNotes	RaisedIn
+Anti-Pro-Insulin C-Peptide, clone C-PEP-01 antibody	PMID27732837	Contact	AB_10615626		C-PEPTIDE	Nd144	cytometry time of flight assay	5	0.195	ug/ml	Table S1		Millipore	05-1109		monoclonal		primary	human	type B pancreatic cell			mouse
+Anti-Glucagon (FL-180) Antibody	PMID27732837	Contact	AB_641026		GLUCAGON	Sm147	cytometry time of flight assay	5	0.5	ug/ml	Table S1		Santa Cruz Biotechnology	sc-13091	FL-180	polyclonal		primary	human|mouse|rat	pancreatic A cell			rabbit
+Anti- Somatostatin (H-106) Antibody	PMID27732837	Contact	AB_2195930		SOMATOSTATIN	Eu151	cytometry time of flight assay	5	0.16	ug/ml	Table S1		Santa Cruz Biotechnology	sc-13099	H-106	polyclonal		primary	human|mouse|rat	pancreatic D cell			rabbit
+Pancreatic Polypeptide antibody	PMID27732837	Contact	AB_1524152		POLYPEPTIDE	Sm152	cytometry time of flight assay	5	0.2	ug/ml	Table S1		Abcam	ab77192		polyclonal		primary	human	pancreatic PP cell			goat
+Gastrin (C-20) antibody	PMID27732837	Contact	AB_2108261		GASTRIN	Lu175	cytometry time of flight assay	5	0.32	ug/ml	Table S1		Santa Cruz Biotechnology	sc-7783		polyclonal		primary	human|mouse|rat				goat
+Anti-ghrelin (C-18) Antibody	PMID27732837	Contact	AB_2232479		GHRELIN	Yb176	cytometry time of flight assay	5	0.198	ug/ml	Table S1		Santa Cruz Biotechnology	sc-10368	C-18	polyclonal		primary	human|mouse|rat	pancreatic epsilon cell			goat
+Anti-Human CD326/EpCAM (9C4) Antibody	PMID27732837	Contact	AB_2687653		EpCAM	Pr141	cytometry time of flight assay	5	3.3	ul/ml	Table S1		Fluidigm	3141006B	9C4	monoclonal		primary	human	epithelial cell			
+CASPASE3 (Cleaved) antibody	PMID27732837	Contact			CASPASE3 (Cleaved)	Nd142	cytometry time of flight assay	5	0.25	ul/ml	Table S1		Fluidigm	3142004A				primary	human				
+GATA2 monoclonal antibody (M01), clone 2D11	PMID27732837	Contact	AB_489737		GATA2	Nd145	cytometry time of flight assay	5	0.0875	ug/ml	Table S1		Abnova Corporation	H00002624-M01		monoclonal		primary	human				mouse
+Anti-pStat5 [Y694] (47) antibody	PMID27732837	Contact	AB_2744690		pSTAT5	Nd150	cytometry time of flight assay	5	0.5	ul/ml	Table S1		Fluidigm	3150005A	47	monoclonal		primary	human|mouse|rat				mouse
+Axin 2 antibody	PMID27732837	Contact	AB_2290204		AXIN2	Gd156	cytometry time of flight assay	5	0.15	ug/ml	Table S1		Abcam	ab32197		polyclonal		primary	human|mouse|rat				rabbit
+Anti-pStat3 [Y705] (4/P-Stat3)-158Gd antibody	PMID27732837	Contact	AB_2661827		pSTAT3	Gd158	cytometry time of flight assay	5	0.5	ul/ml	Table S1		Fluidigm	3158005 also 3158005A	4/P-Stat3			primary	human				
+CYP26A1 (F27 P6 A1) antibody	PMID27732837	Contact	AB_2089263		CYP26A1	Tb159	cytometry time of flight assay	5	0.085	ug/ml	Table S1		Santa Cruz Biotechnology	sc-53618		monoclonal		primary	human				mouse
+PDGFRA antibody	PMID27732837	Contact			PDGFRA	Gd160	cytometry time of flight assay	5	0.5	ul/ml	Table S1		Fluidigm	3160007A				primary	human				
+CD9 antibody	PMID27732837	Contact	AB_657777		CD9	Dy163	cytometry time of flight assay	5	0.19	ug/ml	Table S1		Thermo Fisher Scientific	14-0098		monoclonal		primary	human				
+CD49F antibody	PMID27732837	Contact	AB_2756289		CD49F	Dy164	cytometry time of flight assay	5	1	ul/ml	Table S1		Fluidigm	3164006B		monoclonal		primary	human				
+Anti-pCREB [S133] (87G3)-165Ho antibody	PMID27732837	Contact	AB_2661832		pCREB	Ho165	cytometry time of flight assay	5	0.1	ul/ml	Table S1		Fluidigm	3165009 also 3165009A	87G3			primary	human				
+Anti-Human CD44 (BJ18)-166Er antibody	PMID27732837	Contact	AB_2744692		CD44	Er166	cytometry time of flight assay	5	1	ul/ml	Table S1		Fluidigm	3166001B	BJ18	monoclonal		primary	human				mouse
+Anti-pERK1/2 [T202/Y204] (D1314.4E)-167Er antibody	PMID27732837	Contact	AB_2661834		pERK	Er167	cytometry time of flight assay	5	3.3	ul/ml	Table S1		Fluidigm	3167005 also 3167005A	D1314.4E			primary	human				
+Anti-Ki-67 (B56)-168Er antibody	PMID27732837	Contact	AB_2800467		Ki67	Er168	cytometry time of flight assay	5	5	ul/ml	Table S1		Fluidigm	3168007B	B56	monoclonal		primary	human				mouse
+HNF1B antibody	PMID27732837	Contact			HNF1B	Er170	cytometry time of flight assay	5	2	ug/ml	Table S1		Santa Cruz Biotechonlogy	sc- 22840x				primary	human				
+PDX1 antibody	PMID27732837	Contact	AB_2162373		PDX1	Yb171	cytometry time of flight assay	5	0.62	ug/ml	Table S1		Santa Cruz Biotechonlogy	sc-14664		polyclonal		primary	human				
+pS6 antibody	PMID27732837	Contact			pS6	Yb172	cytometry time of flight assay	5	1	ul/ml	Table S1		Fluidigm	3172008A				primary	human				
+ST8SIA1 antibody	PMID27732837	Contact			ST8SIA1	Yb174	cytometry time of flight assay	5	0.19	ug/ml	Table S1							primary	human				
+IdU antibody	PMID27732837	Contact			IdU	IdU127	cytometry time of flight assay	5	1:1000	culture medium	Table S1		Fluidigm	201127				primary	human				
+Cisplatin antibody	PMID27732837	Contact			Cisplatin	Pt195	cytometry time of flight assay	5	1:4000	culture medium	Table S1		Fluidigm	201064				primary	human				
+ALDH antibody	PMID27732837	Contact	AB_2224312		ALDH		cytometry time of flight assay	1			Table S2		BD Biosciences 	611194		monoclonal		primary	human			Failed quality control	mouse
+Anti-alpha-Amylase antibody produced in rabbit	PMID27732837	Contact	AB_258380		AMY1		cytometry time of flight assay	1			Table S2		Sigma-Aldrich	A8273				primary	human			Failed quality control	rabbit
+Anti-Human CD24 (ML5) Antibody	PMID27732837	Contact	AB_2688021		CD24		cytometry time of flight assay	1			Table S2		Fluidigm	3169004B	ML5	monoclonal		primary	human			Failed quality control	
+APC anti-human/mouse CD49f antibody	PMID27732837	Contact	AB_2734290		CD49f-APC		cytometry time of flight assay	1			Table S2		BioLegend 	313615	Clone GoH3	monoclonal		primary	human|mouse			Failed quality control	rat
+Chromogranin A Monoclonal Antibody (LK2H10), eBioscience(TM)	PMID27732837	Contact	AB_2572896		CHGA		cytometry time of flight assay	1			Table S2		Thermo Fisher Scientific 	14-6549-93 also 14-6549	Clone LK2H10	monoclonal		primary	human			Failed quality control	mouse
+Chromogranin A antibody	PMID27732837	Contact	AB_2738844		CHGA		cytometry time of flight assay	1			Table S2		BD Biosciences 	564562	S21-537	monoclonal		primary	human			Failed quality control	mouse
+FKHR (H-128) antibody	PMID27732837	Contact	AB_640607		FKHR (FOXO1)		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-11350		polyclonal		primary	human|mouse|rat			Failed quality control	rabbit
+Anti-GCK polyclonal antibody	PMID27732837	Contact	AB_1079051		GCK		cytometry time of flight assay	1			Table S2		Atlas Antibodies 	HPA007093				primary	human			Failed quality control	rabbit
+Anti-GLUT-2 antibody	PMID27732837	Contact	AB_1587076		GLUT2		cytometry time of flight assay	1			Table S2		Millipore	07-1402		polyclonal		primary	human			Failed quality control	rabbit
+Rat HES1/KNP-1 Monoclonal Antibody	PMID27732837	Contact	AB_590682		HES1		cytometry time of flight assay	1			Table S2		MBL International	D134-3		monoclonal		primary	human|rat			Failed quality control	rat
+HNF-1alpha (C-19) antibody	PMID27732837	Contact	AB_648295		HNF1α		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-6547		polyclonal		primary	human|mouse|rat			Failed quality control	goat
+HNF-1alpha (H-140) antibody	PMID27732837	Contact	AB_2116743		HNF1α		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-10791		polyclonal		primary	human|mouse|rat			Failed quality control	rabbit
+FOXA2-human antibody	PMID27732837	Contact	AB_2262810		HNF-3β		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology 	sc-6554	M-20	polyclonal		primary	human			Failed quality control	goat
+HNF-4alpha (H-171) antibody	PMID27732837	Contact	AB_2116913		HNF4α		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-8987		polyclonal		primary	porcine|human|mouse|rat			Failed quality control	rabbit
+HNF-4alpha (C-19) antibody	PMID27732837	Contact	AB_2117025		HNF4α		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-6556		polyclonal		primary	porcine|human|mouse|rat			Failed quality control	goat
+Human HNF-4 alpha 1, 2, 4, 5, 7, 8/NR2A1 MAb (Clone H1415) antibody	PMID27732837	Contact	AB_2263954		HNF4α		cytometry time of flight assay	1			Table S2		R and D Systems	PP-H1415-00		monoclonal		primary	human			Failed quality control	mouse
+Anti-INSULIN Polyclonal Antibody, Unconjugated	PMID27732837	Contact	AB_86637		INS		cytometry time of flight assay	1			Table S2		Innovative Research	18-0067		polyclonal		primary	human			Failed quality control	guinea pig
+Insulin antibody	PMID27732837	Contact	AB_10013624		INS		cytometry time of flight assay	1			Table S2		Agilent	A0564		polyclonal		primary	human			Failed quality control	guinea pig
+39.4D5 antibody, deposited by Jessell, T.M. / Brenner-Morton, S. HHMI/Columbia University	PMID27732837	Contact	AB_2314683		Islet-1 & 2 homeobox		cytometry time of flight assay	1			Table S2		DSHB 	39.4D5		monoclonal		primary	human|rat			Failed quality control	mouse
+Neuro D (N-19) antibody	PMID27732837	Contact	AB_630922		NEUROD		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-1084		polyclonal		primary	human|mouse|rat			Failed quality control	goat
+Nkx2.2 antibody	PMID27732837	Contact	AB_2738924		NKX2.2		cytometry time of flight assay	1			Table S2		BD Biosciences 	564731	74.5A5	monoclonal		primary	human|chicken|mouse|rat|chicken			Failed quality control	mouse
+Nkx2.2 antibody	PMID27732837	Contact			NKX2.2		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-15013				primary	human			Failed quality control	
+Anti-NKX2-2 antibody	PMID27732837	Contact	AB_1079490		NKX2.2		cytometry time of flight assay	1			Table S2		Atlas Antibodies 	HPA003468				primary	human			Failed quality control	rabbit
+NKX6.1 antibody	PMID27732837	Contact			NKX6.1		cytometry time of flight assay	1			Table S2		DSHB	F55A2c				primary	human			Failed quality control	
+Nkx-6.1 (C-14) antibody	PMID27732837	Contact	AB_650287		NKX6.1		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-15030		polyclonal		primary	human|mouse|rat			Failed quality control	goat
+Anti-NKX6-1 polyclonal antibody	PMID27732837	Contact	AB_10673664		NKX6.1		cytometry time of flight assay	1			Table S2		Atlas Antibodies 	HPA036774		polyclonal		primary	human			Failed quality control	rabbit
+Phospho-Akt (Ser473) Antibody	PMID27732837	Contact	AB_329825		p-AKT (S473)		cytometry time of flight assay	1			Table S2		Cell Signaling Technology	9271 also 9271S, 9271L, NYUIHC-310		polyclonal		primary	porcine|horse|human|mouse|rat|hamster			Failed quality control	rabbit
+p-AKT (T308) antibody	PMID27732837	Contact			p-AKT (T308)		cytometry time of flight assay	1			Table S2		Cell Signaling Technology	5106s				primary	human			Failed quality control	
+PAX4 antibody	PMID27732837	Contact			PAX4		cytometry time of flight assay	1			Table S2		BCBC	AB3234				primary	human			Failed quality control	
+Pax-6 (H-295) antibody	PMID27732837	Contact	AB_2159706		PAX6		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-11357		polyclonal		primary	human|mouse|rat			Failed quality control	rabbit
+Rabbit Anti-Pax-6 Polyclonal Antibody, Unconjugated	PMID27732837	Contact	AB_291612		PAX6		cytometry time of flight assay	1			Table S2		Covance Research Products Inc	PRB-278P also PRB-278P-100		polyclonal		primary	human|mouse|rat			Failed quality control	rabbit
+Phospho-CREB (Ser133) (87G3) Rabbit mAb antibody	PMID27732837	Contact	AB_2561044		P-CREB (S133)		cytometry time of flight assay	1			Table S2		Cell Signaling Technology	9198 also 9198S, 9198L	Clone 87G3	monoclonal		primary	human|mouse|rat			Failed quality control	rabbit
+Anti-Prohormone Convertase PC1/PC3 antibody	PMID27732837	Contact	AB_1977441		PC1/PC3		cytometry time of flight assay	1			Table S2		Millipore	AB10553		polyclonal		primary	human			Failed quality control	rabbit
+Anti-Prohormone Convertase PC2 antibody	PMID27732837	Contact	AB_916353		PC2		cytometry time of flight assay	1			Table S2		Millipore	AB15610				primary	human			Failed quality control	rabbit
+PDX1 antibody	PMID27732837	Contact	AB_2162359		PDX1		cytometry time of flight assay	1			Table S2		Abcam	ab47383		polyclonal		primary	human|mouse			Failed quality control	goat
+PSA-NCAM Monoclonal Antibody (12E4), eBioscience(TM)	PMID27732837	Contact	AB_2572931		PSA-NCAM		cytometry time of flight assay	1			Table S2		Thermo Fisher Scientific 	14-9118-80 also 14-9118		monoclonal		primary	human			Failed quality control	mouse
+Anti-RFX3 polyclonal antibody	PMID27732837	Contact	AB_10671224		RFX3		cytometry time of flight assay	1			Table S2		Atlas Antibodies 	HPA035689		polyclonal		primary	human			Failed quality control	rabbit
+Anti-RFX6 polyclonal antibody	PMID27732837	Contact	AB_2675616		RFX6		cytometry time of flight assay	1			Table S2		Atlas Antibodies 	HPA037696		polyclonal		primary	human			Failed quality control	rabbit
+Anti-Sox9 antibody	PMID27732837	Contact	AB_2239761		SOX-9		cytometry time of flight assay	1			Table S2		Millipore	AB5535		polyclonal		primary	human|mouse|rat			Failed quality control	
+Sox-9 (P-20) antibody	PMID27732837	Contact	AB_661280		SOX-9		cytometry time of flight assay	1			Table S2		Santa Cruz Biotechnology	sc-17340		polyclonal		primary	human|mouse|rat			Failed quality control	goat
+Anti-STAT3 pY705 (RABBIT) Antibody - 600-401-C64S	PMID27732837	Contact	AB_11182682		STAT3 (Y705)		cytometry time of flight assay	1			Table S2		Rockland	600-401-C64S		polyclonal		primary	human			Failed quality control	rabbit

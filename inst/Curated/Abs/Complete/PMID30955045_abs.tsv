@@ -1,0 +1,9 @@
+Name	DefiningManuscriptId	Role	RRID	Description	TargetAntigen	AntibodyConjugate	Applications	Rating	Dilution	DilutionUnits	Source	Uniprot	VendorName	VendorCat	CloneName	Clonality	IsoType	Type	AntigenSpecies	TargetCells	PositiveControl	UsageNotes	RaisedIn
+insulin (pro-)/C-peptide antibody	PMID30955045 	Contact	AB_2255626		Proinsulin (C-peptide)		fluorescence microscopy		1:100		ESM Table 3: Primary antibodies		DSHB	GN-ID4		monoclonal 			rat				rat
+Mouse Anti-Glucagon Monoclonal Antibody, Unconjugated, Clone K79bB10	PMID30955045 	Contact	AB_297642		Glucagon		fluorescence microscopy		1:200		ESM Table 3: Primary antibodies		Abcam	ab10988	K79bB10	monoclonal			human|mouse				mouse
+Anti-Glucagon Antibody, Unconjugated	PMID30955045 	Contact	AB_659831		Glucagon		fluorescence microscopy		1:100		ESM Table 3: Primary antibodies		Cell Signaling Technology	2760s		polyclonal			rabbit				rabbit
+Somatostatin (D-20) antibody	PMID30955045 	Contact	AB_2302603		Somatostatin		fluorescence microscopy		1:500		ESM Table 3: Primary antibodies		Santa Cruz Biotechnology	sc-7819		polyclonal 			goat				goat
+Cy2-AffiniPure Donkey Anti-Rat IgG (H+L)	PMID30955045 	Contact	AB_2340674		IgG 	Cy2	fluorescence microscopy		1:500		ESM Table 4: Secondary antibodies		Jackson ImmunoResearch Labs	712-225-153					rat				donkey
+Cy3-AffiniPure Donkey Anti-Mouse IgG (H+L) 	PMID30955045 	Contact	AB_2315777		IgG 	Cy3	fluorescence microscopy		1:500		ESM Table 4: Secondary antibodies		Jackson ImmunoResearch Labs	715-165-151					mouse				donkey
+Cy3-AffiniPure Donkey Anti-Rabbit IgG (H+L) 	PMID30955045 	Contact	AB_2307443		IgG 	Cy3	fluorescence microscopy		1:500		ESM Table 4: Secondary antibodies		Jackson ImmunoResearch Labs	711-165-152					rabbit				donkey
+Cy5-AffiniPure Donkey Anti-Goat IgG (H+L)	PMID30955045 	Contact	AB_2340415		IgG 	Cy5	fluorescence microscopy		1:200		ESM Table 4: Secondary antibodies		Jackson ImmunoResearch Labs	705-175-147					goat				donkey

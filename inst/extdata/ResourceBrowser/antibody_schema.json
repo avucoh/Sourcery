@@ -1,0 +1,6266 @@
+{
+  "title": "Antibody",
+  "type": "object",
+  "properties": {
+    "RaisedIn": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "TargetAntigen": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "CloneName": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "PositiveControl": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AntibodyConjugate": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "IsoType": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Purity": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ClonalityStatus": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "AntigenSpecies": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "CrossReactiveSpecies": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "TargetCells": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Applications": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "AntibodyType": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Organs": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "SourceTissue": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "CellType": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Species": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "CellMarkers": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Ethnicity": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "OntologyId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Sex": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "PrimaryDisease": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "SecondaryDisease": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "AgeAtSampling": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AgeAtDeath": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AgeAtDiseaseOnset": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "PassageNumber": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "CultureConditions": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "TransientModifications": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "GeneticModifications": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AuthenticationMethod": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AuthenticationFrequency": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AuthenticationResult": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AlternateNames": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "Publications": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "IsHirnPublication": {
+            "required": true,
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "SecondaryIdentifiers": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "IdentifierType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Description": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Contributors": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "Role": {
+            "required": true,
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "OntologyId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "Participant": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "FirstName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "LastName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "MiddleName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Suffix": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Contact": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "EmailAddress": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Address1": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Address2": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "City": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "StateOrProvince": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "PostalCode": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Country": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "PhoneNumber": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "Groups": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Group": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Grants": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Grant": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "GrantNumber": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "LabMembership": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "Lab": {
+                    "required": true,
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "id": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "CanonicalId": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Url": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Name": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Type": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "SystemType": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Tags": {
+                        "required": true,
+                        "type": [
+                          "array",
+                          "null"
+                        ],
+                        "items": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "Visibility": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "DateCreated": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "DateModified": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "VersionId": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "SerializationMode": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "RoleName": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "Organization": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "id": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "CanonicalId": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Url": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Name": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Type": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "SystemType": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Tags": {
+                    "required": true,
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "Visibility": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "DateCreated": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "DateModified": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "VersionId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "SerializationMode": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "ContributorsOld": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "Role": {
+            "required": true,
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "OntologyId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "Participant": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "FirstName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "LastName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "MiddleName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Suffix": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Contact": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "EmailAddress": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Address1": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Address2": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "City": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "StateOrProvince": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "PostalCode": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Country": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "PhoneNumber": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "Groups": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Group": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Grants": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Grant": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "GrantNumber": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "LabMembership": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "Lab": {
+                    "required": true,
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "id": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "CanonicalId": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Url": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Name": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Type": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "SystemType": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Tags": {
+                        "required": true,
+                        "type": [
+                          "array",
+                          "null"
+                        ],
+                        "items": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "Visibility": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "DateCreated": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "DateModified": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "VersionId": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "SerializationMode": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "RoleName": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "Organization": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "id": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "CanonicalId": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Url": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Name": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Type": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "SystemType": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Tags": {
+                    "required": true,
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "Visibility": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "DateCreated": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "DateModified": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "VersionId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "SerializationMode": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "ContributorsTemp": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "Role": {
+            "required": true,
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "OntologyId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "Participant": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "FirstName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "LastName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "MiddleName": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Suffix": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Contact": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "EmailAddress": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Address1": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Address2": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "City": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "StateOrProvince": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "PostalCode": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Country": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "PhoneNumber": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "Groups": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Group": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Grants": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Grant": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "GrantNumber": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "LabMembership": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "Lab": {
+                    "required": true,
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "id": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "CanonicalId": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Url": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Name": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Type": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "SystemType": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "Tags": {
+                        "required": true,
+                        "type": [
+                          "array",
+                          "null"
+                        ],
+                        "items": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "Visibility": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "DateCreated": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "DateModified": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "VersionId": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "SerializationMode": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "RoleName": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "Organization": {
+                "required": true,
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "id": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "CanonicalId": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Url": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Name": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Type": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "SystemType": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "Tags": {
+                    "required": true,
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "Visibility": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "DateCreated": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "DateModified": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "VersionId": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "SerializationMode": {
+                    "required": true,
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "PrimaryResourceType": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "TargetClassType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ParentResourceTypeId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "SecondaryResourceType": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "TargetClassType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ParentResourceTypeId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "ResourceApplications": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "Contacts": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "FirstName": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "LastName": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "MiddleName": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Suffix": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Contact": {
+                  "required": true,
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "EmailAddress": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Address1": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Address2": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "City": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "StateOrProvince": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "PostalCode": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Country": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "PhoneNumber": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                },
+                "Groups": {
+                  "required": true,
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "Group": {
+                        "required": true,
+                        "type": [
+                          "object",
+                          "null"
+                        ],
+                        "properties": {
+                          "id": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "CanonicalId": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Url": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Name": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Type": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "SystemType": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Tags": {
+                            "required": true,
+                            "type": [
+                              "array",
+                              "null"
+                            ],
+                            "items": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            }
+                          },
+                          "Visibility": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "DateCreated": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "DateModified": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "VersionId": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "SerializationMode": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        }
+                      },
+                      "RoleName": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "Grants": {
+                  "required": true,
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "Grant": {
+                        "required": true,
+                        "type": [
+                          "object",
+                          "null"
+                        ],
+                        "properties": {
+                          "GrantNumber": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "id": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "CanonicalId": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Url": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Name": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Type": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "SystemType": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "Tags": {
+                            "required": true,
+                            "type": [
+                              "array",
+                              "null"
+                            ],
+                            "items": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            }
+                          },
+                          "Visibility": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "DateCreated": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "DateModified": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "VersionId": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "SerializationMode": {
+                            "required": true,
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        }
+                      },
+                      "RoleName": {
+                        "required": true,
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "LabMembership": {
+                  "required": true,
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "Lab": {
+                      "required": true,
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "id": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "CanonicalId": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Url": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Name": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Type": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SystemType": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "Tags": {
+                          "required": true,
+                          "type": [
+                            "array",
+                            "null"
+                          ],
+                          "items": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "Visibility": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateCreated": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "DateModified": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "VersionId": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "SerializationMode": {
+                          "required": true,
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    },
+                    "RoleName": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                },
+                "Organization": {
+                  "required": true,
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "id": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "CanonicalId": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Url": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Name": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Type": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "SystemType": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "Tags": {
+                      "required": true,
+                      "type": [
+                        "array",
+                        "null"
+                      ],
+                      "items": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    },
+                    "Visibility": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "DateCreated": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "DateModified": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "VersionId": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "SerializationMode": {
+                      "required": true,
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                },
+                "id": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "CanonicalId": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Url": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Name": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Type": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "SystemType": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Tags": {
+                  "required": true,
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "Visibility": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "DateCreated": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "DateModified": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "VersionId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "SerializationMode": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "Publications": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "Name": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "Url": {
+                  "required": true,
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "IsHirnPublication": {
+                  "required": true,
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "Usage": {
+            "required": true,
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "OntologyId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "id": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "CanonicalId": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Url": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Name": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Type": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SystemType": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tags": {
+                "required": true,
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "Visibility": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateCreated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "DateModified": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "VersionId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "SerializationMode": {
+                "required": true,
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "UsageNotes": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Rating": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "CanonicalId": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Url": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Name": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SystemType": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Tags": {
+            "required": true,
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "Visibility": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateCreated": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "DateModified": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "VersionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "SerializationMode": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Vendor": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "Contact": {
+          "required": true,
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "EmailAddress": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "Address1": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "Address2": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "City": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "StateOrProvince": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "PostalCode": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "Country": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "PhoneNumber": {
+              "required": true,
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "VendorName": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "VendorResourceUrl": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "VendorLotNumber": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "VendorCatNumber": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "CurationStatus": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "OntologyId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Url": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Type": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SystemType": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Tags": {
+          "required": true,
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "Visibility": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateCreated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "DateModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VersionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SerializationMode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Attachments": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "id": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "FileName": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "FilePath": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Description": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "DefiningManuscriptId": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "BatchNumber": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "id": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "CanonicalId": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Url": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Name": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Type": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "SystemType": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Tags": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "Visibility": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "DateCreated": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "DateModified": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "VersionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "SerializationMode": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -8,5 +8,5 @@ Description: Handles json exports for resource browser.
 License: MIT-3
 Encoding: UTF-8
 LazyData: true
-Depends: data.table, jsonlite, parsedate, RISmed
-Imports: uuid, jsonvalidate
+Depends: data.table, shiny, httr, xml2, DT
+Imports: shinythemes, uuid, jsonvalidate, jsonlite, parsedate, rvest, RISmed

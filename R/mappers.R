@@ -31,9 +31,31 @@ map2Type <- function(name) {
   boiler(OntologyId = "ERO", CanonicalId = mapped, Url = mapped, Name = name)
 }
 
-#-- Mappers used for other resources -------------------------------------------------------------------------------------------#
+#-- Mappers used for all resources -------------------------------------------------------------------------------------------#
 
-# Since resources are curated by paper, lookup HIRN authors -- "Contact" as default role
+# Create a mapping of PMID to authors
+PMID2Authors <- function(pmids, forenamechars = 3) {
+  authors <- EUtilsGet(pmids, type = "efetch", db = "pubmed")
+  authors <- Author(authors)
+  authors <- lapply(authors, function(x) {
+    forename <- regmatches(x$ForeName, regexpr(pattern = paste0("^[^ ]{1,", forenamechars, "}"), x$ForeName))
+    x$Name <- iconv(paste(x$LastName, forename), from ="UTF-8", to="ASCII//TRANSLIT")
+    x
+  })
+  names(authors) <- pmids
+  return(authors)
+}
+
+# find HIRN authors among a publication's listed authors
+authorCheck <- function(pmids = NULL, srctable, ...) {
+  if(is.null(pmids)) pmids <- as.character(srctable$DefiningManuscriptId)
+  authors <- PMID2Authors(pmids, ...)
+  whichHIRN <- lapply(authors, function(x) unlist(sapply(x$Name, function(y) grep(y, HIRNauthors)), use.names = F))
+  names(whichHIRN) <- pmids
+  return(whichHIRN)
+}
+
+# Since resources are curated by paper, look up HIRN authors -- "Contact" as default role
 map2Person <- function(pmid, role = "Contact", HIRN) {
   mapped <- Persons[HIRN[[pmid]]]
   roleCV <- codedValues$CodedValuesByType$ResourceRole[[match(role, c("Contact", "Producer", "Distributor", "Date Submitter"))]]
@@ -53,3 +75,13 @@ map2O <- function(name = NA, id = NA, ontology = NULL) {
   mapped <- O[[ontology]][Name == name | ID == id, ]
   boiler(OntologyId = ontology, CanonicalId = mapped$IRI, Url = mapped$IRI, Name = mapped$Name)
 }
+
+# ResourceApplication [Contacts, Publication, Usage, UsageNotes, Rating]
+
+# list(Contacts = map2Person())
+
+#-- Misc schema selection --------------------------------------------------------------------------------------------#
+
+# resourceSchema <- c("TargetClassType", "ParentResourceTypeId", "id", "CanonicalId", "Url", "Name",
+#                      "Type", "SystemType", "Tags", "Visibility", "DateCreated", "VersionId")
+# usethis::use_data(resourceSchema)
