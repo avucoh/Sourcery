@@ -12,6 +12,25 @@
 # 4. Eagle-I Research Resource Ontology -- https://bioportal.bioontology.org/ontologies/ERO
 # 5. OBI_BCGO -- https://bioportal.bioontology.org/ontologies/OBI_BCGO
 
+# gets latest release from BioPortal
+updateOntology <- function(acronym, apikey = "8b5b7825-538d-40e0-9e9e-5ab9274a9aeb") {
+  url <- paste0("http://data.bioontology.org/ontologies/", acronym, "/download?apikey=", apikey, "&download_format=csv")
+  tmp <- tempfile()
+  tryCatch(download.file(url, tmp), error = function(e) {})
+  o <- read.csv(gzfile(tmp), header = T, stringsAsFactors = F, check.names = F)
+  o <- o[, c("Class ID", "Preferred Label", "Synonyms")]
+  names(o) <- c("IRI", "Term", "Synonyms")
+  o <- as.data.table(o)
+  o[, ID := gsub("http://purl.obolibrary.org/obo/", "", IRI)]
+  return(o)
+}
+
+batchUpdate <- function(os = c("CL", "GO", "OBI", "EFO", "MP")) {
+  O <- lapply(os, updateOntology)
+  names(O) <- os
+  O
+}
+
 loadOntology <- function(o) {
   o <- fread(o, select = c("Class ID", "Preferred Label", "Synonyms"))
   setnames(o, c("IRI", "Name", "Synonyms"))
@@ -65,6 +84,8 @@ loadOntologyDir2 <- function(dir = NULL) {
 # HIRNauthors <- sapply(Persons, function(x) paste(x$LastName, x$FirstName))
 # HIRNauthors[HIRNauthors == "Powers Al"] <- "Powers Alvin"
 # usethis::use_data(HIRNauthors, overwrite = T)
+
+
 
 
 

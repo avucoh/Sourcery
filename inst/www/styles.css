@@ -1,5 +1,14 @@
 .forceInline {
   display: inline-block;
   vertical-align: top;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.properties {
+  background: AliceBlue;
+}
+
+.usage {
+  background: Honeydew;
 }

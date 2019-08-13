@@ -1,34 +1,30 @@
-text2Abs <- function(text) {
-  text <- strsplit(text, "(?<=\\)),", perl = T)[[1]]
-  catmatch <-  regexpr("([a-zA-Z]{1,2})?[^,:( ][-0-9]{3,7}", text)
-  vcats <- vector("character", length(catmatch))
-  vcats[catmatch != -1] <- regmatches(text, catmatch)
-  vcats[catmatch == -1] <- ""
-  parsed <- list(vcats = vcats, text = text)
-  parsed
-}
-
-fillCols <- function() {
-  c("Role", "Applications",	"IsoType", "Type", "AntigenSpecies", "TargetCells",	"PositiveControl",
-            "DilutionUnits", "UsageNotes",	"Rating",	"Description")
-}
-
 # App UI
 helperUI <- function(id) {
   ns <- NS(id)
-  navbarPage("Resource Sharing", theme = shinytheme("yeti"),
-             tabPanel("Main",
-                      fluidPage(style = "margin-left: 20px;",
-                                fluidRow(textInput(ns("PMID"), "PMID")),
-                                fluidRow(textAreaInput(ns("text"), "Methods text", height = 500, width = 800)),
-                                fluidRow(actionButton(ns("go"), "Process"),
-                                         actionButton(ns("delete"), "Selected", icon = icon("minus")),
-                                         downloadButton(ns("save"), "Save")),
-                                fluidRow(style = "margin-top: 30px;",
-                                         DTOutput(ns("dt")))
-                                )
+  fluidPage(theme = shinythemes::shinytheme("flatly"),
+            checkboxInput(ns("show"), "view", value = T),
+            fluidRow(
+                     conditionalPanel("input.show", ns = ns,
+                     column(4, style = "margin-top: 30px;",
+                        div(style = "display: inline-block;",
+                            textInput(ns("PMID"), "PMID"),
+                            textAreaInput(ns("text"), "Resources", height = 600, width = 600),
+                            actionButton(ns("go"), "Parse")
+                        )
+                      )),
+                      column(8,
+                          tabsetPanel(type = "pills",
+                            tabPanel("SciCrunch Results",
+                                     br(),
+                                     div(
+                                       DTOutput(ns("dt"))
+                                       )
+                                     ),
+                            tabPanel("Add & Modify")
+                          )
+                      )
              )
-  )
+           )
 }
 
 
@@ -38,13 +34,6 @@ helper <- function(input, output, session) {
 
   abInfo <- reactiveVal(data.frame())
 
-  observeEvent(input$delete, {
-    if(!is.null(input$dt_rows_selected)) {
-      dt <- abInfo()[-as.numeric(input$dt_rows_selected), ]
-      abInfo(dt)
-    }
-  })
-
   observe({
     idformat <- gsub("^PMID:[ ]+", "PMID", input$PMID)
     updateTextInput(session, "PMID", value = idformat)
@@ -53,20 +42,28 @@ helper <- function(input, output, session) {
   observeEvent(input$go, {
     withProgress(value = 0.4, message = "parsing...",
       { parsed <- text2Abs(input$text)
-        dt <- supplementAbs(ids = parsed$vcats, txt = parsed$text)
+        dt <- supplementAbs(parsed$x, parsed$text)
         setProgress(value = 0.8)
         # indices <- unlist(lapply(parsed$text, function(x) grep(x, dt$VendorCat)))
-        dt[, DefiningManuscriptId := input$PMID]
-        dt[, (fillCols()) := ""]
+        # dt[, DefiningManuscriptId := input$PMID]
         abInfo(dt)
       }
     )
   })
 
   output$dt <- renderDT({
+    # fillcols <- c("Role", "Applications",	"IsoType", "Type", "AntigenSpecies", "TargetCells",	"PositiveControl",
+    #               "DilutionUnits", "UsageNotes",	"Rating",	"Description")
     if(!length(abInfo())) return()
-    abInfo()[, -c("DefiningManuscriptId", fillCols())]
-  }, editable = T)
+    abInfo()[, -c("Comments")]
+  }, editable = T, style = "bootstrap", rownames = F)
+
+  observeEvent(input$delete, {
+    if(!is.null(input$dt_rows_selected)) {
+      dt <- abInfo()[-as.numeric(input$dt_rows_selected), ]
+      abInfo(dt)
+    }
+  })
 
   output$save <- downloadHandler(
     filename = function() {

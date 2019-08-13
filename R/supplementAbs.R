@@ -2,9 +2,8 @@
 mykey <- "cfhrc2KVQfZVNYkC696DCX3MZj7QWXDX"
 
 # Pulls supplementary info from Antibody Registry data using SciCrunch api
-abCrunch <- function(id = NULL, catalog, maxhits = 1) {
-  query <- if(!is.null(id)) id else gsub(",|Cat|#", "", catalog)
-  if(query == "") {
+abCrunch <- function(query = NULL, maxhits = 1) {
+  if(!length(query)) {
    return(data.frame(RRID = ""))
   } else {
     # nif-0000-07730-1 is the SciCrunch Source id for Antibody Registry
@@ -18,11 +17,11 @@ abCrunch <- function(id = NULL, catalog, maxhits = 1) {
                 %>% gsub(pat = "<[^>]+>", rep = "")
                 %>% trimws())
     abdata <- as.data.frame(abdata, stringsAsFactors = F)
-    abdata <- abdata[, -12] # last column is the SciCrunch uuid
+    abdata <- abdata[, -12] # last column is SciCrunch uuid
     n <- min(nrow(abdata), maxhits)
     abdata <- abdata[1:n, ]
     # DKnet antibody table data headers
-    names(abdata) <- c("RRID", "Name", "TargetAntigen", "VendorName", "VendorCat", "RRIDCite", "Reference", "Clonality", "CloneName", "RaisedIn", "Comments")
+    names(abdata) <- c("RRID", "Name", "TargetAntigen", "RRIDCite", "Clonality", "Reference", "Comments", "CloneName", "RaisedIn", "VendorName", "VendorCat")
     abdata$VendorName <- gsub(" Go To Vendor", "", abdata$VendorName)
     abdata$TargetAntigen <- gsub("See NCBI gene ", "", abdata$TargetAntigen)
     return(abdata)
@@ -46,43 +45,40 @@ supplementAbsFile <- function(file = NULL) {
   return(currentdata)
 }
 
-supplementAbs <- function(ids, txt) {
-  sdata <- lapply(ids, function(x) abCrunch(x, maxhits = 5))
+supplementAbs <- function(x, txt) {
+  sdata <- lapply(x, function(x) abCrunch(x, maxhits = 5))
   if(is.null(txt)) {
     text <- dilutions <- ""
   } else {
-    text <- rep.int(txt, sapply(sdata, function(x) nrow(x)))
-    dilutions <- rep.int(getDilution(txt), sapply(sdata, function(x) nrow(x)))
+    dilutions <- Map(rep, sapply(txt, getDilution), sapply(sdata, function(x) nrow(x))) %>% unlist()
   }
   sdata <- rbindlist(sdata, fill = T)
-  sdata[, Text := text]
-  sdata[, Dilution := dilutions]
-  sdata[, AntigenSpecies := getAntigenSpecies(TargetAntigen)]
-  sdata[, AntibodyConjugate := getAbConjugate(Name)]
+  # sdata[, Text := text]
+  # sdata[, Dilution := dilutions]
+  # sdata[, AntigenSpecies := sapply(TargetAntigen, getAntigenSpecies)]
+  # sdata[, AntibodyConjugate := sapply(Name, getAbConjugate)]
   sdata[, RRIDCite := NULL]
   sdata[, Reference := NULL]
-  setcolorder(sdata, c("Text", setdiff(names(sdata), "Text")))
+  # setcolorder(sdata, c("Text", setdiff(names(sdata), "Text")))
   return(sdata)
 }
 
 getAntigenSpecies <- function(txt) {
-  AS <- lapply(txt,
-               function(x) {
-                  if(grepl("produced in", txt)) return("") else O[["NCBITAXON"]]$Name[sapply(O[["NCBITAXON"]]$Name, function(s) grepl(s, x))]
-               })
-  AS <- sapply(AS, function(x) paste0(x, collapse = "|"))
-  return(AS)
+  species <- if(grepl("produced in", txt)) return("") else O[["NCBITAXON"]]$Name[sapply(O[["NCBITAXON"]]$Name, function(s) grepl(s, txt))]
+  species <- paste0(species, collapse = "|")
+  return(species)
 }
 
 getAbConjugate <- function(txt) {
   common <- "Alexa.*[0-9]{1,3}|FITC|Dy.*[0-9]{1,3}|^APC$|Rhodamine|Cy[0-9]|Pacific ?(Blue|Orange)"
-  conj <- sapply(txt, function(x) regmatches(x, regexpr(common, x)) )
+  conj <- regmatches(txt, regexpr(common, txt))
   return(conj)
 }
 
 getDilution <- function(txt) {
-  dilution <- sapply(txt, function(x) regmatches(x, regexpr("1:[0-9,]{1,6}", x)) )
+  dilution <- regmatches(txt, regexpr("1(:|/)[0-9,]{1,6}", txt))
   dilution <- gsub(",", "", dilution)
+  if(!length(dilution)) dilution <- ""
   return(dilution)
 }
 
