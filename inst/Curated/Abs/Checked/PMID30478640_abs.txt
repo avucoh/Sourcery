@@ -1,0 +1,11 @@
+"TargetCells"	"Name"	"AntibodyConjugate"	"Isotype"	"TargetAntigen"	"UsageNotes"	"Publication"	"ClonalityStatus"	"Rating"	"VendorName"	"VendorCat"	"RRID"	"CloneName"	"RaisedIn"	"Usage"	"AntibodyType"	"AntigenSpecies"
+""	"Anti-DEXI antibody"	""	""	""	"dilution 1:250"	"30478640"	"polyclonal"	5	"Atlas Antibodies"	"HPA041511"	"AB_10796675"	""	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"Phospho-Stat1 (Tyr701) (D4A7) Rabbit mAb antibody"	""	""	""	"dilution 1:1000"	"30478640"	"monoclonal"	5	"Cell Signaling Technology"	"7649"	"AB_10950970"	"D4A7"	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"Stat1 p84/p91 (E-23) antibody"	""	""	""	"dilution 1:1000"	"30478640"	"polyclonal"	5	"Santa Cruz Biotechnology"	"sc-346"	"AB_632435"	"E-23"	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"HSP90 (C45G5) Rabbit mAb antibody"	""	""	""	"dilution 1:1000"	"30478640"	"monoclonal"	5	"Cell Signaling Technology"	"4877"	"AB_2233307"	""	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"H3-celegans antibody"	""	""	""	"dilution 1:1000"	"30478640"	"polyclonal"	5	"Abcam"	"ab1791"	"AB_302613"	""	"rabbit"	"western blot analysis"	"primary"	NA
+""	"Anti-α-Tubulin antibody"	""	""	""	"dilution 1:5000"	"30478640"	"monoclonal"	5	"Sigma-Aldrich"	"T9026"	"AB_477593"	"DM1A"	"mouse"	"western blot analysis"	"primary"	"human"
+""	"Peroxidase-AffiniPure F(ab')2 Fragment Donkey Anti-Mouse IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Rb,Shp Sr Prot) antibody"	""	""	""	"dilution 1:5000"	"30478640"	"polyclonal"	5	"Jackson ImmunoResearch Labs"	"715-036-150"	"AB_2340773"	""	"chimpanzee"	"western blot analysis"	"secondary"	NA
+""	"Peroxidase-AffiniPure F(ab')2 Fragment Donkey Anti-Rabbit IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rat,Shp Sr Prot) antibody"	""	""	""	"dilution 1:5000"	"30478640"	"polyclonal"	5	"Jackson ImmunoResearch Labs"	"711-036-152"	"AB_2340590"	""	"chimpanzee"	"western blot analysis"	"secondary"	NA
+""	"HDAC1 antibody - ChIP Grade"	""	""	""	"dilution 1:1000"	"30478640"	"polyclonal"	5	"Abcam"	"ab7028"	"AB_305705"	""	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"4C5, Anti-DDK monoclonal antibody"	""	""	""	"dilution 1:1000"	"30478640"	"monoclonal"	5	"OriGene"	"TA50011-100 also OWL-B85585"	"AB_2622345"	"clone 4C5"	"mouse"	"western blot analysis"	"primary"	NA

@@ -1,8 +1,8 @@
 # Parse mentions of antibodies in different formats for an RRID or catalog number/name
-text2Abs <- function(text) {
-  # assumes relevant mentions will be wrapped in () and separated by a comma or line break 
+text2Abs <- function(text, regx = "(?<=\\))(;|,|\\n)", split = T) {
+  # assumes relevant mentions will be wrapped in () and separated by a comma or line break
   # i.e. "(Mercodia Cat# 10-1201-01, RRID:AB_2636872), (R and D Systems Cat# AF789, RRID:AB_2092786)"
-  text <- strsplit(text, "(?<=\\))(,|\\n)", perl = T)[[1]]
+  if(split) text <- strsplit(text, regx, perl = T)[[1]]
   x <- matchRRID(text)
   # if no RRID, resort to cat# match
   x[x == ""] <- matchAb(text[x == ""])

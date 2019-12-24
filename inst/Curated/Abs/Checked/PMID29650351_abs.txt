@@ -1,0 +1,6 @@
+TargetCells	Name	Rating	VendorName	VendorCat	RRID	AntibodyConjugate	Isotype	CloneName	RaisedIn	TargetAntigen	Usage	AntibodyType	AntigenSpecies	UsageNotes	Publication	ClonalityStatus
+	Anti-INSULIN Polyclonal Antibody, Unconjugated	5	Innovative Research	18-0067	AB_86637				guinea pig		immunohistochemistry	primary	human	dilution 1:1300	29650351	polyclonal
+	Rat Anti-Chemical BrdU Monoclonal antibody, Unconjugated, Clone BU1/75 (ICR1)	5	Bio-Rad	OBT0030G	AB_609567			Clone BU1/75 (ICR1)	rat		immunohistochemistry	primary		dilution 1:500	29650351	monoclonal
+	Ki-67 antibody	5	BD Biosciences	550609	AB_393778			B56	mouse		immunohistochemistry	primary	human	dilution 1:500	29650351	monoclonal
+	PDX-1 (A-17) antibody	5	Santa Cruz Biotechnology	sc-14664	AB_2162373 			A-17	goat		immunohistochemistry	primary	human	dilution 1:1000	29650351	polyclonal
+	ST5 antibody	5	Abcam	ab111556	AB_10861960				rabbit		immunohistochemistry	primary	human	dilution 1:200	29650351	polyclonal

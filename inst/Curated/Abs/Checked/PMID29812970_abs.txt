@@ -1,0 +1,8 @@
+"TargetCells"	"Name"	"Rating"	"VendorName"	"VendorCat"	"AntibodyConjugate"	"Isotype"	"RRID"	"CloneName"	"RaisedIn"	"TargetAntigen"	"Usage"	"AntibodyType"	"AntigenSpecies"	"UsageNotes"	"Publication"	"ClonalityStatus"
+NA	"Insulin antibody"	5	"Agilent"	"A0564"	""	""	"AB_10013624"	""	"guinea pig"	""	"immunohistochemistry"	"primary"	"human"	"dilution 1:350"	"29812970"	"polyclonal"
+NA	"ALDH1A3 aldehyde dehydrogenase 1 family, member A3 Antibody"	5	"Novus"	"NBP2-15339"	""	""	"AB_2665496"	""	"rabbit"	""	"immunohistochemistry"	"primary"	"human"	"dilution 1:500"	"29812970"	"polyclonal"
+NA	"FOXO1A Antibody"	5	"Novus"	"NB200-307"	""	""	"AB_10000617"	"7H3"	"mouse"	""	"immunohistochemistry"	"primary"	"human"	"dilution 1:100"	"29812970"	"monoclonal"
+"pancreatic A cell"	"CD34 Monoclonal Antibody (QBEND/10)"	5	"Thermo Fisher Scientific"	"MA1-10202"	""	""	"AB_11156010"	"Clone QBEND/10"	"mouse"	""	"immunohistochemistry"	"primary"	"human"	"dilution 1:300"	"29771178"	"monoclonal"
+"type B pancreatic cell"	"Insulin antibody"	5	"Agilent"	"A0564"	""	""	"AB_10013624"	""	"guinea pig"	""	"immunohistochemistry"	"primary"	NA	"dilution 1:100"	"29771178"	"polyclonal"
+""	"Anti-SCG3 antibody produced in rabbit"	5	"Sigma-Aldrich"	"HPA006880"	""	""	"AB_1079898"	""	"rabbit"	""	"immunohistochemistry"	"primary"	NA	"dilution 1:1000"	"29771178"	"polyclonal"
+"neuroendocrine cell"	"Anti-SCG3 antibody produced in rabbit"	5	"Sigma-Aldrich"	"HPA006880"	""	""	"AB_1079898"	""	"rabbit"	""	"immunohistochemistry"	"primary"	NA	"dilution 1:1000"	"29771178"	"polyclonal"

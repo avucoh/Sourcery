@@ -1,0 +1,13 @@
+"TargetCells"	"Name"	"AntibodyConjugate"	"Isotype"	"TargetAntigen"	"UsageNotes"	"Publication"	"ClonalityStatus"	"Rating"	"VendorName"	"VendorCat"	"RRID"	"CloneName"	"RaisedIn"	"Usage"	"AntibodyType"	"AntigenSpecies"
+""	"Anti-PD-L1 Antibody"	""	""	""	"dilution 1:100"	"30269996"	"monoclonal"	5	"Abcam"	"ab205921"	"AB_2687878"	"28-8"	"rabbit"	"fluorescence imaging"	"primary"	"human"
+""	"Mouse Anti-Glucagon Monoclonal Antibody, Unconjugated, Clone IMD-7"	""	""	""	"dilution 1:2000"	"30269996"	"monoclonal"	5	"Abcam"	"ab82270"	"AB_1658481"	"Clone IMD-7"	"mouse"	"fluorescence imaging"	"primary"	"human"
+""	"Ghrl polyclonal antibody"	""	""	""	"dilution 1:100"	"30269996"	"polyclonal"	5	"Abnova Corporation"	"PAB8478"	"AB_1674993"	""	"rabbit"	"fluorescence imaging"	"primary"	"rat"
+""	"Insulin antibody"	""	""	""	"dilution 1:700"	"30269996"	"polyclonal"	5	"Agilent"	"A0564"	"AB_10013624"	""	"guinea pig"	"fluorescence imaging"	"primary"	NA
+""	"Anti-α-Tubulin antibody"	""	""	""	""	"30269996"	"monoclonal"	5	"Sigma-Aldrich"	"T9026"	"AB_477593"	"DM1A"	"mouse"	"western blot analysis"	"primary"	"human"
+""	"Rabbit Anti-CD8 Polyclonal Antibody, Unconjugated"	""	""	""	""	"30269996"	"polyclonal"	5	"Abcam"	"ab4055"	"AB_304247"	""	"rabbit"	"immunohistochemistry"	"primary"	"human"
+""	"Rabbit Anti-Stat1, phospho (Tyr701) Monoclonal Antibody, Unconjugated, Clone 58D6"	""	""	""	""	"30269996"	"monoclonal"	5	"Cell Signaling Technology"	"9167"	"AB_561284"	"58D6"	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"Stat1 (D4Y6Z) Rabbit mAb antibody"	""	""	""	""	"30269996"	"monoclonal"	5	"Cell Signaling Technology"	"14995"	"AB_2716280"	"D4Y6Z"	"rabbit"	"western blot analysis"	"primary"	"human"
+""	"Peroxidase-AffiniPure F(ab')2 Fragment Donkey Anti-Rabbit IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rat,Shp Sr Prot) antibody"	""	""	""	""	"30269996"	"polyclonal"	5	"Jackson ImmunoResearch Labs"	"711-036-152"	"AB_2340590"	""	"chimpanzee"	"western blot analysis"	"secondary"	NA
+""	"Peroxidase-AffiniPure F(ab')2 Fragment Donkey Anti-Mouse IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Rb,Shp Sr Prot) antibody"	""	""	""	""	"30269996"	"polyclonal"	5	"Jackson ImmunoResearch Labs"	"715-036-150"	"AB_2340773"	""	"chimpanzee"	"western blot analysis"	"secondary"	NA
+NA	"Goat anti-Rabbit IgG (H+L), Superclonal™ Recombinant Secondary Antibody, Alexa Fluor 647"	"Alexa Fluor 647"	""	""	""	"30269996"	""	5	"Thermo Fisher Scientific"	"A27040"	"AB_2536101"	""	"goat"	"flow cytometry assay"	"secondary"	"rabbit"
+NA	"Goat Anti-Guinea Pig IgG (H+L) Highly Cross-adsorbed Antibody, Alexa Fluor ?? 488 Conjugated"	"Alexa Fluor ?? 488"	""	""	""	"30269996"	""	5	"Molecular Probes"	"A-11073 also A11073"	"AB_2534117"	""	"goat"	"flow cytometry assay"	"secondary"	"guinea pig"

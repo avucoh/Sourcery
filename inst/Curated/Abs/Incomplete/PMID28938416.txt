@@ -1,0 +1,10 @@
+A045201-2 primary
+13092 primary
+ab10988 primary
+A056401-2 primary
+ab70328 primary
+M724029-2 primary
+K536111-2 secondary
+MP-7500 secondary
+BRI4015 secondary
+NEL810001KT secondary

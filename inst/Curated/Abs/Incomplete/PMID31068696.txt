@@ -1,0 +1,19 @@
+Rat anti-C-peptide (DHSB; GN-ID4; 1:100), #IF RRID:AB_2255626
+mouse anti-NKX6.1 (DHSB; F55A12; 1:50), #IF RRID:AB_532379
+rabbit anti-CHGA (Abcam; ab15160; 1:500), 
+rabbit anti-SLC18A1 (Sigma; HPA063797; 1:300), #IF 
+rabbit anti-LMX1A (Sigma; HPA030088; 1:300), #IF
+sheep anti-TPH1 (EMD Millipore; AB1541; 1:100), #IF
+goat anti-5-HT (Immunostar; 20079; 1:1000), #IF
+rabbit anti-SOX9 (Cell Marque; AC-0284RUO; 1:500), #IF 
+mouse anti-glucagon (Santa Cruz Biotech.; SC-514592; 1:300) #IF
+Anti-rat 594 (Life Tech.; A21209), 
+anti-mouse 594 (Life Tech.; A21203), 
+anti-mouse 647 (Life Tech.; A31571), 
+anti-rabbit 488 (Life Tech.; A21206), 
+anti-rabbit 594 (Life Tech.; A21209), 
+anti-rabbit 647 (Life Tech.; A31573), 
+anti-goat 647 (Life Tech.; A21447), 
+anti-sheep 488 (Life Tech.; A11015), 
+anti-rat 488 (Jackson labs.; 712–546-153), 
+Anti-rat 405 (Abcam; ab175670).

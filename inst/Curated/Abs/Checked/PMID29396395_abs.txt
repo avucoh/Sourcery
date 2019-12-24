@@ -1,0 +1,8 @@
+TargetCells	Name	AntibodyConjugate	Isotype	TargetAntigen	UsageNotes	Publication	ClonalityStatus	Rating	VendorName	VendorCat	RRID	CloneName	RaisedIn	Usage	AntibodyType	AntigenSpecies
+	Rabbit Anti-c-Myc XP??? Monoclonal Antibody, Unconjugated, Clone D84C12				dilution 1:200	29396395	monoclonal	5	Cell Signaling Technology	5605	AB_1903938	Clone D84C12	rabbit	immunohistochemistry	primary	human
+	Monoclonal Anti-Insulin antibody produced in mouse				dilution 1:500	29396395	monoclonal	5	Sigma-Aldrich	I2018	AB_260137		mouse	immunohistochemistry	primary	human
+	Insulin antibody				dilution 1:500	29396395	polyclonal	5	Agilent	A0564	AB_10013624		guinea pig	immunohistochemistry	primary	human
+	Anti-GLUT-2 antibody				dilution 1:500	29396395	polyclonal	5	Millipore	07-1402	AB_1587076		rabbit	immunohistochemistry	primary	human
+	Rat Anti-Chemical BrdU Monoclonal antibody, Unconjugated, Clone BU1/75 (ICR1)				dilution 1:200	29396395	monoclonal	5	Bio-Rad	MCA2060	AB_323427	Clone BU1/75 (ICR1)	rat	immunohistochemistry	primary	
+	Ki-67 antibody				dilution 1:200	29396395	monoclonal	5	BD Biosciences	550609	AB_393778	B56	mouse	immunohistochemistry	primary	human
+	Goat Anti-Mouse IgG (H+L) Highly Cross-adsorbed Antibody, Alexa Fluor 488 Conjugated	Alexa Fluor 488			dilution 1:200	29396395		5	Molecular Probes	A-11029 also A11029	AB_138404		goat	fluorescence imaging	secondary	mouse

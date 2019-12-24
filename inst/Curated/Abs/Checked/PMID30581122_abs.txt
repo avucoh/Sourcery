@@ -1,0 +1,24 @@
+Isotype	TargetAntigen	ClonalityStatus	RRID	CloneName	RaisedIn	Usage	AntigenSpecies	TargetCells	Name	AntibodyConjugate	UsageNotes	Publication	Rating	VendorName	VendorCat	AntibodyType
+		monoclonal	AB_10889933		rabbit	western blot analysis	human		Smad2/3 (D7G7) XP Rabbit mAb antibody			30581122	5	Cell Signaling Technology	8685 also 8685S, 8685P	primary
+		monoclonal	AB_882596	Clone EP823Y	rabbit	western blot analysis	human		Rabbit Anti-Smad3, phospho (Ser423 / Ser425) Monoclonal Antibody, Unconjugated, Clone EP823Y			30581122	5	Abcam	ab52903	primary
+		monoclonal	AB_627905	[B-8]	mouse	western blot analysis	human		Smad4 (B-8) antibody			30581122	5	Santa Cruz Biotechnology	sc-7966	primary
+		polyclonal	AB_2192755		rabbit	western blot analysis	human		Rabbit Anti-Smad1 Polyclonal Antibody, Unconjugated			30581122	5	Abcam	ab66737	primary
+			AB_10167668	FL-335	rabbit	western blot analysis	NA		Rabbit Anti-GAPDH Polyclonal antibody, Unconjugated			30581122	5	Santa Cruz Biotechnology	sc-25778	primary
+		monoclonal	AB_305426	Clone BU1/75 (ICR1)	rat	immunohistochemistry	NA		Rat Anti-BrdU Monoclonal Antibody, Unconjugated, Clone BU1 / 75 (ICR1)			30581122	5	Abcam	ab6326	primary
+		monoclonal	AB_149792	Clone SP6	rabbit	immunohistochemistry	human		Rabbit Anti-Human Ki67 (Ki-67) Monoclonal Antibody, Unconjugated, Clone SP6			30581122	5	Lab Vision	RM-9106-S1	primary
+		monoclonal	AB_2142367	MIB1	mouse	immunohistochemistry	NA		Ki-67 antibody			30581122	5	Agilent	M7240	primary
+		polyclonal	AB_310177		rabbit	immunohistochemistry	human		Rabbit Anti-Histone H3, phospho (Ser10) Mitosis marker Polyclonal antibody, Unconjugated			30581122	5	Millipore	06-570	primary
+		polyclonal	AB_10013624		guinea pig	immunohistochemistry	NA		Insulin antibody			30581122	5	Agilent	A0564	primary
+		monoclonal	AB_559491	Clone 3F2	mouse	immunohistochemistry	human	NA	Phospho-Histone H2A.X (Ser140) Monoclonal Antibody (3F2)			30581122	5	Thermo Fisher Scientific	MA1-2022	primary
+		polyclonal	AB_417404		rabbit	immunohistochemistry	mouse	NA	Rabbit Anti-PDX1 Polyclonal antibody, Unconjugated			30581122	5	Millipore	07-696	primary
+		polyclonal	AB_776146		rabbit	immunohistochemistry	human	NA	MAFA antibody			30581122	5	Abcam	ab26405	primary
+		monoclonal	AB_10887227		rabbit	immunohistochemistry	human	NA	Glucagon antibody [EPR3070]			30581122	5	Abcam	ab108426	primary
+		polyclonal	AB_2195927	FL-116	rabbit	immunohistochemistry	human	NA	Somatostatin (FL-116) antibody			30581122	5	Santa Cruz Biotechnology	sc-20999	primary
+		monoclonal	AB_2281020		rabbit	immunohistochemistry	human	NA	Cytokeratin 19 antibody [EP1580Y]			30581122	5	Abcam	ab52625	primary
+			AB_138404		goat	immunohistochemistry	mouse	NA	Goat Anti-Mouse IgG (H+L) Highly Cross-adsorbed Antibody, Alexa Fluor ?? 488 Conjugated	Alexa Fluor ?? 488		30581122	5	Molecular Probes	A-11029 also A11029	secondary
+			AB_141374		goat	immunohistochemistry	rat	NA	Goat Anti-Rat IgG (H+L) Antibody, Alexa Fluor ?? 594 Conjugated	Alexa Fluor ?? 594		30581122	5	Molecular Probes	A-11007 also A11007	secondary
+		polyclonal	AB_2534095		goat	immunohistochemistry	rabbit	NA	Goat anti-Rabbit IgG (H+L) Highly Cross-Adsorbed Secondary Antibody, Alexa Fluor 594	Alexa Fluor 594		30581122	5	Thermo Fisher Scientific	A-11037 also A11037	secondary
+		monoclonal	AB_10889933		rabbit	immunoprecipitation	human	NA	Smad2/3 (D7G7) XP Rabbit mAb antibody			30581122	5	Cell Signaling Technology	8685 also 8685S, 8685P	primary
+		polyclonal	AB_355150		goat	immunoprecipitation	human	NA	Goat Anti-Human Smad4, aa 139-332 Polyclonal antibody, Unconjugated			30581122	5	R and D Systems	AF2097	primary
+		polyclonal	AB_1861527		rabbit	immunoprecipitation	human	NA	KDM6A / UTX antibody			30581122	5	Abcam	ab84190	primary
+		polyclonal	AB_2143306		rabbit	immunoprecipitation	human	NA	Menin Antibody			30581122	5	Bethyl	A300-105A	primary

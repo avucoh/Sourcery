@@ -1,0 +1,5 @@
+[guinea pig anti-insulin (1:1,300, Invitrogen #180067) 
+and rat anti-BrdU (1:500, AbD Serotec #OBT0030G)] or 
+mouse anti-Ki67 (1:500, BD pharmacology #550609) 
+goat anti-Pdx1 (1:1,000, Santa Cruz #sc-14664) and 
+rabbit anti-ST5 (1:200, Abcam # ab111556)

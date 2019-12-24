@@ -1,0 +1,17 @@
+Rat anti C-peptide	DSHB	Cat#GN-ID4; RRID:AB_2255626
+Rabbit anti Chaga	Abcam	Cat#Ab15160; RRID:AB_301704 FACS
+Chicken anti GFP	Aves Labs inc.	Cat#GFP-1020; RRID:AB_10000240
+Goat anti glp2	Santa Cruz Biotechnology	Cat#sc-7781; RRID:AB_2107346
+Mouse anti Glucagon	Santa Cruz Biotechnology	Cat#sc-514592; RRID:AB_2629431
+Goat anti Neurod1	R&D systems	Cat#AF2746; RRID:AB_2149217
+Sheep anti Neurogenin3	R&D systems	Cat#AF3444; RRID:AB_2149527 FACS
+Mouse anti Nkx6.1	DSHB	Cat#F55A12; RRID:AB_532379 FACS
+Rabbit anti Sox9	Abcam	Cat#Ab-5535; RRID:AB_2239761
+Goat anti PDX1	R&D systems	Cat#AF2419; RRID:AB_355257
+Mouse anti somatostatin	Santa Cruz Biotechnology	Cat#sc-55565; RRID:AB_831726
+Rabbit anti MCM3	Cell Signaling Technology	Cat#4012s; RRID:AB_2235150
+Mouse anti Ctnnb1	ThermoFisher Scientific	Cat#MA1-2001; RRID:AB_326078
+Goat anti Patched1	Santa Cruz Biotechnology	Cat#sc-6147; RRID:AB_2253263
+Rat anti PTCH	R&D systems	Cat#MAB41051; RRID:AB_2174045
+Rabbit anti APC	Abcam	Cat#Ab-15270; RRID:AB_301806
+Mouse anti E-cadherin	BD Transduction Laboratories	Cat#610181; RRID:AB_397580

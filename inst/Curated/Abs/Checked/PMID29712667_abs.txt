@@ -1,0 +1,4 @@
+"TargetCells"	"Name"	"Rating"	"VendorName"	"VendorCat"	"AntibodyConjugate"	"Isotype"	"RRID"	"CloneName"	"RaisedIn"	"TargetAntigen"	"Usage"	"AntibodyType"	"AntigenSpecies"	"UsageNotes"	"Publication"	"ClonalityStatus"
+""	"Anti Iba1, Rabbit antibody"	5	"Wako"	"019-19741"	""	""	"AB_839504"	""	"rabbit"	""	"fluorescence imaging"	"primary"	"human"	"dilution 1:500"	"29712667"	"polyclonal"
+""	"Rabbit Anti-GPCR TGR5 Polyclonal Antibody, Unconjugated"	5	"Abcam"	"ab72608"	""	""	"AB_2112165"	""	"rabbit"	""	"fluorescence imaging"	"primary"	"human"	"dilution 1:250"	"29712667"	"polyclonal"
+""	"Anti-NeuN antibody"	5	"Millipore"	"MAB377"	""	""	"AB_2298772"	"A60"	"mouse"	""	"fluorescence imaging"	"primary"	"human"	"dilution 1:250"	"29712667"	"monoclonal"

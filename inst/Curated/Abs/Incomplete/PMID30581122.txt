@@ -1,0 +1,30 @@
+Antibodies for Immunoblots		
+Rabbit Monoclonal anti-SMAD 2/3 (D7G7)	Cell Signaling Technology	Cat#8685; RRID:AB_10889933
+Rabbit Monoclonal anti-p-SMAD3 (p423+p425) (D27F4)	Abcam	Cat#Ab52903 Lot:GR128879-28; RRID:AB_882596
+Rabbit Polyclonal anti-SMAD4 (B8)	Santa Cruz	Cat#Sc-7966 Lot: A2816; RRID:AB_627905
+Rabbit Polyclonal anti-SMAD1/5/9	Abcam	Cat#ab66737 Lot:GR280688-13; RRID:AB_2192755
+Rabbit Polyclonal anti-GAPDH (FL-335)	Santa Cruz	Cat#Sc-25778 Lot:13015; RRID:AB_10167668
+Antibodies for Immunohistochemistry		
+Rat Monoclonal anti-BrdU (ICR1)	Abcam	Cat#ab6326; RRID:AB_305426
+Rabbit Monoclonal anti-Ki67 (Sp6)	Thermo Scientific	Cat#RM-9106 s1; RRID:AB_149792
+Mouse Monoclonal anti-Ki67 (MIB1),	DAKO	Cat# M7240 Lot: 20014345; RRID:AB_2142367
+Rabbit Polyclonal anti-p-Histone-3	Millipore	Cat#06-570 Lot:GR273043-1; RRID:AB_310177
+Polyclonal Guinea Pig Anti-Insulin DAKO	Cat#A0564; RRID:AB_10013624
+Mouse Monoclonal anti-p-γH2AX (3F2)	Thermo Scientific	Cat#MA1-2022: RRID:AB_559491
+Mouse Monoclonal anti-NKX6.1	University of Iowa	Cat#F55A10-c; 
+Rabbit Polyclonal anti-PDX1	Millipore	Cat#07-696; RRID:AB_417404
+Rabbit Polyclonal anti-MAFA	Abcam	Cat#Ab26405; RRID:AB_776146
+Rabbit Monoclonal anti-Glucagon	Abcam	Cat#ab108426; RRID:AB_10887227
+Rabbit Polyclonal anti-Somatostatin	Santa Cruz	Cat#Sc-20999 Lot: F707; RRID:AB_2195927
+Rabbit Polyclonal anti-Pancreatic Polypeptide	DAKO	Cat#A0619 Lot:0111D; discontinued, No RRID
+Rabbit Monoclonal anti-CK19	Abcam	Cat#Ab52625; RRID:AB_2281020
+Secondary Antibody		
+Species-specific mouse Alexa Fluor 488	Life Technologies	Cat#A-11029: RRID:AB_138404
+Rat Alexa Fluor 594	Life Technologies	Cat#A-11007; RRID:AB_141374
+Rabbit Alexa Fluor 488	Life Technologies	Cat#A11037; No RRID
+Guinea pig Alexa Fluor 488	Life Technologies	Cat#A-11073; RRID:AB_142081
+Antibodies for CHIP		
+Rabbit Monoclonal anti-anti-SMAD2/3	Cell Signaling	Cat#8685; RRID:AB_10889933
+Goat Polycolonal anti-SMAD4	R&D Systems	Cat#AF2097; RRID:AB_355150
+Rabbit Polyclonal anti-KDM6A	Abcam	Cat#ab84190; RRID:AB_1861527
+Rabbit Polyclonal anti-MEN1	Bethyl Laboratories	Cat#A300-105A; RRID:AB_2143306

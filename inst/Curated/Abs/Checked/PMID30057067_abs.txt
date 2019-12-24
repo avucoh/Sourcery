@@ -1,0 +1,11 @@
+"TargetCells"	"Name"	"AntibodyConjugate"	"Isotype"	"TargetAntigen"	"UsageNotes"	"Publication"	"ClonalityStatus"	"Rating"	"VendorName"	"VendorCat"	"RRID"	"CloneName"	"RaisedIn"	"Usage"	"AntibodyType"	"AntigenSpecies"
+""	"Anti-Glucagon (FL-180) Antibody"	""	""	""	""	"30057067"	"polyclonal"	5	"Santa Cruz Biotechnology"	"sc-13091"	"AB_641026"	"FL-180"	"rabbit"	"immunohistochemistry"	"primary"	"human"
+""	"Glucagon (N-17) antibody"	""	""	""	""	"30057067"	"polyclonal"	5	"Santa Cruz Biotechnology"	"sc-7780"	"AB_641025"	"N-17"	"goat"	"immunohistochemistry"	"primary"	"human"
+""	"Goat Anti-GFP (Green Fluorescent Protein) Polyclonal Antibody, Unconjugated"	""	""	""	""	"30057067"	"polyclonal"	5	"Abcam"	"ab6673"	"AB_305643"	""	"goat"	"immunohistochemistry"	"primary"	NA
+""	"Insulin antibody"	""	""	""	""	"30057067"	"polyclonal"	5	"Agilent"	"A0564"	"AB_10013624"	""	"guinea pig"	"immunohistochemistry"	"primary"	NA
+""	"Anti-INSULIN Polyclonal Antibody, Unconjugated"	""	""	""	""	"30057067"	"polyclonal"	5	"Innovative Research"	"18-0067"	"AB_86637"	""	"guinea pig"	"immunohistochemistry"	"primary"	"human"
+""	"Anti-Cre Antibody"	""	""	""	""	"30057067"	"polyclonal"	5	"Millipore"	"69050-3"	"AB_10806983"	""	"chimpanzee"	"immunohistochemistry"	"primary"	NA
+""	"SP-1 Chromogranin A (Bovine) Antibody"	""	""	""	""	"30057067"	"polyclonal"	5	"ImmunoStar"	"20085"	"AB_572227"	""	"rabbit"	"immunohistochemistry"	"primary"	"human"
+""	"Cy2-AffiniPure Donkey Anti-Goat IgG (H+L) (min X Ck,GP,Sy Hms,Hrs,Hu,Ms,Rb,Rat Sr Prot) antibody"	"Cy2"	""	""	""	"30057067"	"monoclonal"	5	"Jackson ImmunoResearch Labs"	"705-225-147"	"AB_2307341"	""	"donkey"	"immunohistochemistry"	"secondary"	"goat"
+""	"Cy3-AffiniPure Donkey Anti-Rabbit IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rat,Shp Sr Prot) antibody"	"Cy3"	""	""	""	"30057067"	"polyclonal"	5	"Jackson ImmunoResearch Labs"	"711-165-152"	"AB_2307443"	""	"donkey"	"immunohistochemistry"	"secondary"	"rabbit"
+""	"Cy5-AffiniPure Donkey Anti-Guinea Pig IgG (H+L) (min X Bov,Ck,Gt,Sy Hms,Hrs,Hu,Ms,Rb,Rat,Shp Sr Prot) antibody"	"Cy5"	""	""	""	"30057067"	"polyclonal"	5	"Jackson ImmunoResearch Labs"	"706-175-148"	"AB_2340462"	""	"donkey"	"immunohistochemistry"	"secondary"	"guinea pig"

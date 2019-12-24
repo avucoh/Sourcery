@@ -1,0 +1,19 @@
+Isotype	TargetAntigen	ClonalityStatus	CloneName	RaisedIn	Usage	AntigenSpecies	TargetCells	Name	AntibodyConjugate	UsageNotes	Publication	Rating	VendorName	VendorCat	AntibodyType	RRID
+				rabbit	fluorescence imaging	human	NA	Rabbit Anti-Amylase, alpha Antibody, Unconjugated			29550076	5	Sigma-Aldrich	A8273	primary	AB_258380
+		monoclonal		rat	fluorescence imaging	NA	NA	RAT ANTI BrdU antibody			29550076	5	Bio-Rad	MCA2060GA	primary	AB_10545551
+		monoclonal	Clone TMP4	mouse	fluorescence imaging	human	NA	CD133 (Prominin-1) Monoclonal Antibody (TMP4), PE, eBioscience™			29550076	5	Thermo Fisher Scientific	12-1338-42	primary	AB_1582257
+		monoclonal		rat	fluorescence imaging	mouse	NA	CD31 antibody			29550076	5	BD Biosciences	561410	primary	AB_10612003
+		monoclonal		rat	fluorescence imaging	mouse	NA	Rat Anti-CD45 Monoclonal Antibody, PE-Cy7 Conjugated, Clone 30-F11			29550076	5	BD Biosciences	552848	primary	AB_394489
+		monoclonal	G8.8	rat	fluorescence imaging	mouse	NA	Rat Anti-CD326 Monoclonal Antibody, Unconjugated, Clone G8.8			29550076	5	BD Biosciences	552370	primary	AB_394370
+		monoclonal	T45-2342	rat	fluorescence imaging	mouse	NA	F4/80 antibody			29550076	5	BD Biosciences	565853 also 565854	primary	AB_2744474
+		polyclonal		rabbit	fluorescence imaging	human	NA	Rabbit Anti-C-RAF (Phospho-Tyr341) Polyclonal, Unconjugated antibody			29550076	5	Assay Biotech	A0565	primary	AB_10689823
+		polyclonal		goat	fluorescence imaging	NA	NA	Goat Anti-GFP (Green Fluorescent Protein) Polyclonal Antibody, Unconjugated			29550076	5	Abcam	ab6673	primary	AB_305643 
+		polyclonal		guinea pig	fluorescence imaging	human	NA	Guinea Pig Anti-Insulin Polyclonal Antibody, Unconjugated			29550076	5	Abcam	ab7842	primary	AB_306130
+		polyclonal		rabbit	fluorescence imaging	human	NA	Anti-NKX6-1 (232-244) antibody produced in rabbit			29550076	5	Sigma-Aldrich	SAB1100161	primary	AB_10607222
+		polyclonal		goat	fluorescence imaging	mouse	NA	Goat Anti-Mouse Osteopontin Polyclonal antibody, Unconjugated			29550076	5	R and D Systems	AF808	primary	AB_2194992
+		polyclonal		rabbit	fluorescence imaging	human	NA	Polyclonal Rabbit Anti-Human Somatostatin antibody			29550076	5	Agilent	A0566	primary	AB_10695961
+		polyclonal		donkey	fluorescence imaging	goat	NA	Cy™3 AffiniPure Donkey Anti-Goat IgG (H+L) antibody			29550076	5	Jackson ImmunoResearch Labs	705-165-147	secondary	AB_2307351
+		polyclonal		chimpanzee	fluorescence imaging	NA	NA	Cy3-AffiniPure F(ab')2 Fragment Donkey Anti-Guinea Pig IgG (H+L) (min X Bov,Ck,Gt,Sy Hms,Hrs,Hu,Ms,Rb,Rat,Shp Sr Prot) antibody	Cy3		29550076	5	Jackson ImmunoResearch Labs	706-166-148	secondary	AB_2340461
+		polyclonal		chimpanzee	fluorescence imaging	NA	NA	Allophycocyanin-AffiniPure F(ab')2 Fragment Donkey Anti-Rat IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rb,Shp Sr Prot) antibodyAllophycocyanin-AffiniPure F(ab')2			29550076	5	Jackson ImmunoResearch Labs	712-136-153	secondary	AB_2340661
+		polyclonal		chimpanzee	flow cytometry assay	NA	NA	DyLight 649-AffiniPure F(ab')2 Fragment Mouse Anti-Rat IgG (H+L) (min X Hu,Bov,Hrs,Ms,Gt,Rb Sr Prot) antibody	DyLight 649-AffiniPure F(ab')2		29550076	5	Jackson ImmunoResearch Labs	212-496-168	secondary	AB_2339231
+		polyclonal		chimpanzee	fluorescence imaging	human	NA	Anti-Sox9 antibody			29550076	5	Millipore	AB5535	primary	AB_2239761

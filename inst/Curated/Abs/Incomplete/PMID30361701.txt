@@ -1,0 +1,10 @@
+rabbit pig anti-Pdx1	1/5000	C.W. Wright
+guinea pig anti-Pdx1	1/750	C.W. Wright
+rabbit anti-Nkx6.1	1/800	BCBC #AB1069
+guinea pig anti-porcine insulin 	1/400	DAKO
+mouse anti-glucagon 	1/1000	Sigma
+mouse anti-somatostatin 	1/200	BCBC #Ab1985
+goat anti-somatostatin 	1/200	Santa Cruz #sc-7918 
+rabbit anti-GFP 	1/400	Molecular Probes
+mouse anti-mCherry	1/500	Abcam #ab125096
+goat anti-Ihh 	1/50	Santa Cruz #sc-1196 

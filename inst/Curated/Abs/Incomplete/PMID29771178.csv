@@ -1,0 +1,8 @@
+Antigen,Target,Host,Company,Catalog,Dilution
+SMA,Smooth muscle cells,,Sigma,#6198, RRID:AB_476856, “1:200”
+CD3,T lymphocytes,,Dako,#A0452,“1:500”
+CD31,Endothelial cells,,Abcam,#AB28364,1:250”
+    CD34,Endothelial cells,,Life Tech,#MAI-10202 RRID:AB_11156010,“1:300”
+GCG,Alpha-cells,,Abcam,#ABI0988,“1:200”
+INS,Beta-cells,,Dako,#A0564,“1:100”
+SCG3,Neuroendocrine cells,,Sigma,#HPA006880,“1:1000”

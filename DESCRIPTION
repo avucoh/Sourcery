@@ -10,3 +10,8 @@ Encoding: UTF-8
 LazyData: true
 Depends: data.table, shiny, httr, xml2, DT
 Imports: shinythemes, uuid, jsonvalidate, jsonlite, parsedate, rvest, RISmed
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

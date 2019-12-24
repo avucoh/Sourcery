@@ -1,0 +1,25 @@
+Rabbit anti-ARX (1:1000) Beta Cell Biology Consortium (BCBC)/Patrick Collombat N/A
+Rabbit anti-Glucagon (1:200) Cell Signaling Cat# 2760; RRID:AB_659831
+Mouse anti-Glucagon (1:500) Abcam Cat# ab10988; RRID:AB_297642
+Mouse anti-Glucagon- Pacific Blue (1:600; flow cytometry) Sigma-Aldrich Cat# G2654; RRID:AB_259852
+Rabbit anti-Insulin-647 (1:65) Cell Signaling Cat# 9008
+Guinea pig anti-Insulin (1:1000) Dako Cat# A0564
+Chicken anti-Insulin (1:10; flow cytometry) Gallus Immunotech Cat# ABI
+Rabbit anti-MAFB (1:3000) Gift from Roland Stein, Vanderbilt University Cat# BL1228
+Mouse anti-NKX2.2 (1:1000) Developmental Studies
+Hybridoma Bank Cat# 74-5A5; RRID:AB_531794
+Rabbit anti-NKX6.1 (1:2000) BCBC/Palle Serup N/A
+Rabbit anti-PDX1 (1:5000) C. V. E. Wright N/A
+Goat anti-PDX1 (1:5000) C. V. E. Wright N/A
+Goat anti-Somatostatin (1:500) Santa Cruz Cat# sc-7819; RRID:AB_2302603
+Mouse anti-Somatostatin-AlexaFluor 488 (1:200; flow cytometry) LS Bio Cat# LS-C169129-100
+Mouse anti-HIC3-2D12 (Hpa3; 1:200; flow cytometry) Gift from Drs. Philip Streeter and Markus Grompe N/A
+Mouse anti-HIC0-4F9-Biotin (Hpi1; 1:100; flow cytometry) Novus Cat# NBP1-18872B RRID: AB_2126328
+Donkey anti-chicken-APC (1:25; flow cytometry) Jackson ImmunoResearch Cat #703-136-155 RRID:AB_2340360
+Donkey anti-goat-Alexa Flour 647 (1:200) Jackson ImmunoResearch Cat #705-605-003 RRID:AB_2340436
+Donkey anti-Guinea pig-Cy2 (1:500) Jackson ImmunoResearch Cat #706-225-148 RRID:AB_2340467
+Donkey anti-Guinea pig-Cy5 (1:200) Jackson ImmunoResearch Cat #706-175-148 RRID:AB_2340462
+Donkey anti-mouse-Cy5 (1:200) Jackson ImmunoResearch Cat #715-175-151 RRID:AB_2340820
+Donkey anti-rabbit-Cy3 (1:500) Jackson ImmunoResearch Cat #711-165-152 RRID:AB_2307443
+Goat anti-mouse-PE (1:1000; flow cytometry) BD Biosciences Cat# 550589 RRID:AB_393768
+Streptavidin BV421 (1:500; flow cytometry) BD Biosciences Cat# 563259

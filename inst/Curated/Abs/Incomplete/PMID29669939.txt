@@ -1,0 +1,10 @@
+Insulin Guinea pig Polyclonal Dako #A0564 1:1000
+Glucagon Mouse Monoclonal Abcam #ab10988 1:200
+Glucagon Rabbit Polyclonal Cell Signaling Tech. #2760s 1:100
+Somatostatin Goat Polyclonal Santa Cruz Biotech. #SC-7819 1:500
+CD45 Mouse Monoclonal BD Pharmigen #555480 1:100
+IBA1 Rabbit Polyclonal Wako #019-19741 1:500
+Ki67 Rabbit Polyclonal Abcam #ab15580 1:5000
+CFTR Mouse Monoclonal Cystic Fibrosis Foundation 217 (Ab code: A3) 1:250
+CFTR Mouse Monoclonal Cystic Fibrosis Foundation 432 (Ab code: A7) 1:250
+CFTR Mouse Monoclonal Cystic Fibrosis Foundation 450 (Ab code: A6) 1:250

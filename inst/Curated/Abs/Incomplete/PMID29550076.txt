@@ -1,0 +1,35 @@
+Amylase Rabbit pAB 100 IF #A8273 Sigma
+BrdU Rat pAB 100 IF #MCA2060GA BioRad
+C-peptide Rabbit pAB 100 IF #4593 Cell Signaling
+CD133 Rat mAB -PE 100 FACS, IF #12-1331-82 eBiosciences
+CD31 Rat mAB 100 FACS, IF #561410 BD Biosciences
+CD45 Rat mAB 100 FACS, IF #552848 BD Biosciences
+Cre Rabbit pAB 100 IF #2691624 Millipore
+DBA Biotinylated 100 FACS, IF #B1035 Vector Laboratory
+EpCAM Rat mAB 100 IF #552370 BD Biosciences
+F4/80 Rat mAB 100 IF #565853 BD Biosciences
+FAH Rabbit pAB 500 IF Custom Grompe lab
+GAPDH Rabbit mAB 5000 WB #2118S Cell signaling
+GFP Goat pAB 100 IF #ab6673 Abcam
+Glucagon Rabbit pAB 100 IF #A0565 Dako
+Insulin Guinea Pig pAB 100 IF #ab7842 Abcam
+Krt19 Rabbit pAB 500 IF #CLT602-670 Cell Lab Tech
+MIC1-1C3 Rat mAB 20 FACS Gift Craig Dorrell and Philip Streeter, OHSU
+Mafa Rabbit pAB 1000 WB #SAB2101414 Sigma
+Neurog3 mouse pAB 1000 WB #F25A1B3 DSHB
+Nkx6.1 Rabbit pAB 100 IF #SAB1100161 Sigma
+OC2-2F8/2G9 Rat mAB 20 FACS Gift Craig Dorrell and Philip Streeter, OHSU
+Ostepontin Goat pAB 100 IF #AF808 R&D systems
+Pdx1 mouse pAB 1000 WB #F109-D12 DSHB
+Somatostatin Rabbit pAB 100 IF #A0566 Dako
+Sox9 Rabbit mAB 100 IF #AB5535 Millipore
+Anti-Biotin Steptavidin Alexa Fluor647 IF 200 #016-600-064 JacksonImmuno
+Anti-Goat Donkey Cy3 IF 200 #705-165-147 JacksonImmuno
+Anti-Goat Donkey Alexa Fluor647 IF 200 #705-606-147 JacksonImmuno
+Anti-Guinea Pig Donkey Cy3 IF 200 #706-166-148 JacksonImmuno
+Anti-Guinea Pig Donkey Alexa Fluor647 IF 200 #706-605-148 JacksonImmuno
+Anti-rabbit Donkey Cy3 IF 200 #711-166-152 JacksonImmuno
+Anti-rabbit Donkey Alexa Fluor647 IF 200 #711-605-152 JacksonImmuno
+Anti-rat Goat Alexa Fluro555 IF 200 #A-21428 ThermoFisher
+Anti-rat Donkey APC IF 200 #712-136-153 JacksonImmuno
+Anti-rat mouse Dylight 649 FACS 200 #212-496-168 JacksonImmuno

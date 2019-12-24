@@ -1,0 +1,22 @@
+Name	Vendor	UsageNotes	Clone	Usage	Rating	Conjugate
+Anti-FITC-160 metal conjugated antibody	Fluidigm	dilution 1:50	FIT-22	CyTOF	5	
+Anti-APC-163 metal conjugated antibody	Fluidigm	dilution 1:50	APC003	CyTOF	5	
+Anti-PE-156 metal conjugated antibody	Fluidigm	dilution 1:50	PE001	CyTOF	5	
+CD11b-154 metal conjugated antibody	Fluidigm	dilution 1:400	N418	CyTOF	5	
+CD11c-142 metal conjugated antibody	Fluidigm	dilution 1:400	M1/70	CyTOF	5	
+CD127-175 metal conjugated antibody	Fluidigm	dilution 1:100	A7R34	CyTOF	5	
+CD19-166 metal conjugated antibody	Fluidigm	dilution 1:400	6D5	CyTOF	5	
+CD25-150 metal conjugated antibody	Fluidigm	dilution 1:200	3C7	CyTOF	5	
+CD3-152 metal conjugated antibody	Fluidigm	dilution 1:200	145-2C11	CyTOF	5	
+CD4-172 metal conjugated antibody	Fluidigm	dilution 1:400	GK1.5 or RM-4	CyTOF	5	
+CD44-171 metal conjugated antibody	Fluidigm	dilution 1:400	IM7	CyTOF	5	
+CD45-89 metal conjugated antibody	Fluidigm	dilution 1:400	30-F1	CyTOF	5	
+CD49d-151 metal conjugated antibody	Fluidigm	dilution 1:200	R1-2	CyTOF	5	
+CD5-146 metal conjugated antibody	Fluidigm	dilution 1:200	53-7.3	CyTOF	5	
+CD62L-173 metal conjugated antibody		dilution 1:100; conjugated in-house	MEL-14	CyTOF	5	
+CD69-145 metal conjugated antibody	Fluidigm	dilution 1:200	H1.2F3	CyTOF	5	
+GR-1-141 metal conjugated antibody	Fluidigm	dilution 1:400	RB6-8C5	CyTOF	5	
+KLGR1-176 metal conjugated antibody		dilution 1:100; conjugated in-house	2FI	CyTOF	5	
+PD-1-159 metal conjugated antibody	Fluidigm	dilution 1:200	RMP1-30	CyTOF	5	
+2.5HIP  antibody	NIH Tetramer Core	dilution 1:100		CyTOF	5	
+6.9HIP antibody	NIH Tetramer Core	dilution 1:100		CyTOF	5	

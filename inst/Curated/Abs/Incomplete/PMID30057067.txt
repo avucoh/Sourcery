@@ -1,0 +1,10 @@
+Rabbit polyclonal anti-Glucagon	Santa Cruz Biotechnology	Cat# sc-13091; RRID:AB_641026
+Goat polyclonal anti-Glucagon	Santa Cruz Biotechnology	Cat# sc-7780; RRID:AB_641025
+Goat polyclonal anti-GFP	Abcam	Cat# ab6673; RRID:AB_305643
+Guinea pig polyclonal anti-Insulin	Dako	Cat# A0564; RRID:AB_10013624
+Guinea pig polyclonal anti-Insulin	Invitrogen	Cat# 180067
+Rabbit polyclonal anti-Cre	Millipore	Cat# 69050; RRID:AB_10806983
+Rabbit polyclonal anti-Chromogranin A	ImmunoStar	Cat# 20085; RRID:AB_572227
+Donkey anti-goat Cy2-conjugated IgG (H+L)	Jackson ImmunoResearch Laboratories	Cat# 705-225-147; RRID:AB_2307341
+Donkey anti-rabbit Cy3-conjugated IgG (H+L)	Jackson ImmunoResearch Laboratories	Cat# 711-165-152; RRID:AB_2307443
+Donkey anti-guinea pig Cy5-conjugated IgG (H+L)	Jackson ImmunoResearch Laboratories	Cat# 706-175-148; RRID:AB_2340462

@@ -1,0 +1,8 @@
+  antihuman CD2 monoclonal antibody (BTI 322 #TAB-110CL; 400 μg/mouse) therapeutic
+CD4 (clone 30-F11 #103101 RRID:AB_312966), flow cytometry
+CD8 (clone 53-6.7 #100701 RRID:AB_312740), flow cytometry
+CD44 (clone IM7 #103001 RRID:AB_312952), flow cytometry
+and CD62L (Clone MEL-14 #104405 RRID:AB_313092) were purchased from Biolegend. flow cytometry 
+CD25 antibody (clone 7D4 # 13-0252-82 RRID:AB_891428) was purchased from eBioscience flow cytometry
+CD3 antibody (clone 17A2 #555273 RRID:AB_395697	) was purchased from BD Biosciences. .. flow cytometry
+Foxp3 antibody (eBioscience, clone FJK16s  #14-5773-82 RRID:AB_467576). flow cytometry

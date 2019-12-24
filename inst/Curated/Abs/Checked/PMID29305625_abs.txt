@@ -1,0 +1,8 @@
+TargetCells	Name	AntibodyConjugate	Isotype	TargetAntigen	UsageNotes	Publication	ClonalityStatus	Rating	VendorName	VendorCat	RRID	CloneName	RaisedIn	Usage	AntibodyType	AntigenSpecies
+	BiP Antibody				dilution 1:1000	29305625	polyclonal	5	Cell Signaling Technology	3183	AB_10695864		rabbit	immunohistochemistry	primary	human|mouse|rat
+	beta-Actin Antibody				dilution 1:5000	29305625	polyclonal	5	Cell Signaling Technology	4967 also 4967S, 4967L	AB_330288		rabbit	immunohistochemistry	primary	human|mouse|rat
+	Mouse Anti-beta-catenin Monoclonal Antibody, Unconjugated, Clone D-10				dilution 1:1000	29305625	monoclonal	5	Santa Cruz Biotechnology	sc-133239	AB_2088258		mouse	immunohistochemistry	primary	human|mouse|rat
+	Allophycocyanin-AffiniPure F(ab')2 Fragment Donkey Anti-Mouse IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Rb,Shp Sr Prot) antibody				dilution 1:5000	29305625	polyclonal	5	Jackson ImmunoResearch Labs	715-136-150	AB_2340802		chimpanzee	immunohistochemistry	secondary	mouse
+	BV421 goat anti- mouse Ig antibody				dilution 1:1000	29305625	monoclonal	5	BD Biosciences	563846	AB_2738449		goat	immunohistochemistry	secondary	mouse
+	Goat anti-Guinea Pig IgG (H+L) Highly Cross-Adsorbed Secondary Antibody, Alexa Fluor 488	Alexa Fluor 488			dilution 1:200	29305625	polyclonal	5	Thermo Fisher Scientific	A-11073	AB_2534117		goat	immunohistochemistry	secondary	guinea pig
+	Rabbit Anti-Mouse IgG Antibody, Alexa Fluor?? 568 Conjugated	Alexa Fluor?? 568			dilution 1:200	29305625	polyclonal	5	Thermo Fisher Scientific 	A-11061	AB_2534108		rabbit	immunohistochemistry	secondary	mouse

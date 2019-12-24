@@ -1,0 +1,8 @@
+"TargetCells"	"Name"	"AntibodyConjugate"	"Isotype"	"TargetAntigen"	"UsageNotes"	"Publication"	"ClonalityStatus"	"Rating"	"VendorName"	"VendorCat"	"RRID"	"CloneName"	"RaisedIn"	"Usage"	"AntibodyType"	"AntigenSpecies"
+NA	"HPx1 Antibody"	""	""	""	"dilution 1:100"	"30145115"	"monoclonal"	5	"Novus"	"NBP1-18951G"	"AB_1723850"	"Clone HIC0-3B3"	"mouse"	"flow cytometry assay"	"primary"	"human"
+NA	"HPi2 Antibody"	""	""	""	"dilution 1:100"	"30145115"	"monoclonal"	5	"Novus"	"NBP1-18946C"	"AB_1723990"	"Clone HIC1-2B4.2B"	"mouse"	"flow cytometry assay"	"primary"	"human"
+NA	"HPa2 Antibody"	""	""	""	"dilution 1:100"	"30145115"	"monoclonal"	5	"Novus"	"NBP1-18950B"	"AB_2120857"	""	"mouse"	"flow cytometry assay"	"primary"	"human"
+NA	"PE anti-human CD26 antibody"	""	""	""	"dilution 1:100; inclusion of the CD26 antibody greatly improves separation of α-cells from β-cells, also reported in (Arda et al., 2016)"	"30145115"	"monoclonal"	5	"BioLegend"	"302705"	"AB_314289"	"Clone BA5b"	"mouse"	"flow cytometry assay"	"primary"	"human"
+NA	"CD133/1 (AC133)-Biotin, human (clone: AC133) antibody"	""	""	""	"dilution 1:100"	"30145115"	"monoclonal"	5	"Miltenyi Biotec"	"130-090-664"	"AB_244341"	"AC133"	"mouse"	"flow cytometry assay"	"primary"	"human"
+NA	"CD133/2 (293C3)-Biotin, human antibody"	""	""	""	"dilution 1:100"	"30145115"	"monoclonal"	5	"Miltenyi Biotec"	"130-090-852"	"AB_244345"	"293C3"	"mouse"	"flow cytometry assay"	"primary"	"human"
+NA	"Streptavidin APC-eFluor 780 100 ug antibody"	""	""	""	"dilution 1:100"	"30145115"	""	5	"Thermo Fisher Scientific"	"47-4317-82"	"AB_10366688"	""	"chimpanzee"	"flow cytometry assay"	"secondary"	NA

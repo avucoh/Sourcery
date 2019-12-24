@@ -1,0 +1,14 @@
+Isotype	TargetAntigen	ClonalityStatus	CloneName	RaisedIn	Usage	AntigenSpecies	TargetCells	Name	AntibodyConjugate	UsageNotes	Publication	Rating	VendorName	VendorCat	AntibodyType
+		polyclonal		rabbit	immunohistochemistry	human		Glucagon Antibody		dilution 1:200	29514095	5	Cell Signaling Technology	2760	primary
+		monoclonal	Clone K79bB10	mouse	immunohistochemistry	human		Mouse Anti-Glucagon Monoclonal Antibody, Unconjugated, Clone K79bB10		dilution 1:500	29514095	5	Abcam	ab10988	primary
+		monoclonal	Clone K79bB10	mouse	flow cytometry assay	human		Mouse Anti-Glucagon Monoclonal Antibody, Unconjugated, Clone K79bB10		dilution 1:600	29514095	5	Sigma-Aldrich	G2654	primary
+		monoclonal		mouse	immunohistochemistry	human		Nkx2.2 transcription factor antibody - Jessell, T.M. / Brenner-Morton, S.; HHMI/Columbia University		dilution 1:1000	29514095	5	DSHB	74.5A5	primary
+		polyclonal	D-20	goat	immunohistochemistry	human		Somatostatin (D-20) antibody		dilution 1:500	29514095	5	Santa Cruz Biotechnology	sc-7819	primary
+		monoclonal		mouse	flow cytometry assay	human		HPa3 / HIC3-2D12 antibody		dilution 1:200	29514095	5	Dorrell et al., 2016	HPa3 / HIC3-2D12	primary
+		polyclonal		chimpanzee	flow cytometry assay	NA		Allophycocyanin-AffiniPure F(ab')2 Fragment Donkey Anti-Chicken IgY (IgG) (H+L) (min X Bov,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rb,Rat,Shp Sr Prot) antibody		dilution 1:25	29514095	5	Jackson ImmunoResearch Labs	703-136-155	secondary
+		polyclonal		chimpanzee	fluorescence imaging	NA		Alexa Fluor 647-AffiniPure Donkey Anti-Goat IgG (H+L)  antibody	Alexa Fluor 647	dilution 1:200	29514095	5	Jackson ImmunoResearch Labs	705-605-003	secondary
+		polyclonal		chimpanzee	flow cytometry assay	NA		Cy2-AffiniPure Donkey Anti-Guinea Pig IgG (H+L) (min X Bov,Ck,Gt,Sy Hms,Hrs,Hu,Ms,Rb,Rat,Shp Sr Prot) antibody	Cy2	dilution 1:500	29514095	5	Jackson ImmunoResearch Labs	706-225-148	secondary
+		polyclonal		chimpanzee	flow cytometry assay	NA		Cy5-AffiniPure Donkey Anti-Guinea Pig IgG (H+L) (min X Bov,Ck,Gt,Sy Hms,Hrs,Hu,Ms,Rb,Rat,Shp Sr Prot) antibody	Cy5	dilution 1:200	29514095	5	Jackson ImmunoResearch Labs	706-175-148	secondary
+		polyclonal		chimpanzee	fluorescence imaging	NA	NA	Cy5-AffiniPure Donkey Anti-Mouse IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Rb,Rat,Shp Sr Prot) antibody	Cy5	dilution 1:200	29514095	5	Jackson ImmunoResearch Labs	715-175-151	secondary
+		polyclonal		donkey	fluorescence imaging	rabbit	NA	Cy3-AffiniPure Donkey Anti-Rabbit IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rat,Shp Sr Prot) antibody	Cy3	dilution 1:500	29514095	5	Jackson ImmunoResearch Labs	711-165-152	secondary
+		polyclonal		goat	flow cytometry assay	mouse	NA	Goat Anti-Ig Polyclonal Antibody, Phycoerythrin Conjugated	Phycoerythrin 	dilution 1:1000	29514095	5	BD Biosciences	550589	secondary

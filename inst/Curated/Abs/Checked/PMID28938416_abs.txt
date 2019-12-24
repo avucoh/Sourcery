@@ -1,0 +1,5 @@
+TargetCells	Name	Rating	VendorName	VendorCat	RRID	AntibodyConjugate	Isotype	CloneName	RaisedIn	TargetAntigen	Usage	AntibodyType	AntigenSpecies	UsageNotes	Publication	ClonalityStatus
+	Mouse Anti-Glucagon Monoclonal Antibody, Unconjugated, Clone K79bB10	5	Abcam	ab10988	AB_297642			Clone K79bB10	mouse		immunohistochemistry	primary	human		28938416	monoclonal
+	Polyclonal Guinea Pig Anti- Insulin antibody	5	Agilent	A056401-2	AB_2617169				guinea pig		immunohistochemistry	primary	human		28938416	polyclonal
+	HLA Class 1 ABC antibody [EMR8-5]	5	Abcam	ab70328	AB_1269092			Clone EMR8-5	mouse		immunohistochemistry	primary	human		28938416	monoclonal
+	ImmPRESS Universal Antibody Kit	5	Vector Laboratories	MP-7500	AB_2336534				horse		immunohistochemistry	secondary	mouse		28938416	

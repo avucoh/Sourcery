@@ -1,0 +1,41 @@
+---
+title: "Submitting resources using Sourcery"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Sourcery)
+```
+
+## Introduction
+
+The HIRN Resource Browser has an API for both **retrieving** and **loading** resources programmatically: https://resourcebrowser.hirnetwork.org/swagger/ui/index. While the API can be used with curl in Linux, for those who want to use R this package offers some convenience functions and examples of using the API for both purposes.
+
+```{r setup}
+library(Sourcery)
+```
+
+## Loading data
+
+```{r loading}
+
+
+```
+
+## Retrieving resource data for analysis (coming soon)
+
+```{r retrieving}
+
+
+```

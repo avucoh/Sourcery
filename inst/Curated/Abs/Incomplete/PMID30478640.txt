@@ -1,0 +1,10 @@
+DEXI DEXI polyclonal antibody Atlas AntibodiesCat# HPA041511 Rabbit, polyclonal 1:250 RRID:AB_10796675
+PhosphoSTAT1 Phospho-STAT1 1:1000 RRID:AB_10950970
+Total STAT1 Stat1 p84/p91 antibody Santa Cruz Biotechnology Cat# sc-346 Rabbit, polyclonal 1:1000 RRID:AB_632435
+DKK-Tag 4C5, Anti-DDK monoclonal antibody OriGene Cat#TA50011-100 Mouse, monoclonal 1:1000 RRID:AB_2622345
+HSP90 HSP90 Rabbit mAb antibody Cell Signaling Technology Cat#4877S Rabbit, polyclonal 1:1000 RRID:AB_2233307
+HDAC1 HDAC1 antibody - ChIP Grade Abcam Cat# ab7028 Rabbit, polyclonal 1:1000 RRID:AB_305705
+H3 Histone H3 antibody - ChIP Grade Abcam Cat# ab1791 Rabbit, polyclonal 1:1000 RRID:AB_302613
+α-Tubulin Monoclonal Anti-αTubulin antibody Sigma, Bornem, Belgium, Cat#: T9026 Mouse, monoclonal 1:5000 RRID:AB_477593
+Anti-mouse IgG Peroxidase AffiniPure Fragment Donkey Anti-Mouse IgG (H+L) Jackson ImmunoResearch Laboratories, Wes Grove, PA, USA, Cat#: 715-036-150 Polyclonal 1:5000 RRID:AB_2340773
+Anti-rabbit IgG Peroxidase AffiniPure Fragment Donkey Anti-Rabbit IgG (H+L)  Cat#: 711-036-152 Polyclonal 1:5000 RRID:AB_2340590

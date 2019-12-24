@@ -1,0 +1,15 @@
+Cat #ab205921 1:100 IF RRID:AB_2687878
+Cat #ab82270 1:2000 IF RRID:AB_1658481
+Cat #8478 1:100 IF RRID: AB_10949108
+Cat#A0564 1:700 IF RRID:AB_10013624
+α-tubulin Sigma Cat#T9026; RRID:AB_477593 WB
+CD8 Abcam Cat#Ab4055 RRID:AB_304247 Flow
+phospho-STAT1 Cell signaling Cat#9167 RRID:AB_561284 WB
+phospho-STAT2 Cell signaling Cat#88410 WB
+total STAT1 Cell signaling Cat#14495 RRID:AB_2716280 WB
+total STAT2 Cell signaling Cat#72604 WB
+JAK1 Abcam Cat#ab133666 WB
+Peroxidase- conjugated donkey anti-rabbit IgG Jackson ImmunoResearch Cat#715-036-152 RRID:AB_2340590 WB
+Peroxidase- conjugated donkey anti-mouse IgG Jackson ImmunoResearch Cat#711-036-150 RRID:AB_2340773 WB
+Goat anti-Rabbit IgG (H+L) Secondary Antibody, Alexa Flow Fluor 647 Thermo Fisher Scientific Cat#A27040; RRID:AB_2536101 Flow
+Goat anti-Guinea Pig IgG (H+L) Secondary Antibody, Alexa Fluor 488 Thermo Fisher Scientific Cat#A-11073; RRID:AB_2534117 Flow

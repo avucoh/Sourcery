@@ -1,0 +1,3 @@
+"TargetCells"	"Name"	"Rating"	"VendorName"	"TargetAntigen"	"VendorCat"	"AntibodyType"	"Usage"	"AntibodyConjugate"	"AntigenSpecies"	"Isotype"	"RRID"	"CloneName"	"UsageNotes"	"Publication"	"ClonalityStatus"	"RaisedIn"
+""	"Mouse Anti-Human CD68 (KP1) Monoclonal, Unconjugated, Clone Kp1 antibody"	5	"Santa Cruz Biotechnology"	""	"sc-20060"	"primary"	"flow cytometry assay"	""	"human"	""	"AB_627158"	"KP1"	""	"30873298"	"monoclonal"	"mouse"
+""	"Alexa Fluor® 488 anti-mouse/human CD11b antibody"	5	"BioLegend"	""	"101217"	"primary"	"flow cytometry assay"	"Alexa Fluor® 488 anti-mouse/human CD11"	"human"	""	"AB_389305"	"Clone M1/70"	""	"30873298"	"monoclonal"	"rat"

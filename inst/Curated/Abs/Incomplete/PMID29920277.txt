@@ -1,0 +1,13 @@
+Mouse monoclonal anti e-cadherin	BD transduction lab	(# 24E10)
+Guinea pig polyclonal anti Insulin	Abcam	(Cat# AB7842; RRID:AB_306130)
+Guinea pig polyclonal anti Insulin	Dako	(Cat# A0564; RRID:AB_10013624)
+Rabbit monoclonal anti Ki-67	Thermo Fisher Scientific	(Cat# RM-9106-S0; RRID:AB_2341197)
+Rabbit polyclonal anti amylase	Sigma-Aldrich	(Cat# A8273; RRID:AB_258380
+Rabbit polyclonal anti Fibrillarin	Abcam	ab166630
+hybridoma supernatant MIC0-2A6 (mouse anti human acinar cells marker)	a gift of Markus Grompe and Craig Dorrell	Dorrell et al., Molecular and cellular endocrinology 339, 144-50 (2011)
+Alexa Flour 647 mouse anti-Ki67 (FACS)	BD Biosciences	BD558615 Lot:7082839
+Alexa Fluor 488-AffiniPure Donkey Anti-Guinea Pig IgG (H+L) (min X Bov,Ck,Gt,Sy Hms,Hrs,Hu,Ms,Rb,Rat,Shp Sr Prot) antibody	Jackson ImmunoResearch Labs	Cat# 706-545-148, RRID:AB_2340472
+Cy3-AffiniPure Donkey Anti-Mouse IgM, μ Chain Specific (min X Hu,Bov,Hrs,Rat Sr Prot) antibody	Jackson ImmunoResearch Labs	Cat# 715-165-140, RRID:AB_2340812
+Alexa Fluor 647-AffiniPure Donkey Anti-Mouse IgM, μ Chain Specific (min X Hu,Bov,Hrs,Rat Sr Prot) antibody	Jackson ImmunoResearch Labs	Cat# 715-605-140, RRID:AB_2340861
+Cy3-AffiniPure Donkey Anti-Rabbit IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rat,Shp Sr Prot) antibody	Jackson ImmunoResearch Labs	Cat# 711-165-152, RRID:AB_2307443
+Cy5-AffiniPure Donkey Anti-Rabbit IgG (H+L) (min X Bov,Ck,Gt,GP,Sy Hms,Hrs,Hu,Ms,Rat,Shp Sr Prot) antibody	Jackson ImmunoResearch Labs	Cat# 711-175-152, RRID:AB_2340607

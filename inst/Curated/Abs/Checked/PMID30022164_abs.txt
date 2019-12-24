@@ -1,0 +1,6 @@
+"TargetCells"	"Name"	"Rating"	"VendorName"	"VendorCat"	"AntibodyConjugate"	"Isotype"	"RRID"	"CloneName"	"RaisedIn"	"TargetAntigen"	"Usage"	"AntibodyType"	"AntigenSpecies"	"UsageNotes"	"Publication"	"ClonalityStatus"
+""	"Rabbit Anti-Mouse DCAMLK1 Polyclonal Antibody, Unconjugated"	5	"Abcam"	"ab31704"	""	""	"AB_873537"	""	"rabbit"	""	"fluorescence imaging"	"primary"	"human"	""	"30022164"	"polyclonal"
+""	"Cytokeratin 10 antibody [EP1607IHCY]"	5	"Abcam"	"ab76318"	""	""	"AB_1523465"	"Clone EP1607IHCY"	"rabbit"	""	"fluorescence imaging"	"primary"	"human"	""	"30022164"	"monoclonal"
+""	"Cytokeratin 5 antibody [EP1601Y]"	5	"Abcam"	"ab52635"	""	""	"AB_869890"	"Clone EP1601Y"	"rabbit"	""	"fluorescence imaging"	"primary"	"human"	""	"30022164"	"monoclonal"
+""	"Cytokeratin 8 antibody [EP1628Y]"	5	"Abcam"	"ab53280"	""	""	"AB_869901"	"Clone EP1628Y"	"rabbit"	""	"fluorescence imaging"	"primary"	"human"	""	"30022164"	"monoclonal"
+""	"Living Colors® DsRed Polyclonal Antibody"	5	"Takara Bio"	"632496"	""	""	"AB_10013483"	""	"rabbit"	""	"fluorescence imaging"	"secondary"	NA	""	"30022164"	"polyclonal"

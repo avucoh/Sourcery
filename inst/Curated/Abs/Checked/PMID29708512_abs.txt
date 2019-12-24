@@ -1,0 +1,11 @@
+TargetCells	Name	AntibodyConjugate	Isotype	TargetAntigen	UsageNotes	Publication	ClonalityStatus	Rating	VendorName	VendorCat	RRID	CloneName	RaisedIn	Usage	AntibodyType	AntigenSpecies
+	Purified anti-mouse CD45 antibody					29708512	monoclonal	5	BioLegend	103101	AB_312966	Clone 30-F11	rat	flow cytometry assay	primary	mouse
+	Purified anti-mouse CD8a antibody					29708512	monoclonal	5	BioLegend	100701	AB_312740	Clone 53-6.7	rat	flow cytometry assay	primary	mouse
+	Purified anti-mouse/human CD44 antibody					29708512	monoclonal	5	BioLegend	103001	AB_312952	Clone IM7	rat	flow cytometry assay	primary	mouse
+	FITC anti-mouse CD62L antibody	FITC				29708512	monoclonal	5	BioLegend	104405	AB_313092	Clone MEL-14	rat	flow cytometry assay	secondary	mouse
+	CD25 Monoclonal Antibody (eBio7D4 (7D4)), Biotin, eBioscience™					29708512	monoclonal	5	Thermo Fisher Scientific	13-0252-82	AB_891428	Clone eBio7D4 (7D4)	rat	flow cytometry assay	primary	mouse
+	Rat Anti-CD3 Molecular Complex Monoclonal Antibody, Unconjugated, Clone 17A2					29708512	monoclonal	5	BD Biosciences	555273	AB_395697	17A2	rat	flow cytometry assay	primary	mouse
+	FOXP3 Monoclonal Antibody (FJK-16s), eBioscience™					29708512	monoclonal	5	Thermo Fisher Scientific	14-5773-82	AB_467576	Clone FJK-16s	rat	flow cytometry assay	primary	porcine
+	FOXP3 Monoclonal Antibody (FJK-16s), eBioscience™					29708512	monoclonal	5	Thermo Fisher Scientific	14-5773-82	AB_467576	Clone FJK-16s	rat	flow cytometry assay	primary	mouse
+	FOXP3 Monoclonal Antibody (FJK-16s), eBioscience™					29708512	monoclonal	5	Thermo Fisher Scientific	14-5773-82	AB_467576	Clone FJK-16s	rat	flow cytometry assay	primary	rat
+	Anti-CD2 Therapeutic Antibody BTI-322				therapeutic dose: 400 μg/mouse	29708512	monoclonal	5	Creative Biolabs	TAB-110CL	AB_2819086		rat	biologic intervention	primary	human

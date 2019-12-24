@@ -1,0 +1,4 @@
+rabbit monoclonal to IBA-1 (019–19741, Wako; 1:500; RRID:AB_839504) #IF
+rat monoclonal to CD45 (clone 30-F11, R&D Systems; 1:50), #IF
+rabbit polyclonal to GPCR TGR5 (ab72608, Abcam; 1:250), #IF
+monoclonal murine anti-NeuN (clone A60, MAB377MI, EMD Millipore; 1:250)  #IF

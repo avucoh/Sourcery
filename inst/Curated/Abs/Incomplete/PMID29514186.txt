@@ -1,0 +1,13 @@
+(1:300; catalog no. AF2419; RRID:AB_355257; R&D Systems, Minneapolis, MN); 
+Ki67 (1:300; catalog no. 556003; RRID:AB_396287; BD Bioscience, San Jose, CA); 
+insulin (1:300; catalog no. A0564; RRID:AB_10013624; Dako, Santa Clara, CA); 
+glucagon (1:500; catalog no. A0565; RRID:AB_10013726; Dako);
+somatostatin (1:300; catalog no. A0566; RRID:AB_2688022; Dako); 
+vimentin (1:200; catalog no. ab24525; RRID:AB_778824; Abcam, Cambridge, MA); 
+proliferating cell nuclear antigen (PCNA) (1:50; catalog no. sc-7907; RRID:AB_2160375; Santa Cruz Biotechnology, Dallas, TX); 
+BrdU (1:50; M074401; RRID:AB_2721915; Dako); 
+phosphor-RB Ser608 (1:50; catalog no. 2181; RRID:AB_331517; Cell Signaling Technology, Danvers, MA); 
+p27 (1 µg/mL; catalog no. ab7961; RRID:AB_2244722; Abcam), 
+phospho-p27 (1 µg/mL; catalog no. ab62364; RRID:AB_944575; Abcam); 
+β-actin (1:15,000; catalog no. A5316; RRID:AB_476743; Sigma-Aldrich);
+and histone H3 (1:1000; catalog no. ab1791; RRID:AB_302613; Abcam)

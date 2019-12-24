@@ -1,0 +1,12 @@
+TargetCells	Name	AntibodyConjugate	Isotype	TargetAntigen	UsageNotes	Publication	ClonalityStatus	Rating	VendorName	VendorCat	CloneName	RaisedIn	Usage	AntibodyType	AntigenSpecies	RRID
+	Goat Anti-Human Pdx-1 / ipf1 Polyclonal antibody, Unconjugated				dilution 1:300	29514186	polyclonal	5	R and D Systems	AF2419		goat	immunohistochemistry	primary	human	AB_355257
+	Mouse Anti-Ki-67 Monoclonal Antibody, Unconjugated, Clone B56				dilution 1:300	29514186	monoclonal	5	BD Biosciences	556003	B56	mouse	immunohistochemistry	primary	human	AB_396287
+	Insulin antibody				dilution 1:300	29514186	polyclonal	5	Agilent	A0564		guinea pig	immunohistochemistry	primary	human	AB_10013624
+	Polyclonal Rabbit Anti-Human Somatostatin antibody				dilution 1:300	29514186	polyclonal	5	Agilent	A0566		rabbit	immunohistochemistry	primary	human	AB_10695961 
+	Vimentin antibody				dilution 1:200	29514186	polyclonal	5	Abcam	ab24525			immunohistochemistry	primary	human|mouse	AB_778824
+	PCNA (FL-261) antibody				dilution 1:50	29514186	polyclonal	5	Santa Cruz Biotechnology	sc-7907	FL-261	rabbit	immunohistochemistry	primary	human|mouse	AB_2160375
+	Anti-BrdU antibody				dilution 1:50	29514186	monoclonal	5	Agilent	M074401	Bu20a	mouse	immunohistochemistry	primary	NA	AB_2721915
+	Anti-Rb, phospho (Ser608) Antibody, Unconjugated				dilution 1:50	29514186		5	Cell Signaling Technology	2181		chimpanzee	immunoprecipitation	primary	human|mouse	AB_331517
+	p27 KIP 1 antibody				dilution 1 ug/mL	29514186	polyclonal	5	Abcam	ab7961		rabbit	immunohistochemistry	primary	human|mouse	AB_2244722
+NA	Rabbit Anti-p27 KIP 1, phospho (Ser10) Monoclonal Antibody, Unconjugated, Clone EP233(2)Y				dilution 1 ug/mL	29514186	monoclonal	5	Abcam	ab62364	Clone EP233(2)Y	rabbit	immunohistochemistry	primary	human|mouse	AB_944575
+NA	Mouse Anti-beta-Actin Monoclonal Antibody, Unconjugated, Clone AC-74				dilution 1:15000	29514186	monoclonal	5	Sigma-Aldrich	A5316	Clone AC-74	mouse	immunohistochemistry	primary	human|mouse	AB_476743

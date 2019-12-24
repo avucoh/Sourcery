@@ -1,0 +1,6 @@
+TargetCells	Name	Rating	VendorName	VendorCat	RRID	AntibodyConjugate	Isotype	CloneName	RaisedIn	TargetAntigen	Usage	AntibodyType	AntigenSpecies	UsageNotes	Publication	ClonalityStatus
+NA	Insulin antibody	5	Agilent	A0564	AB_10013624				guinea pig		immunohistochemistry	primary	human	dilution 1:1000	29669939	polyclonal
+NA	Mouse Anti-Glucagon Monoclonal Antibody, Unconjugated, Clone K79bB10	5	Abcam	ab10988	AB_297642			Clone K79bB10	mouse		immunohistochemistry	primary	human	dilution 1:200	29669939	monoclonal
+NA	Mouse Anti-CD45 Monoclonal Antibody, Unconjugated, Clone HI30	5	BD Biosciences	555480	AB_395872			HI30	mouse		immunohistochemistry	primary	human	dilution 1:100	29669939	monoclonal
+NA	Somatostatin (D-20) antibody	5	Santa Cruz Biotechnology	sc-7819	AB_2302603			D-20	goat		immunohistochemistry	primary	human	dilution 1:500	29669939	polyclonal
+NA	ST5 antibody	5	Abcam	ab111556	AB_10861960				rabbit		immunohistochemistry	primary	human	dilution 1:200	29650351	polyclonal

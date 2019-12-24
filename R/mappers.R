@@ -35,8 +35,8 @@ map2Type <- function(name) {
 
 # Create a mapping of PMID to authors
 PMID2Authors <- function(pmids, forenamechars = 3) {
-  authors <- EUtilsGet(pmids, type = "efetch", db = "pubmed")
-  authors <- Author(authors)
+  authors <- RISmed::EUtilsGet(pmids, type = "efetch", db = "pubmed")
+  authors <- RISmed::Author(authors)
   authors <- lapply(authors, function(x) {
     forename <- regmatches(x$ForeName, regexpr(pattern = paste0("^[^ ]{1,", forenamechars, "}"), x$ForeName))
     x$Name <- iconv(paste(x$LastName, forename), from ="UTF-8", to="ASCII//TRANSLIT")
