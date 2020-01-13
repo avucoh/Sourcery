@@ -1,41 +1,34 @@
-ab2json <- function(a, json = ab_temp, batch, sep = "|", CV = codedValues, HIRN) {
+ab2json <- function(a, json = ab_temp, batch, sep = "|", CV = codedValues, HIRN = whichHIRN) {
   new <- json
-  # Name and description
-  new$CanonicalId <- a$RRID
+  # Specifics
+  new$CanonicalId <- if(length(a$RRID)) paste0("RRID:", a$RRID)
   new$Name <- a$Name
   new$Description <- a$Description
   # Characteristics
-  new$AntibodyType <-  map2O(name = a$AntibodyType, ontology = "ERO")
-  new$TargetAntigen <- a$Antigen
-  new$AntigenSpecies <- map2O(name = a$AntigenSpecies, ontology = "NCBITAXON")
+  # Expanded with CanonicalId Name Url Ontology Id
   new$RaisedIn <- map2O(name = a$RaisedIn, ontology = "NCBITAXON")
-  new$ClonalityStatus <- map2O(name = a$Clonality, ontology = "ERO")
+  # new$IsoType <- map2O(name = a$Isotype, ontology = "ERO")
+  # new$AntibodyType <-  map2O(name = a$Type, ontology = "ERO")
+  new$AntibodyType <- if(a$Type == "primary") CVs$AntibodyType[[1]] else CVs$AntibodyType[[2]]
+  # new$TargetAntigen <- a$Antigen
+  new$AntigenSpecies <- map2O(name = a$AntigenSpecies, ontology = "NCBITAXON")
+  # new$ClonalityStatus <- map2O(name = a$Clonality, ontology = "ERO")
+  new$ClonalityStatus <- if(a$Clonality == "monoclonal") CVs$ClonalityStatus[[1]] else if(a$Clonality == "polyclonal") CVs$ClonalityStatus[[2]] else NULL
+  new$TargetCells <- lapply(unlist(strsplit(a$TargetCells, sep, fixed = T)), function(x) map2O(name = x, ontology = "CL"))
+  # Applications
+  new$Applications <- map2Application(Publication = a$Publication, Usage = a$Applications, UsageNotes = a$UsageNotes, Rating = a$Rating)
+  # Strings only
   new$CloneName <- a$CloneName
   new$PositiveControl <- a$PositiveControl
   new$AntibodyConjugate <- a$AntibodyConjugate
-  new$IsoType <- map2O(name = a$Isotype, ontology = "ERO")
   new$Purity <- a$Purity
-  new$TargetCells <- lapply(unlist(strsplit(a$TargetCells, sep, fixed = T)), function(x) map2O(name = x, ontology = "CL"))
-  new$Applications <- lapply(strsplit(a$Applications, "|", fixed = T)[[1]], function(x) map2O(id = x))
   # Vendor
-  new$VendorName <- a$VendorName
-  new$VendorCat <- a$VendorCat
+  new$Vendor$Name <- a$VendorName
+  new$VendorCatNumber <- a$VendorCat
   # Paper and contributors
-  new$Contributors <- map2Person(a$DefiningManuscriptId, a$Role, HIRN)
-  new$DefiningManuscriptId <- a$DefiningManuscriptId
+  new$Contributors <- map2Person(a$Publication, a$Role, HIRN)
+  new$DefiningManuscriptId <- a$Publication
   # Index metadata
-  new$id <- uuid::UUIDgenerate()
-  new$PrimaryResourceType <- resourceTypes$ResourceTypes[[1]][resourceSchema]
-  new$PrimaryResourceType$SerializationMode <- "full"
-  new$SecondaryResourceType <- resourceTypes$ResourceTypes[[1]]$SubResourceTypes[[1]][resourceSchema]
-  new$SecondaryResourceType$SerializationMode <- "full"
-  new$DateCreated <- format_iso_8601(Sys.time())
-  new$CurationStatus <- CV$CodedValuesByType$CurationStatus[[3]]
-  new$CurationStatus$SerializationMode <- "full"
-  new$BatchNumber <- batch
-  toJSON(new, pretty = T, null = "null", na = "null", auto_unbox = T)
-}
-
-ab2json_batch <- function() {
-  
+  new$Id <- uuid::UUIDgenerate()
+  jsonlite::toJSON(new, pretty = T, null = "null", na = "null", auto_unbox = T)
 }

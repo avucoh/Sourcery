@@ -1,0 +1,280 @@
+{
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "RaisedIn": {
+          "$ref": "#/definitions/CodedValue"
+        },
+        "TargetAntigen": {
+          "$ref": "#/definitions/CodedValue"
+        },
+        "CloneName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "PositiveControl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "AntibodyConjugate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "IsoType": {
+          "$ref": "#/definitions/CodedValue"
+        },
+        "Purity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ClonalityStatus": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/CodedValue"
+          }
+        },
+        "AntigenSpecies": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/CodedValue"
+          }
+        },
+        "CrossReactiveSpecies": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/CodedValue"
+          }
+        },
+        "TargetCells": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/CodedValue"
+          }
+        },
+        "AntibodyType": {
+          "$ref": "#/definitions/CodedValue"
+        },
+        "AuthenticationMethod": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "AuthenticationFrequency": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "AuthenticationResult": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "CanonicalUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "OtherIdentifiers": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "DefiningManuscriptId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VendorLotNumber": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VendorCatNumber": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "VendorResourceUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Publications": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Publication"
+          }
+        },
+        "Applications": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Application"
+          }
+        },
+        "Contributors": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Contributor"
+          }
+        },
+        "Vendor": {
+          "$ref": "#/definitions/Vendor"
+        },
+        "BatchIdentifier": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "RaisedIn",
+        "TargetAntigen",
+        "CloneName",
+        "PositiveControl",
+        "AntibodyConjugate",
+        "IsoType",
+        "Purity",
+        "ClonalityStatus",
+        "AntigenSpecies",
+        "CrossReactiveSpecies",
+        "TargetCells",
+        "AntibodyType",
+        "AuthenticationMethod",
+        "AuthenticationFrequency",
+        "AuthenticationResult",
+        "Id",
+        "Name",
+        "Description",
+        "CanonicalId",
+        "CanonicalUrl",
+        "OtherIdentifiers",
+        "DefiningManuscriptId",
+        "VendorLotNumber",
+        "VendorCatNumber",
+        "VendorResourceUrl",
+        "Publications",
+        "Applications",
+        "Contributors",
+        "Vendor",
+        "BatchIdentifier"
+      ]
+    },
+    "Application": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "UsageNotes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Contacts": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Person"
+          }
+        },
+        "Rating": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Usage": {
+          "$ref": "#/definitions/CodedValue"
+        },
+        "Publications": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/definitions/Publication"
+          }
+        }
+      },
+      "required": [
+        "UsageNotes",
+        "Contacts",
+        "Rating",
+        "Usage",
+        "Publications"
+      ]
+    }

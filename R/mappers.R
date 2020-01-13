@@ -36,7 +36,7 @@ map2Type <- function(name) {
 # Create a mapping of PMID to authors
 PMID2Authors <- function(pmids, forenamechars = 3) {
   authors <- RISmed::EUtilsGet(pmids, type = "efetch", db = "pubmed")
-  authors <- RISmed::Author(authors)
+  authors <- Author(authors)
   authors <- lapply(authors, function(x) {
     forename <- regmatches(x$ForeName, regexpr(pattern = paste0("^[^ ]{1,", forenamechars, "}"), x$ForeName))
     x$Name <- iconv(paste(x$LastName, forename), from ="UTF-8", to="ASCII//TRANSLIT")
@@ -57,7 +57,7 @@ authorCheck <- function(pmids = NULL, srctable, ...) {
 
 # Since resources are curated by paper, look up HIRN authors -- "Contact" as default role
 map2Person <- function(pmid, role = "Contact", HIRN) {
-  mapped <- Persons[HIRN[[pmid]]]
+  mapped <- Persons[HIRN[[gsub("PMID", "", pmid)]]]
   roleCV <- codedValues$CodedValuesByType$ResourceRole[[match(role, c("Contact", "Producer", "Distributor", "Date Submitter"))]]
   roleCV$SerializationMode <- "full"
   mapped <- lapply(mapped,
@@ -66,6 +66,17 @@ map2Person <- function(pmid, role = "Contact", HIRN) {
                                  boiler(SystemType = "Contributor")[-1])
                    )
 }
+
+# map2Person <- function(pmid, pmid2author, role = "Contact") {
+#   mapped <- Persons[HIRN[[pmid]]]
+#   roleCV <- codedValues$CodedValuesByType$ResourceRole[[match(role, c("Contact", "Producer", "Distributor", "Date Submitter"))]]
+#   roleCV$SerializationMode <- "full"
+#   mapped <- lapply(mapped,
+#                    function(x) c(Role = list(roleCV),
+#                                  Participant = list(x),
+#                                  boiler(SystemType = "Contributor")[-1])
+#   )
+# }
 
 # If only name is given, ontology must be specified. Ontologies can be inferred from id.
 map2O <- function(name = NA, id = NA, ontology = NULL) {
@@ -77,6 +88,14 @@ map2O <- function(name = NA, id = NA, ontology = NULL) {
 }
 
 # ResourceApplication [Contacts, Publication, Usage, UsageNotes, Rating]
+map2Application <- function(Publication, Usage, UsageNotes, Rating, authorlookup = whichHIRN_id) {
+  list(Contacts = authorlookup[[gsub("PMID", "", Publication)]],
+       Publication = Publication,
+       Usage = map2O(name = Usage, ontology = "OBI"),
+       UsageNotes = UsageNotes,
+       Rating = Rating)
+}
+
 
 # list(Contacts = map2Person())
 
