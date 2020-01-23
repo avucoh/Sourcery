@@ -1,5 +1,6 @@
 ---
-title: "Submitting resources using Sourcery and the Resource Browser's API"
+title: "Submitting resources using R Sourcery and the Resource Browser's API"
+date: "1/21/2020"
 output: 
   rmarkdown::html_document:
     toc: true
@@ -14,23 +15,49 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-
-# library(Sourcery)
-```
-
 ## Introduction
 
-The HIRN Resource Browser has an API for both **retrieving** and **submitting** resources programmatically: https://resourcebrowser.hirnetwork.org/swagger/ui/index. For those who want to use R, this package offers convenience functions, standardizes some steps, and provides examples of using the API for both purposes. Note that to **submit** resources an API key is required.
+The HIRN Resource Browser has an API for both **retrieving** and **submitting** resources programmatically: https://resourcebrowser.hirnetwork.org/swagger/ui/index. For those who want to use R, this package is basically an R client that offers convenience functions, standardizes some steps, and provides examples of using the API for both purposes. **For examples of how to submit resources, stay on this vignette. For retrieving resources, go to the "Retrieving Resources" vignette.** 
+
+Compared to retrieving resources, submitting resources is more complicated in what is expected by the API. And in fact, **some resources require interaction with the DKNet SciCrunch API *in addition to* the HIRN RB API**. For those who want to submit lots of resources but do not want to spend time figuring out either APIs, this R Package helps astract some of that away. But Sourcery is also more than just an API package (for two different APIs) in that it's also meant to formalize an ETL process; this will be clear in the examples.
+
+Note that to **submit** resources an API key is require, so first acquire an API key following the steps below.
 
 TO-DO: include steps for getting an API key.
 
 
+## Set up
+
+Start by loading the package and providing your apikey. We've stored our key as an environment variable ([more info](https://cran.r-project.org/web/packages/httr/vignettes/secrets.html)).
+```{r setup}
+
+# library(Sourcery)
+# apikey <- Sys.getenv("HIRN_RB_apikey")
+
+```
+
+
 ## Submitting resources 
 
-This example is for the working curator or researcher comfortable with R who wants to submit certain types for resources to the Resource Browser with the utilities provided by this package, which basically handle the **extract**, **transform**, **load** process through a helper app powered by API-interfacing functions. The package utilities are most suited for submitting _batch_ data. For submitting only one or two records to the Resource Browser, it is probably still best to use the Resource Browser UI. 
+The user is assumed to be the working curator or researcher comfortable with R who wants to submit certain types for resources to the Resource Browser with the utilities provided by this package, which basically handle the **extract**, **transform**, **load** process through a helper app powered by API-interfacing functions. The package utilities are most suited for submitting _batch_ data. *For submitting only one or two records to the Resource Browser, it is probably still best to use the Resource Browser UI.*
 
 **Examples are provided as the API interface is tested and becomes stable/recommended for general use, so not all resources may be included in this version.** Also, examples vary by type of resource because the inputs and steps required are different; some involve a graphical helper app and others will involve only running a single line of code. The resources that have pretty analogous inputs and steps (such as Dataset and Technology) are grouped together and what is shown will generally apply to the others in the group.
+
+The examples are ordered by complexity from least to most complex.
+
+### Protocol resources
+
+TO-DO: Need to explain input file. Only require 1-2 lines of code as long as input file is correct.
+
+### Dataset and Technology resources
+
+TO-DO: Need to explain input file. Only require 1-2 lines of code as long as input file is correct.
+
+### Cell/Tissue resources
+
+
+### ModelOrg resources
+
 
 ### Antibody resources
 
@@ -40,7 +67,11 @@ This example is for the working curator or researcher comfortable with R who wan
 cat(readLines("ab_ex_no_RRID.txt"), sep = "\n")
 ```
 
-These RRIDs are the identifiers assigned by AntibodyRegistry.org. Most antibody resources from a commercial vendor already have an RRID, but the curator/researcher must register any novel antibodies encountered. Ideally, we would have an RRID-complete file like this:
+These RRIDs are the identifiers assigned by AntibodyRegistry.org. Most antibody resources from a commercial vendor already have an RRID, but the curator/researcher must register any novel antibodies encountered/produced. Why do you need an RRID? We build upon dkNET’s framework for resource tracking, which makes use of Research Resource Identifiers (RRIDs). From https://dknet.org/about/rrid (where you can also learn more): 
+
+> “RRIDs are persistent and unique identifiers for referencing a research resource and are used for promoting research resource identification and tracking. Catalog numbers change, disappear or can be reused for another resource, but RRIDs always resolve to the same research resource and endure beyond the existence of the research resource itself. It’s an easy and practical method for improving reproducibility, transparency and tracking.”
+
+Importantly, RRIDs help us measure your resource impact. So ideally, we would have an RRID-complete file like this:
 ```{r comment=''}
 # Content of example file with RRIDs
 cat(readLines("ab_ex_w_RRID.txt", n = 5), sep = "\n")
@@ -81,45 +112,4 @@ postValidateResource(apikey = apikey, body = payload)
 postLoadResource(apikey = apikey, body = payload)
 
 ```
-
-### Dataset and Technology resources
-
-TO-DO: Need to explain input file. Only require 1-2 lines of code as long as input file is correct.
-
-### Protocol resources
-
-TO-DO: Need to explain input file. Only require 1-2 lines of code as long as input file is correct.
-
-### Cell/Tissue resources
-
-
-## Retrieving resources
-
-Uers might want to get resource data for several different purposes:  
-
-1. For statistical/trend reports -- shown in the examples below.  
-2. For practical use of advanced searching/filtering that the Resource Browser UI doesn't allow -- shown in the examples below.  
-3. For display or other integration in another application -- not included because you don't need R for this, but developers can refer to the API documentation. 
-
-### Statistical/trend reports 
-
-#### Resource growth over time
-
-Here we will create a stacked bar chart showing different types of datasets added over time (quarterly), showing how the "landscape" of datasets have changed for HIRN. We can also compare the growth of these different types.
-
-```{r dataset}
-
-
-```
-
-
-#### Resource impact analysis (coming soon)
-
-Resources have a tentatively-assigned impact quantification. 
-```{r impact}
-
-
-```
-
-### Practical use of advanced searching/filtering 
 

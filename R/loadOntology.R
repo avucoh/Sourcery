@@ -13,6 +13,7 @@
 # 5. OBI_BCGO -- https://bioportal.bioontology.org/ontologies/OBI_BCGO
 
 # gets latest release from BioPortal
+#' @export
 updateOntology <- function(acronym, apikey = "8b5b7825-538d-40e0-9e9e-5ab9274a9aeb") {
   url <- paste0("http://data.bioontology.org/ontologies/", acronym, "/download?apikey=", apikey, "&download_format=csv")
   tmp <- tempfile()
@@ -25,6 +26,7 @@ updateOntology <- function(acronym, apikey = "8b5b7825-538d-40e0-9e9e-5ab9274a9a
   return(o)
 }
 
+#' @export
 batchUpdate <- function(os = c("CL", "GO", "OBI", "EFO", "MP")) {
   O <- lapply(os, updateOntology)
   names(O) <- os

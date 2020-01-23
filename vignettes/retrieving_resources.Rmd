@@ -1,0 +1,217 @@
+---
+title: "Retrieving resources using R Sourcery and the Resource Browser's API"
+date: "1/21/2020"
+output: 
+  rmarkdown::html_document:
+    toc: true
+    theme: lumen
+    toc_float: true
+---
+
+## Introduction
+
+The HIRN Resource Browser has an API for both **retrieving** and **submitting** resources programmatically: https://resourcebrowser.hirnetwork.org/swagger/ui/index. For those who want to use R, this package is basically an R client that offers convenience functions, standardizes some steps, and provides examples of using the API for both purposes. **For examples of how to retrieve resource data and do interesting things with it, stay on this vignette. For submitting resources, go to the "Submitting Resources" vignette.**
+
+## Set up
+
+These examples work with the development version of Sourcery.
+```{r setup}
+
+# devtools::install_github("avucoh/Sourcery")
+# library(Sourcery)
+
+```
+
+## Retrieving resources
+
+Users might want to get resource data for many different purposes:  
+
+1. For practical use of advanced searching/filtering that the Resource Browser UI doesn't currently support -- shown in the examples below.  
+2. For analytics -- shown in the examples below.  
+3. For display or other integration in another application -- not included because you don't need R for this, but developers can refer to the API documentation. 
+
+(Note that some of these example queries technically *should* also be possible through the [HIRN RB SPARQL service](http://p-hirnrdf.cloudapp.net/sparql)...but given that relatively few people are familiar with SPARQL, here we give an R-ternative.) 
+
+### Practical use of advanced searching/filtering 
+
+At https://resourcebrowser.hirnetwork.org/ there is a general text search bar at the upper-left corner and a filter search for each specific resource type at the upper-right corner of the results table. But with these you might have problems doing queries such as:
+
+#### 1. Find any problematic cell lines associated with a HIRN work. 
+
+This practical example is in fact based on a recent [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6351100/) and uses the problematic list in "Supplementary file 2". You want to match anything in that list to the cell lines in the Resource Browser. Given a list of bad cell line RRIDs, pasting that list of 2000+ IDs into the search bar and seeing what hits come up is not the way to go...this is where you should probably use the API. 
+
+This example also demonstrates why authors are highly encouraged to register their resources/use RRIDs. This allows researchers to go back and search for a set of resources by RRID if new information comes to light about that set (and us to monitor the quality of HIRN inputs/outputs). 
+
+First, let's get the "black list".
+```{r search_1a}
+
+# First just get the list of bad cell line RRIDs
+blacklist <- read.csv("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6351100/bin/elife-41676-supp2.csv", header = T, stringsAsFactors = F)
+blacklist <- blacklist$RRID
+head(blacklist)
+
+```
+
+The only cell resource category that matters here is "Other Lines" because the other ones (Stem Cells, Primary Cell, Differentiated Cell) are newly produced by the authors so they wouldn't be on the problematic list. Using ```getResourceType``` will give a familiar R list with nested resource attributes; resources can have different attributes. But all resources have certain attributes which we can access with a set of convenience functions.
+```{r search_1b}
+clines <- getResourceType("CellLine")
+rrids <- CanonicalId(clines)
+rrids
+
+```
+We see the number of recorded cell lines is still quite small, making this a somewhat trivial example for now. However, as we improve at the use of RRIDs and potentially grow to hundreds of lines used, the API can be integrated into a monitoring service for cell lines as well as other resources. Below, we do a very simple check against the "black list" but of course don't expect anything. (Interesting aside: in papers which don't include RRIDs, about 8.6% of mentioned cell lines were problematic vs. only 3.3% in papers that do include RRIDs.)
+
+```{r search_1c}
+
+rrids <- gsub("RRID:", "", rrids[nzchar(rrids)])
+table(rrids %in% blacklist)
+
+```
+
+
+**We can do the same example with antibodies with potentially less trivial results since antibody records are more complete, but as yet there isn't a published list of "bad" antibodies.**
+
+
+#### 2. Find datasets that are most similar to a dataset you are interested in. 
+
+Though you can see a "Related Sources" list for most resources, these are only related by being in the same publication. It's often very useful to know which resources were used together, but it doesn't really help us with finding datasets from other HIRN publications that are similar. Aside from the lacking filters that hinder this kind of search, what if you wanted to be particular about "similarity"? **The point is that the API does not merely make up for any current weaknesses in the UI; it empowers you to flexibly apply your own custom search/filter function to sort through the data however you want.**
+
+For this example, we will actually use a non-HIRN dataset and try to find a dataset in the HIRN RB that is most similar. The [dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137961) is from the paper "Identification of a LIF-Responsive, Replication-Competent Subpopulation of Human β Cells", in https://hirnetwork.org/publications-of-interest -- the dataset still needs to be HIRN-like enough for this similarity search to make sense. 
+
+There are a number of obvious attributes one can logically use for crafting some sort of similarity weighting function (assay type, title, biocharacteristics, biosample type, tags) as well as less obvious ones (text from the paper, date published, journal impact factor, etc.). We'll ignore the latter category to keep it simple and also tags because the tag data is too sparse right now, therefore employing only the first four attributes. In order to use these attributes effectively, it is important to understand:
+
+- BioCharacteristics are terms from either Disease Ontology or Gene Ontology (Biological Process) and give some sense of the biology characterized by the dataset.
+- BioType contain terms from Cell Ontology/UBERON/OBI_BCGO and NCBI Taxon and gives input cell/tissue and species used to generate the dataset.
+- Attributes above are curator-given, while the author-given title of the dataset varies in descriptiveness and term consistency, and therefore can be more or less consistent with the direction of the other attributes above. Title can improve the results especially in cases where there's a mention of a very specific gene or drug.
+
+First, let's get all types of datasets and extract the attributes.
+```{r search_2a}
+
+dtypes <- c("Epigenomics", "Genomics", "Proteomics", "Metabolomics", "Transcriptomics")
+datasets <- getResourceType(dtypes)
+names(datasets) <- dtypes
+# see numbers by each type
+lengths(datasets)
+
+# Each dataset can only have one entry:
+# Assay type vector 
+type <- Map(rep, dtypes, lengths(datasets)) %>% unlist(use.names = F)
+# Title vector
+title <- sapply(datasets, function(x) Name(x)) %>% unlist(use.names = F)
+
+# Each dataset can have multiple entries:
+# Biosample characteristics
+biochar <- lapply(datasets, function(d) lapply(d, function(d) sapply(d$BiosampleCharacteristics, function(b) b$Name))) %>% unlist(recursive = F, use.names = F)
+# Biosample type
+biotype <- lapply(datasets, function(d) lapply(d, function(d) sapply(d$BiosampleType, function(b) b$Name))) %>% unlist(recursive = F, use.names = F)
+
+```
+
+Our approach is to generate a score individually for each attribute and then combine those scores. The target dataset type is "Transcriptomics" and we'd like to say other Transcriptomics datasets are of course most similar, followed by Proteomics only 75% as good, followed by 50% for Epigenomics/Genomics, and lastly 20% Metabolomics. We map the type attribute to a vector that represents this.
+```{r search_2b}
+simtype <- c(Epigenomics = 0.5, Genomics = 0.5, Proteomics = 0.75, Metabolomics = 0.2, Transcriptomics = 1)[type]
+```
+
+
+With title, we'll compute simple cosine similarity (often used in text analytics and for recommendation engines) for our target title "Identification of a LIF-responsive replication-competent human beta cell".
+```{r search_2c}
+library(textmineR)
+
+dtm <- CreateDtm(doc_vec = c(title, "Identification of a LIF-responsive replication-competent human beta cell"), 
+                 remove_numbers = F) # leave stopword, lower, and remove_punctuation parameters as default
+tf_mat <- TermDocFreq(dtm) # for reweighing by term frequency
+tfidf <- t(dtm[ , tf_mat$term ]) * tf_mat$idf
+tfidf <- t(tfidf)
+csim <- tfidf / sqrt(rowSums(tfidf * tfidf))
+csim <- csim %*% t(csim)
+
+# Extract vector representing target dataset similarity to everything else
+simtitle <- as.vector(csim[, ncol(csim)])
+simtitle <- simtitle[-length(simtitle)] # remove diagonal entry for target dataset
+```
+
+With BioType and BioCharacteristics, we can technically compute similarity using the ontology semantics (e.g. a dataset with a chimpanzee sample is closer to a dataset with a human sample than one with a mouse sample). This example can be updated for doing so using functions from [ontologySimilarity](https://cran.r-project.org/web/packages/ontologySimilarity/index.html). For now, we'll use a simple match scoring where if any term appears, sim = 1, and sim = 0 otherwise.  For our dataset, BioType = "human", "type B pancreatic cell"; BioChar = "cell proliferation". 
+```{r search_2d}
+simspecies <- sapply(biotype, function(x) "human" %in% x) %>% as.numeric()
+simcell <- sapply(biotype, function(x) "type B pancreatic cell" %in% x)  %>% as.numeric()
+simbioprocess <- sapply(biochar, function(x) "cell proliferation" %in% x)  %>% as.numeric()
+```
+
+Finally, we attempt to combine similarities on these attributes with some user-determined weighting, i.e. the user-determined relative importance of matching on each of the attributes.
+```{r search_2e}
+# recommedations given equal importance
+simcom1 <- simtype + simtitle + simspecies + simcell + simbioprocess
+head(title[order(simcom1, decreasing = T)], 3)
+
+```
+
+In fact, it might be interesting to see how results rank with adjusted weightings.
+```{r search_2f}
+# we care more about datasets also from human samples
+simcom2 <- simtype + simtitle + 2*simspecies + simcell + simbioprocess
+head(title[order(simcom2, decreasing = T)], 3)
+
+```
+
+
+### Analytics
+
+These next examples add another step to show using the API towards more reporting purposes. The API opens access to data to which we can apply R's capabilities for analytics and generation of pretty figures.
+
+#### Resource growth over time report
+
+TO DO: update and rerun when Datasets for 2018 + 2019 released to production (especially Cellomics).
+
+Here we will create a stacked bar chart showing different types of datasets added over time (quarterly), showing how the "landscape" or "market share" of dataset types have changed for HIRN over time. 
+
+Since we already acquired the datasets object in the previous example, what is needed now is to get the date of publication (the date of the dataset's source paper). This is not directly in the resource data object, so we'll have to look up using the Pubmed service.
+```{r analytics_1}
+
+library(RISmed) # to do look up with the NCBI databases
+library(lubridate)
+
+pmids <- sapply(datasets, function(x) PMID(x)) %>% unlist(use.names = F)
+pmids <- RISmed::EUtilsGet(pmids, type = "efetch", db = "pubmed")
+date <- as.Date(paste0(YearPubmed(pmids), "-", 
+                       formatC(MonthPubmed(pmids), width = 2, format = "d", flag = "0"), "-",
+                       formatC(DayPubmed(pmids), width = 2, format = "d", flag = "0")),
+                format = "%Y-%m-%d")
+
+```
+
+
+```{r analytics_2}
+
+library(ggplot2)
+
+dataset.df <- data.frame(N = 1, Date = factor(quarter(date, with_year = T)), Type = type)
+ggplot(dataset.df, aes(x = Date, y = N, fill = Type)) + 
+    geom_bar(position = "stack", stat ="identity") +
+    theme(axis.text.x = element_text(angle = 45))
+
+```
+
+Which grants have yielded the most return (in terms of datasets at least)? Results shows pretty reasonable spread across grants, but grant "P41 GM103493" did handily beat everything else.
+```{r analytics_3}
+
+grants <- data.frame(table(GrantID(pmids)))
+names(grants) <- c("Grant", "N")
+ggplot(grants, aes(x = Grant, y = N, fill = Grant)) + 
+    geom_bar(stat="identity") +
+    theme(axis.text.x = element_text(angle = 90, size = 7))
+
+```
+
+NOTE: extend this analysis with comparison data from grantome.com?
+
+
+#### Resource impact analysis
+
+TO DO: once we have some sort of impact quantification.
+
+Resources have a tentatively-assigned impact quantification. 
+
+```{r impact}
+
+
+```

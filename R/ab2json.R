@@ -1,3 +1,4 @@
+#' @export
 ab2json <- function(a, json = ab_temp, batch, sep = "|", CV = codedValues, HIRN = whichHIRN) {
   new <- json
   # Specifics

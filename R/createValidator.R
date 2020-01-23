@@ -1,5 +1,5 @@
 # Resource validator -------------------------------------------------------------------------------------------------#
-
+#' @export
 createValidator <- function(type) {
   switch(type,
          ## Antibody
@@ -22,11 +22,13 @@ createValidator <- function(type) {
   )
 }
 
+#' @export
 # Can take a list of jsons to validate
 useValidator <- function(jsonlist, validator) {
   sapply(jsonlist, validator)
 }
 
+#' @export
 batchValidator <- function(jsonlist, type) {
   Val <- createValidator(type)
   result <- useValidator(jsonlist, Val)

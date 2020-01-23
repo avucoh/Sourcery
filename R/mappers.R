@@ -1,5 +1,5 @@
 #-- Templates -------------------------------------------------------------------------------------------------------#
-
+#' @export
 boiler <- function(OntologyId = NA, id = NA, CanonicalId = NA, Url = NA, Name = NA,
                    Type = NA, SystemType = "CodedValue", Tags = character(0), Visibility = NA,
                    DateCreated = "", DateModified = "", VersionId = "1", SerializationMode = "full") {
@@ -12,11 +12,13 @@ boiler <- function(OntologyId = NA, id = NA, CanonicalId = NA, Url = NA, Name = 
 
 
 #-- Antibody-specific mappers --------------------------------------------------------------------------------------------------#
+#' @export
 map2Isotype <- function(name) {
   mapped <- isotype$IRI[match(name, isotype$name)]
   boiler(OntologyId = "ERO", CanonicalId = mapped, Url = mapped, Name = name)
 }
 
+#' @export
 map2Clonality <- function(name) {
   mapped <- ifelse(grepl("monoclonal", name),
                    "http://purl.obolibrary.org/obo/REO_0000501",
@@ -24,6 +26,7 @@ map2Clonality <- function(name) {
   list(boiler(OntologyId = "OBI_BCGO", CanonicalId = mapped, Url = mapped, Name = name))
 }
 
+#' @export
 map2Type <- function(name) {
   mapped <- ifelse(name == "primary",
                    "http://purl.obolibrary.org/obo/ERO_0000229",
@@ -34,6 +37,7 @@ map2Type <- function(name) {
 #-- Mappers used for all resources -------------------------------------------------------------------------------------------#
 
 # Create a mapping of PMID to authors
+#' @export
 PMID2Authors <- function(pmids, forenamechars = 3) {
   authors <- RISmed::EUtilsGet(pmids, type = "efetch", db = "pubmed")
   authors <- Author(authors)
@@ -47,6 +51,7 @@ PMID2Authors <- function(pmids, forenamechars = 3) {
 }
 
 # find HIRN authors among a publication's listed authors
+#' @export
 authorCheck <- function(pmids = NULL, srctable, ...) {
   if(is.null(pmids)) pmids <- as.character(srctable$DefiningManuscriptId)
   authors <- PMID2Authors(pmids, ...)
@@ -56,6 +61,7 @@ authorCheck <- function(pmids = NULL, srctable, ...) {
 }
 
 # Since resources are curated by paper, look up HIRN authors -- "Contact" as default role
+#' @export
 map2Person <- function(pmid, role = "Contact", HIRN) {
   mapped <- Persons[HIRN[[gsub("PMID", "", pmid)]]]
   roleCV <- codedValues$CodedValuesByType$ResourceRole[[match(role, c("Contact", "Producer", "Distributor", "Date Submitter"))]]
@@ -79,6 +85,7 @@ map2Person <- function(pmid, role = "Contact", HIRN) {
 # }
 
 # If only name is given, ontology must be specified. Ontologies can be inferred from id.
+#' @export
 map2O <- function(name = NA, id = NA, ontology = NULL) {
   if(is.null(ontology)) ontology <- gsub("_.*", "", id)
   if(ontology == "CVCL") ontology <- "Cellosaurus"
@@ -88,6 +95,7 @@ map2O <- function(name = NA, id = NA, ontology = NULL) {
 }
 
 # ResourceApplication [Contacts, Publication, Usage, UsageNotes, Rating]
+#' @export
 map2Application <- function(Publication, Usage, UsageNotes, Rating, authorlookup = whichHIRN_id) {
   list(Contacts = authorlookup[[gsub("PMID", "", Publication)]],
        Publication = Publication,
